@@ -5,11 +5,39 @@ body{
 .section1{
     display: flex;
     
-    
-    
 
 }
 .section1 a{
     text-decoration: none;
+    color: black;
     
+}
+.mnvihecles{
+    margin-right:700px ;
+    margin-left: 30px;
+}
+.vihecles{
+    margin-right: 70px;
+}
+.build{
+    margin-right: 70px;
+}
+.dealers{
+    margin-right: 70px;
+}
+.section2{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+.section2 a{
+    text-decoration: none;
+    color: white;
+    border: 10px;
+    background-color: rgb(247, 39, 39);
+    padding: 10px;
+    border-radius: 5px;
+   
 }
