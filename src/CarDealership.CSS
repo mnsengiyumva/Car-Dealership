@@ -41,3 +41,23 @@ body{
     border-radius: 5px;
    
 }
+
+.section3{
+    background-color: rgb(47, 47, 47);
+    margin-top: 30px;
+    padding-top: 200px;
+    padding-left: 30px;
+    color: white;
+}
+.section3 a{
+    text-decoration: none;
+    color: white;
+    border: 10px;
+    background-color: rgb(247, 39, 39);
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+.section3p{
+    font-size: small;
+}
