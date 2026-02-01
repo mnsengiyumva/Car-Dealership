@@ -4,6 +4,7 @@ body{
 
 .section1{
     display: flex;
+
     
 
 }
@@ -15,6 +16,7 @@ body{
 .mnvihecles{
     margin-right:700px ;
     margin-left: 30px;
+    margin-top: 20px;
 }
 .vihecles{
     margin-right: 70px;
@@ -28,9 +30,17 @@ body{
 .section2{
     background-color: rgb(54, 54, 54);
     color: white;
-    padding-top: 100px;
-    padding-bottom: 40px;
+    padding-top: 280px;
+    padding-bottom: 20px;
     padding-left: 30px;
+    background-image: url(../Assets/im1.jpg);
+    background-size: auto;
+    background-position: 0%;
+    background-repeat: repeat;
+    height: 150px;
+   
+    border-radius: 30px;
+    
 }
 .section2 a{
     text-decoration: none;
@@ -45,9 +55,13 @@ body{
 .section3{
     background-color: rgb(47, 47, 47);
     margin-top: 30px;
-    padding-top: 200px;
+    padding-top: 280px;
     padding-left: 30px;
     color: white;
+    background-image:url(../Assets/im2.jpg); 
+    background-position: 0%;
+    padding-bottom: 20px;
+
 }
 .section3 a{
     text-decoration: none;
