@@ -4,14 +4,15 @@ body{
 
 .section1{
     display: flex;
-    background-color: rgb(229, 232, 238);
+   
 
     
 
 }
 .section1 a{
     text-decoration: none;
-    color: rgb(55, 55, 55);
+    color: rgb(19, 18, 18);
+    transition: color 0.1s ease, transform 0.2s ease;
     
 }
 .mnvihecles{
@@ -31,7 +32,8 @@ body{
 .search{
     border-radius: 25px;
     padding: 8px;
-    border-color: rgb(185, 187, 191);
+    border-color: rgb(91, 111, 151);
+    background-color: #e1e4e4;
     margin-left: 30px;
     margin-top: 18px;
     border-style: inherit;
@@ -41,51 +43,24 @@ body{
     margin-top: 20px;
 
 }
-.section2{
-    background-color: rgb(54, 54, 54);
-    color: white;
-    padding-top: 280px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    background-image: url(../Assets/im1.jpg);
-    background-size: auto;
-    background-position: 0%;
-    background-repeat: no-repeat;
-    height: 150px;
-   
-    border-radius: 30px;
-    
-}
-.section2 a{
-    text-decoration: none;
-    color: white;
-    border: 10px;
-    background-color: rgb(247, 39, 39);
-    padding: 10px;
-    border-radius: 5px;
-   
-}
 
-.section3{
-    background-color: rgb(47, 47, 47);
-    margin-top: 30px;
-    padding-top: 280px;
-    padding-left: 30px;
-    color: white;
-    background-image:url(../Assets/im2.jpg); 
-    background-position: 0%;
-    padding-bottom: 20px;
+.section1 a::after{
+
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #38bdf8; /* cyan accent */
+    transition: width 0.3s ease;
+    border: 2px color black;
+
 
 }
-.section3 a{
-    text-decoration: none;
-    color: white;
-    border: 10px;
-    background-color: rgb(247, 39, 39);
-    padding: 10px;
-    border-radius: 5px;
-   
+.section1 a:hover {
+    color: #82cfdc;
 }
-.section3p{
-    font-size: small;
+.section1 a:hover::after{
+    width: 100%;
 }
