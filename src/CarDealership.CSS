@@ -31,7 +31,7 @@ body{
 .search{
     border-radius: 25px;
     padding: 8px;
-    border-color: rgb(107, 147, 200);
+    border-color: rgb(185, 187, 191);
     margin-left: 30px;
     margin-top: 18px;
     border-style: inherit;
@@ -50,7 +50,7 @@ body{
     background-image: url(../Assets/im1.jpg);
     background-size: auto;
     background-position: 0%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     height: 150px;
    
     border-radius: 30px;
