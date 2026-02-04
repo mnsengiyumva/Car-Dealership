@@ -77,5 +77,17 @@ body{
     margin-right: 700px;
     border-radius: 20px;
     color:white;
-    padding-bottom: 150px;
+    padding-bottom: 20px;
+}
+.section2 h4{
+    padding-top: 150px;
+}
+
+.section2 a{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
 }
