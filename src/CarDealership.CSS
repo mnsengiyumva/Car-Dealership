@@ -44,26 +44,19 @@ body{
 
 }
 
-.section1 a::after{
 
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    width: 0;
-    height: 2px;
-    background: #38bdf8; /* cyan accent */
-    transition: width 0.3s ease;
-    border: 2px color black;
-    border: 5px solid;
-    padding: 30px;
-
-
-
-}
 .section1 a:hover {
     color: #82cfdc;
 }
 .section1 a:hover::after{
     width: 100%;
+}
+
+.about{
+    background-image: url(../Assets/im2.jpg);
+    color: white;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+    padding-bottom: 30px;
 }
