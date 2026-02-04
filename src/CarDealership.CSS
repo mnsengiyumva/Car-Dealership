@@ -53,10 +53,15 @@ body{
 }
 
 .about{
-    background-image: url(../Assets/im2.jpg);
-    color: white;
+    color: rgb(11, 11, 11);
     background-position: 0%;
-    background-repeat: no-repeat;
-    padding-top: 400px;
-    padding-bottom: 30px;
+    background-color: #82cfdc;
+    align-items: center;
+    border-radius: 40px;
+    padding: 10px;
+    
+    
+}
+.about p{
+    padding-bottom: 10px;
 }
