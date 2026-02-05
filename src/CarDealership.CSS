@@ -74,7 +74,7 @@ body{
     background-image: url(../Assets/im4.jpg);
     padding-top: 100px;
     padding-left: 20px ;
-    margin-right: 700px;
+    margin-right: 100px;
     border-radius: 20px;
     color:white;
     padding-bottom: 20px;
@@ -90,4 +90,30 @@ body{
     padding: 10px;
     border-radius: 10px;
     
+}
+
+.section3{
+    margin-top: 80px;
+    background-image: url(../Assets/im4.jpg);
+    padding-top: 100px;
+    padding-left: 20px ;
+    margin-right: 500px;
+    border-radius: 20px;
+    color:white;
+    padding-bottom: 20px;
+}
+
+.section3 a{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+}
+
+.s3{
+    display: flex;
+    margin-left: 100px;
 }
