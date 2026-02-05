@@ -137,4 +137,22 @@ body{
     margin-top: 30px;
     padding: 3px;
     margin: 10px;
+
+}
+
+.last a{
+    padding: 3px;
+    color: rgb(50, 50, 50);
+    margin-top: 18px;
+    transition: color 0.1s ease, transform 0.2s ease;
+    text-decoration: none;
+    
+
+}
+
+.last a:hover {
+    color: #82cfdc;
+}
+.last a:hover::after{
+    width: 100%;
 }
