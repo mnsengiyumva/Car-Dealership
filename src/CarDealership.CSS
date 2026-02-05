@@ -72,7 +72,7 @@ body{
 .section2{
     margin-top: 80px;
     background-image: url(../Assets/im4.jpg);
-    padding-top: 100px;
+    background-position: 0%;
     padding-left: 200px ;
     
     border-radius: 20px;
@@ -80,7 +80,7 @@ body{
     padding-bottom: 20px;
 }
 .section2 h4{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .section2 a{
@@ -95,6 +95,7 @@ body{
 .section3{
     margin-top: 80px;
     background-image: url(../Assets/im4.jpg);
+    background-position: 0%;
     padding-top: 100px;
     padding-left: 200px;
     border-radius: 20px;
@@ -127,4 +128,11 @@ body{
     background-image: url(../Assets/im5.jpg);
     background-repeat: no-repeat;
     margin-right: 60%;
+    background-position: 0%;
+    padding: 30px;
+}
+
+.last{
+    border-top: rgb(148, 148, 148) solid 0.5px;
+    
 }
