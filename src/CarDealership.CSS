@@ -121,3 +121,10 @@ body{
     display: flex;
     margin-left: 100px;
 }
+
+.section4{
+    background-color: #82cfdc;
+    background-image: url(../Assets/im5.jpg);
+    background-repeat: no-repeat;
+    margin-right: 60%;
+}
