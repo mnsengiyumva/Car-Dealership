@@ -66,62 +66,30 @@ body{
     
     
 }
+
+.sec{
+    display: flex;
+    margin-top: 40px;
+}  
 .about p{
     padding-bottom: 10px;
 }
-.section2{
-    margin-top: 80px;
-    background-image: url(../Assets/im4.jpg);
-    background-position: 0%;
-    padding-left: 200px ;
-    
-    border-radius: 20px;
-    color:white;
-    padding-bottom: 20px;
-}
-.section2 h4{
-    padding-top: 100px;
-}
 
-.section2 a{
-    background-color: red;
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    
+.section2{
+    background-color: #e1e4e4;
+    margin-right: 30px;
+    margin-left: 20px;
+    padding-right: 200px;
+
 }
 
 .section3{
-    margin-top: 80px;
-    background-image: url(../Assets/im4.jpg);
-    background-position: 0%;
-    padding-top: 100px;
-    padding-left: 200px;
-    border-radius: 20px;
-    margin-left: 30px;
-    color:white;
-    padding-bottom: 0px;
-    text-align:left;
-}
-.section3 h3{
-    padding-right: 10px;
+    background-color: #82cfdc;
+    margi
 }
 
-.section3 a{
-    background-color: red;
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    
 
-}
 
-.s3{
-    display: flex;
-    margin-left: 100px;
-}
 
 .section4{
     background-color: #82cfdc;
@@ -130,6 +98,7 @@ body{
     margin-right: 60%;
     background-position: 0%;
     padding: 30px;
+    margin-top: 30px;
 }
 
 .last{
