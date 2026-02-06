@@ -4,7 +4,10 @@ body{
 
 .section1{
     display: flex;
-   
+    border-bottom: rgb(224, 219, 219) solid 0.1px;
+    position: sticky;
+    background-color: white;
+    
 
     
 
@@ -16,7 +19,7 @@ body{
     
 }
 .mnvihecles{
-    margin-right:500px ;
+    margin-right:300px ;
     margin-left: 30px;
     margin-top: 20px;
 }
@@ -37,6 +40,9 @@ body{
     margin-left: 30px;
     margin-top: 18px;
     border-style: inherit;
+    border-radius: 18px;
+    padding-right: 20px;
+    
 }
 .user{
     margin-left: 50px;
@@ -100,6 +106,20 @@ body{
     padding-left: 10px;
     padding-bottom: 20px;
 }
+
+.section3 a{
+    text-decoration: none;
+    background-color: #82cfdc;
+    padding: 10px;
+    border-radius: 18px;
+}
+.section2 a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 18px;
+}
+
 
 
 
