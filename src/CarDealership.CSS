@@ -144,13 +144,13 @@ body{
     margin-right: 30px;
     margin-left: 20px;
     padding-right: 450px;
-    padding-top: 290px;
+    padding-top: 250px;
     background-image: url(../Assets/im4.jpg);
     background-position: center;
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     padding-left: 20px;
-    border-radius: 30px;
+  
 
 }
 
@@ -164,24 +164,25 @@ body{
 
 .section3{
     background-color: #82cfdc;
-    padding-right: 450px;
+    padding-right: 440px;
     background-image: url(../Assets/im5.jpg);
     background-position: center;
     color: white;
-    padding-top: 290px;
-    padding-left: 10px;
-    padding-bottom: 20px;
+    padding-top: 250px;
+    padding-left: 20px;
+    padding-bottom: 40px;
     
-    border-radius: 30px;
+    
 }
 
 
 .section3 a{
     text-decoration: none;
-    background-color: white;
+    background-color: rgb(244, 5, 5);
     padding: 10px;
-    border-radius: 18px;
-    color: black;
+    border-radius: 10px;
+    color: white;
+    
 }
 
 
