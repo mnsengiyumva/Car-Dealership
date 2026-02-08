@@ -90,27 +90,31 @@ body{
     background-position: center;
    
     display: flex;
-    padding-bottom: 130px;
+    padding-bottom: 120px;
 }
 .page2{
 
     background: linear-gradient(rgba(255,255,255, 0.7));
     
-    margin-right: 700px;
-    padding-right: 20px;
+    margin-right: 400px;
+    
     color: black;
     padding-left: 20px;
     margin-left: 80px;
     margin-top: 60px;
     padding-bottom: 40px;
     font-size: x-large;
-
-
+    padding-right: 80px;
+    font-weight: lighter;
 
 }
 
+.page2 h4{
+    font-weight: bolder;
+}
+
 .page2 a{
-    background-color: red;
+    background-color: #f30202;
     text-decoration: none;
     padding-left: 30px;
     padding-right: 30px;
@@ -119,9 +123,11 @@ body{
     color: white;
 }
 .page3{
+    margin-top: 30px;
     color: white;
     font-size: larger;
-}
+    background: linear-gradient(rgba(255,255,255, 0.7));
+    
 .sec{
     display: flex;
     margin-top: 40px;
