@@ -88,15 +88,25 @@ body{
 .page1{
     background-image: url(../Assets/Image6.jpg);
     background-position: center;
+   
     display: flex;
-    
+    padding-bottom: 130px;
 }
 .page2{
-    background-color: white transparent;
+    background-color: rgba(73, 69, 69, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
     margin-right: 700px;
     padding-right: 20px;
     color: white;
     padding-left: 20px;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: larger;
+
+
 
 }
 
