@@ -127,6 +127,7 @@ body{
     color: white;
     font-size: larger;
     background: linear-gradient(rgba(255,255,255, 0.7));
+}
     
 .sec{
     display: flex;
@@ -148,9 +149,17 @@ body{
     background-position: center;
     color: white;
     padding-bottom: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
     border-radius: 30px;
 
+}
+
+.section2 a{
+    text-decoration: none;
+    background-color: rgb(245, 8, 8);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
 }
 
 .section3{
@@ -166,6 +175,7 @@ body{
     border-radius: 30px;
 }
 
+
 .section3 a{
     text-decoration: none;
     background-color: white;
@@ -173,13 +183,7 @@ body{
     border-radius: 18px;
     color: black;
 }
-.section2 a{
-    text-decoration: none;
-    background-color: white;
-    padding: 10px;
-    border-radius: 18px;
-    color: black;
-}
+
 
 
 
@@ -219,3 +223,5 @@ body{
 .last a:hover::after{
     width: 100%;
 }
+
+
