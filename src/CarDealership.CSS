@@ -109,11 +109,12 @@ body{
 }
 .page3{
     margin-top: 60px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: larger;
-    background: linear-gradient(rgba(255,255,255, 0.7));
+    background: linear-gradient(rgba(255, 255, 255, 0.7));
     padding-left: 20px;
     padding-right: 20px;
+    transition: all;
 }
 
 .page3 a{
@@ -203,7 +204,6 @@ body{
 
 .last a{
     padding: 3px;
-    color: rgb(9, 9, 9);
     margin-top: 18px;
     transition: color 0.1s ease, transform 0.2s ease;
     text-decoration: none;
@@ -213,8 +213,27 @@ body{
 }
 
 .last a:hover {
-    color: #82cfdc;
+    color: #120bc9;
 }
+
+.y{
+    color: rgb(247, 8, 8);
+}
+
+.wh{
+    color: rgb(65, 105, 4);
+}
+.ins{
+    color: #d77812;
+}
+
+.tw{
+    color: black;
+}
+.fa{
+    color: #120bc9;
+}
+
 .last a:hover::after{
     width: 100%;
 }
