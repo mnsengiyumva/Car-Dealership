@@ -238,4 +238,35 @@ body{
     width: 100%;
 }
 
+.las{
+    margin-top: 20px;
+    border-top: rgb(160, 158, 158) solid 0.5px;
+    display: flex;
+    
+}
+
+.las1{
+    margin-right: 30px;
+    text-decoration: none;
+}
+.las1 a{
+    text-decoration: none;
+    color: rgb(100, 99, 99);
+}
+
+.las2{
+    margin-right: 30px;
+}
+.las1 a{
+    text-decoration: none;
+    color: rgb(100, 99, 99);
+}
+.las3{
+    margin-right: 30px;
+}
+.las1 a{
+    text-decoration: none;
+    color: rgb(100, 99, 99);
+}
+
 
