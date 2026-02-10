@@ -21,9 +21,8 @@ body{
     text-decoration: none;
     color: rgb(19, 18, 18);
     transition: color 0.1s ease, transform 0.2s ease;
-
-
-
+    color: #333;
+    transition: background-color 0.2s ease;
     
 }
 
@@ -32,16 +31,31 @@ body{
     margin-right:300px ;
     margin-left: 30px;
     margin-top: 20px;
+    color: #333;
+    transition: background-color 0.2s ease;
 }
 .vihecles{
     margin-right: 70px;
+    color: #333;
+    transition: background-color 0.2s ease;
    
 }
 .build{
     margin-right: 70px;
+    color: #333;
+    transition: background-color 0.2s ease;
 }
 .dealers{
     margin-right: 70px;
+    color: #333;
+    transition: background-color 0.2s ease;
+
+}
+
+.dealers:hover{
+    background-color: #eaeaea;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .search{
    
@@ -67,6 +81,9 @@ body{
     color: #82cfdc;
     text-decoration: none;
     text-decoration: none;
+    background-color: #eaeaea;
+    padding-left: 10px;
+    padding-right: 10px;
     
     
 
