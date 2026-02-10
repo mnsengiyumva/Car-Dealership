@@ -58,15 +58,22 @@ body{
 .user{
     margin-left: 30px;
     margin-top: 20px;
+    
 
 }
 
 
 .section1 a:hover {
     color: #82cfdc;
+    text-decoration: none;
+    text-decoration: none;
+    
+    
+
 }
 .section1 a:hover::after{
     width: 100%;
+    
 }
 
 
@@ -264,7 +271,7 @@ body{
 }
 
 .las a:hover{
-    color: #82cfdc;
+    color: #04a1bd;
     
 }
 
