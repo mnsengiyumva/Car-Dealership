@@ -35,18 +35,31 @@ body{
     transition: background-color 0.2s ease;
 }
 .vihecles{
-    margin-right: 70px;
+    margin-right: 30px;
     color: #333;
     transition: background-color 0.2s ease;
    
 }
+
+.vihecles:hover{
+    background-color: #eaeaea;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
 .build{
-    margin-right: 70px;
+    margin-right: 30px;
     color: #333;
     transition: background-color 0.2s ease;
 }
+
+.build:hover{
+    background-color: #eaeaea;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .dealers{
-    margin-right: 70px;
+    margin-right: 30px;
     color: #333;
     transition: background-color 0.2s ease;
 
@@ -69,10 +82,16 @@ body{
     margin-right: 100px;
     
 }
+
+.more:hover{
+    background-color: #eaeaea;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
 .user{
     margin-left: 30px;
-    margin-top: 20px;
-    
+    margin-top: 20px; 
 
 }
 
@@ -80,12 +99,7 @@ body{
 .section1 a:hover {
     color: #82cfdc;
     text-decoration: none;
-    text-decoration: none;
-    background-color: #eaeaea;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-    
+    text-decoration: none; 
 
 }
 .section1 a:hover::after{
