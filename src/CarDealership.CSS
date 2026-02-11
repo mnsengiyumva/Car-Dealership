@@ -227,7 +227,9 @@ body{
     display: flex;
     background-color: black;
     color: white;
-
+    padding-top: 200px;
+    margin-left: 600px;
+    
 }
 
 .last a{
@@ -275,6 +277,7 @@ body{
     color: white;
     font-weight: bolder;
     padding-bottom: 30px;
+    
     
 }
 
