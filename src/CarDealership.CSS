@@ -161,7 +161,7 @@ body{
 .section2{
     background-color: #e1e4e4;
     margin-right: 30px;
-    margin-left: 20px;
+    
     padding-right: 450px;
     padding-top: 250px;
     background-image: url(../Assets/im4.jpg);
@@ -243,6 +243,7 @@ body{
 
 .last a:hover {
    color: #82cfdc;
+   text-decoration: underline;
 }
 
 .y{
@@ -325,7 +326,7 @@ body{
 
 .l1 a{
     text-decoration:white;
-    color: white;
+    color: rgb(1, 58, 173);
     padding-left: 590px;
     text-underline-offset: inherit;
 }
