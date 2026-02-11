@@ -220,11 +220,13 @@ body{
 }
 
 .last{
-    border-top: rgb(148, 148, 148) solid 0.5px;
+    
     margin-top: 30px;
     padding: 3px;
     margin: 10px;
     display: flex;
+    background-color: black;
+    color: white;
 
 }
 
@@ -239,29 +241,29 @@ body{
 }
 
 .last a:hover {
-    color: #120bc9;
+   color: #82cfdc;
 }
 
 .y{
-    color: rgb(247, 8, 8);
+    color: white;
 }
 
 .wh{
-    color: rgb(65, 105, 4);
+    color: white;;
 }
 .ins{
-    color: #d77812;
+    color: white;
 }
 
 .tw{
-    color: black;
+    color: white;
 }
 .fa{
-    color: #120bc9;
+    color: white;
 }
 
 .last a:hover::after{
-    width: 100%;
+    width: 10%;
 }
 
 .las{
@@ -272,6 +274,7 @@ body{
     background-color: black;
     color: white;
     font-weight: bolder;
+    padding-bottom: 30px;
     
 }
 
