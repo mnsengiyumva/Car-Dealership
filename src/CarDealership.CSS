@@ -286,6 +286,7 @@ body{
     text-decoration: none;
     color: white;
     font-size: small;
+
 }
 .las h3{
   font-weight: bolder;
@@ -305,6 +306,7 @@ body{
 
 .las a:hover{
     color: #04a1bd;
+    text-decoration: underline;
     
 }
 .l{
@@ -312,6 +314,26 @@ body{
     color: white;
 }
 
+.l1{
+
+    margin-top: 30px;
+    padding-top: 10px;
+    justify-items: center;
+  
+    
+}
+
+.l1 a{
+    text-decoration:white;
+    color: white;
+    padding-left: 590px;
+    text-underline-offset: inherit;
+}
+
+.l1 a:hover{
+    color: #04cbee;
+    text-decoration: underline;
+}
 
 
 
