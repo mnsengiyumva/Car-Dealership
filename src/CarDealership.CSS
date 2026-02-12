@@ -271,7 +271,7 @@ body{
 .las{
     margin-top: 20px;
     display: flex;
-    padding-left: 30px;
+    padding-left: 20px;
     color: white;
     font-weight: bolder;
     padding-bottom: 30px;
@@ -280,13 +280,13 @@ body{
 }
 
 .las1{
-    margin-right: 30px;
+    margin-right: 50px;
     text-decoration: none;
 }
 .las a{
     text-decoration: none;
     color: white;
-    font-size: small;
+    font-size: x-small;
 
 }
 .las h3{
@@ -295,14 +295,14 @@ body{
 
 
 .las2{
-    margin-right: 30px;
+    margin-right: 0px;
 }
 
 .las2 h3{
     font-weight: bolder;
 }
 .las3{
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .las a:hover{
