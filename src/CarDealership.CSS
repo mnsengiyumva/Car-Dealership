@@ -204,6 +204,10 @@ body{
     
 }
 
+.sec1{
+    display: flex;
+    justify-content: center;
+}
 
 
 
