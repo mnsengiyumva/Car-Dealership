@@ -320,6 +320,8 @@ body{
     margin-top: 30px;
     padding-top: 10px;
     justify-items: center;
+    border-bottom: rgb(29, 28, 28) solid 0.1px;
+    padding-bottom: 20px;
   
     
 }
@@ -327,7 +329,7 @@ body{
 .l1 a{
     text-decoration:white;
     color: rgb(235, 6, 6);
-    padding-left: 515px;
+    padding-left: 540px;
     text-underline-offset: inherit;
 }
 
