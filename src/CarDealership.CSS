@@ -107,7 +107,7 @@ body{
 
     background: linear-gradient(rgba(255,255,255, 0.7));
     
-    margin-right: 400px;
+    margin-right: 300px;
     
     color: black;
     padding-left: 20px;
@@ -133,20 +133,32 @@ body{
     padding-top: 10px;
     color: white;
 }
-.page3{
+.about{
     margin-top: 60px;
     color: rgb(0, 0, 0);
     font-size: larger;
+    margin-right: 20px;
     background: linear-gradient(rgba(255, 255, 255, 0.7));
     padding-left: 20px;
     padding-right: 20px;
     transition: all;
 }
 
-.page3 a{
-    color: #1c53df;
+.about a{
+    text-decoration: none;
+    color: black;
+    border: black solid 0.1px;
+    padding: 10px;
+    padding-right: 40px;
+    transition: all 0.3s ease;
+    
   
 
+}
+
+.about a:hover{
+    background-color: black;
+    color: white;
 }
  
     
