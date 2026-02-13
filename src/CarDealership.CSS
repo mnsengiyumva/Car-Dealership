@@ -1,67 +1,48 @@
 body{
     font-family: sans-serif, Open Sans, Helvetica Neue, sans-serif;
-
-  
-    
 }
-
 
 .section1{
     display: flex;
+  
+
 
 } 
 .section1 a{
     text-decoration: none;
     color: #333;
+      
+}
+
+.section1 a:hover {
+    color: #04cbee;
+    text-decoration: none;
    
 
-    
 }
 
 
-.mnvihecles{
-    margin-right:300px ;
+.menu{
+    margin-right:200px ;
     margin-left: 30px;
-    margin-top: 20px;
-    color: #333;
+    margin-top: 20px; 
 
 }
 .vihecles{
     margin-right: 30px;
-    color: #333;
-
-   
+  
 }
 
-.vihecles:hover{
-    background-color: #eaeaea;
-    padding-left: 10px;
-    padding-right: 10px;
-
-}
 .build{
     margin-right: 30px;
-    color: #333;
-
 }
 
-.build:hover{
-    background-color: #eaeaea;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 .dealers{
     margin-right: 30px;
-    color: #333;
-
 
 }
 
-.dealers:hover{
-    background-color: #eaeaea;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+
 .search{
    
     padding: 10px;
@@ -69,31 +50,19 @@ body{
     margin-top: 10px;
     border-style: inherit;
     border-radius: 18px;
-    padding-right: 200px;
+    padding-right: 300px;
     margin-right: 100px;
     
 }
 
-.more:hover{
-    background-color: #eaeaea;
-    padding-left: 10px;
-    padding-right: 10px;
 
-}
 
 .user{
     margin-left: 50px;
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 
 }
 
-
-.section1 a:hover {
-    color: #04cbee;
-    text-decoration: none;
-
-}
 
 
 .page1{
@@ -132,6 +101,11 @@ body{
     padding-bottom: 10px;
     padding-top: 10px;
     color: white;
+}
+
+.page2 a:hover{
+    background-color: white;
+    color: black;
 }
 .about{
     margin-top: 60px;
