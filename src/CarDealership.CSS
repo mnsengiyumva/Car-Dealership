@@ -181,8 +181,14 @@ body{
     color: white;
     padding-bottom: 0px;
     padding-left: 20px;
+    
   
 
+}
+
+.section2 p{
+    background: linear-gradient(rgba(203, 191, 191, 0.7));
+    padding: 10px;
 }
 
 .section2 a{
@@ -200,6 +206,7 @@ body{
 .section2 a:hover{
     background-color:white;
     color: black;
+    font-weight: bolder;
 
 
 }
@@ -222,6 +229,7 @@ body{
     text-decoration: none;
     background-color: rgb(244, 5, 5);
     padding: 10px;
+    padding-right: 30px;
 
     color: white;
     
@@ -230,6 +238,7 @@ body{
 .section3 a:hover{
     background-color:white;
     color: black;
+    font-weight: bolder;
 
 
 }
@@ -237,6 +246,7 @@ body{
 .sec1{
     display: flex;
     justify-content: center;
+    
 }
 
 
