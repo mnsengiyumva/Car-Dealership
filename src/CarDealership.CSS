@@ -174,7 +174,7 @@ body{
     background-color: #e1e4e4;
     margin-right: 30px;
     
-    padding-right: 450px;
+    padding-right: 300px;
     padding-top: 250px;
     background-image: url(../Assets/im4.jpg);
     background-position: center;
@@ -187,15 +187,26 @@ body{
 
 .section2 a{
     text-decoration: none;
-    background-color: rgb(245, 8, 8);
+    background-color: rgb(255, 1, 1);
     padding: 10px;
-    border-radius: 10px;
+    padding-right: 30px;
+
     color: white;
+    transition: all 0.3s ease;
+}
+
+
+
+.section2 a:hover{
+    background-color:white;
+    color: black;
+
+
 }
 
 .section3{
     background-color: #82cfdc;
-    padding-right: 440px;
+    padding-right: 300px;
     background-image: url(../Assets/im5.jpg);
     background-position: center;
     color: white;
@@ -211,9 +222,16 @@ body{
     text-decoration: none;
     background-color: rgb(244, 5, 5);
     padding: 10px;
-    border-radius: 10px;
+
     color: white;
     
+}
+
+.section3 a:hover{
+    background-color:white;
+    color: black;
+
+
 }
 
 .sec1{
