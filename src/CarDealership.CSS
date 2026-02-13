@@ -229,11 +229,14 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     padding: 100px;
+    padding-bottom: 250px;
+   
     
 }
 
 .sec11{
-    margin-right: 100px;
+    margin-right: 300px;
+    font-display: block;
     
     padding-left:30px;
     padding-top: 80px;
