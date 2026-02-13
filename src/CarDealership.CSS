@@ -221,7 +221,13 @@ body{
     display: flex;
     justify-content: center;
     
+    
 }
+
+.sec11{
+    margin-right: 100px;
+}
+
 
 
 
@@ -245,7 +251,7 @@ body{
     display: flex;
     color: white;
     padding-top: 200px;
-    margin-left: 600px;
+    margin-left: 500px;
     
 }
 
@@ -304,7 +310,7 @@ body{
 .las a{
     text-decoration: none;
     color: white;
-    font-size: x-small;
+    font-size: small;
 
 }
 .las h3{
