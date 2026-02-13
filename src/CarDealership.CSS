@@ -226,6 +226,14 @@ body{
 
 .sec11{
     margin-right: 100px;
+    background-image: url(../Assets/im9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left:30px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+  
+    
 }
 
 
