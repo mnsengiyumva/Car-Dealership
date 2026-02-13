@@ -224,11 +224,17 @@ body{
     
 }
 
-.sec11{
-    margin-right: 100px;
+.im{
     background-image: url(../Assets/im9.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    padding: 100px;
+    
+}
+
+.sec11{
+    margin-right: 100px;
+    
     padding-left:30px;
     padding-top: 80px;
     padding-bottom: 10px;
