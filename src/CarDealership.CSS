@@ -195,7 +195,7 @@ body{
     color: white;
     padding-top: 270px;
     padding-left: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     
     
 }
@@ -231,7 +231,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     padding: 100px;
-    padding-bottom: 250px;
+    padding-bottom: 200px;
    
     
 }
@@ -262,6 +262,14 @@ body{
     padding-top: 80px;
     padding-bottom: 10px;
   
+    
+}
+
+.im2{
+    background-image: url(../Assets/im10.jpg);
+    padding-bottom: 300px;
+    background-position: center;
+    margin-top: 80px;
     
 }
 
