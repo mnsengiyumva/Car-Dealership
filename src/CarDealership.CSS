@@ -123,11 +123,14 @@ body{
     color: black;
     border: black solid 0.1px;
     padding: 10px;
+    opacity: 0;
     padding-right: 40px;
-    transition: all 0.3s ease;
+    transition: opacity 0.5s ease;
     
-  
+}
 
+.about a{
+    opacity: 1;
 }
 
 .about a:hover{
