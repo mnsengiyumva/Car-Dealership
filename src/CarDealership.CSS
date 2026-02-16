@@ -64,7 +64,6 @@ body{
 }
 
 
-
 .page1{
     background-image: url(../Assets/Image6.jpg);
     background-position: center;
@@ -235,6 +234,24 @@ body{
     padding-bottom: 250px;
    
     
+}
+
+.sec1 p{
+    margin-bottom: 30px;
+}
+
+.sec1 a{
+    text-decoration: none;
+    color: black;
+    border: black solid 0.1px;
+    padding: 10px;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.sec1 a:hover{
+    background-color: black;
+    color: white;
 }
 
 .sec11{
