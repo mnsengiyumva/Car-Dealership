@@ -1,9 +1,21 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
 body{
     font-family: sans-serif, Open Sans, Helvetica Neue, sans-serif;
 }
 
 .section1{
     display: flex;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    
+    
+
   
 
 
@@ -58,7 +70,9 @@ body{
 
 
 .user{
-    margin-left: 50px;
+
+    padding-right: 50px;
+    margin-left: 20px;
     margin-top: 20px;  
 
 }
@@ -279,10 +293,6 @@ body{
     margin-top: 80px;
     
 }
-
-
-
-
 
 
 .section4{
