@@ -237,6 +237,8 @@ body{
 .sec1{
     display: flex;
     justify-content: center;
+    background-color: rgb(203, 203, 203);
+    padding-bottom: 30px;
     
     
 }
@@ -270,9 +272,7 @@ body{
 }
 
 .sec11{
-    margin-right: 200px;
-    
-    
+    margin-right: 50px;
     padding-left:30px;
     padding-top: 80px;
     padding-bottom: 10px;
