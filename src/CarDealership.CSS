@@ -309,6 +309,7 @@ body{
 
     display: flex;
     color: white;
+    justify-content: end;
     
 
     
