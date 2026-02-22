@@ -408,6 +408,7 @@ body{
     justify-items: center;
     border-bottom: rgb(29, 28, 28) solid 0.1px;
     padding-bottom: 20px;
+    
   
     
 }
@@ -416,6 +417,8 @@ body{
     text-decoration:white;
     color: rgb(237, 237, 237);
     font-weight: bolder;
+    text-decoration: underline 2px;
+    
     
 }
 
@@ -423,6 +426,7 @@ body{
 .l1 a:hover{
     color: #ec0707;
     text-decoration: underline;
+    
 }
 .l1 p{
     font-size: small;
