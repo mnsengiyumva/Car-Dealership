@@ -414,7 +414,8 @@ body{
 
 .l1 a{
     text-decoration:white;
-    color: rgb(235, 6, 6);
+    color: rgb(237, 237, 237);
+    font-weight: bolder;
     
 }
 
