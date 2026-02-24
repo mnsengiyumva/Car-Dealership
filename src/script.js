@@ -1,7 +1,5 @@
-const button = document.querySelector('menu')
-
-button.addEventListener("click", function()){
-    console.log("clicked");
-}
-
-button.innerText = "You clicked"
+const togglebtn = document.querySelector("#darkToggle")
+const body  = document.querySelector("body");
+togglebtn,addEventListener("click", function(){
+    body.classList.toggle("dark");
+});
