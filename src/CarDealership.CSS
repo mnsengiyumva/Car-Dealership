@@ -434,8 +434,9 @@ body{
     
 }
 
+
 .darkToggle{
-    transition: background 0.3s ease, color 0.3s ease;
+    
     background-color: #04cbee;
     color: white;
 
