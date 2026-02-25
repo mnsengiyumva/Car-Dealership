@@ -61,7 +61,7 @@ body{
 }
 
 #menubtn{
-    font-size: x-large;
+    font-size: larger;
     background-color: white;
     border: white;
     
@@ -77,7 +77,7 @@ body{
 }
 
 #vihecleBtn{
-    font-size: x-large;
+    font-size: larger;
     background-color: white;
     border-color: white;
     border: none;
