@@ -23,3 +23,10 @@ openBtn.addEventListener("click", function(){
 closeBtn.addEventListener("click", function(){
     modal.classList.add("hidden")
 })
+
+const more = document.querySelector("#moreBtn")
+const moreCnt = document.querySelector("#moreContent")
+
+moreCnt.addEventListener("click", function(){
+    moreCnt.classList("hideMore")
+})
