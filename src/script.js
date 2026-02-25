@@ -6,9 +6,9 @@ menubtn.addEventListener("click", function(){
     
 })
 
-const vihecleBtn = document.getElementById("#vihecleBtn");
-const vihecleMenu = document.getElementById("#vihecleMenu");
+const vihecleBtn = document.querySelector("#vihecleBtn");
+const vihecleButton = document.querySelector("#vihecleMenu");
 
 vihecleMenu.addEventListener("click", function(){
-    menuContent.classList.toggle("hidden")
+    menuContent.classList.toggle("hide")
 })
