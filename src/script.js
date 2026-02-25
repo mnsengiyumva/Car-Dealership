@@ -4,11 +4,11 @@ const menuContent = document.querySelector("#menuContent");
 menubtn.addEventListener("click", function(){
     menuContent.classList.toggle("hidden");
     
-})
+});
 
 const vihecleBtn = document.querySelector("#vihecleBtn");
-const vihecleButton = document.querySelector("#vihecleMenu");
+const vihecleButton = document.querySelector("#vihecleButton");
 
-vihecleMenu.addEventListener("click", function(){
-    menuContent.classList.toggle("hide")
-})
+vihecleBtn.addEventListener("click", function(){
+    vihecleButton.classList.toggle("hide")
+});

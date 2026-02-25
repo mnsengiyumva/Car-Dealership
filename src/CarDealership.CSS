@@ -36,6 +36,10 @@ body{
 
 }
 
+.hide{
+    display: none;
+}
+
 
 .menu{
     margin-right:50px ;
@@ -62,7 +66,7 @@ body{
     background: rgb(255, 255, 255);
     padding: 10px;
     width: 150px;
-    border: rgb(243, 243, 243) ;
+    border: rgb(255, 255, 255) ;
     
     
 }
