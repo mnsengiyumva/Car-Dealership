@@ -27,6 +27,6 @@ closeBtn.addEventListener("click", function(){
 const more = document.querySelector("#moreBtn")
 const moreCnt = document.querySelector("#moreContent")
 
-moreCnt.addEventListener("click", function(){
-    moreCnt.classList("hideMore")
+more.addEventListener("click", function(){
+    moreCnt.classList.toggle("hideMore")
 })
