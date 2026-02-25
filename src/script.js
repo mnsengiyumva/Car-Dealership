@@ -12,3 +12,14 @@ const vihecleButton = document.querySelector("#vihecleButton");
 vihecleBtn.addEventListener("click", function(){
     vihecleButton.classList.toggle("hide")
 });
+
+const openBtn = document.querySelector("#openModal")
+const closeBtn = document.querySelector("#closeModal")
+
+openBtn.addEventListener("click", function(){
+    modal.classList.remove("hidden")
+})
+
+closeBtn.addEventListener("click", function(){
+    modal.classList.add("hidden")
+})
