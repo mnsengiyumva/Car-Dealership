@@ -13,12 +13,9 @@ body{
     position: fixed;
     background-color: white;
     top: 0;
+    right: 0;
+    left: 0;
     
-    
-
-  
-
-
 } 
 .section1 a{
     text-decoration: none;
@@ -26,19 +23,35 @@ body{
       
 }
 
+
+
 .section1 a:hover {
-    color: #04cbee;
-    text-decoration: none;
+    color: #ee0404;
+    text-decoration: underline;
    
 
 }
 
 
 .menu{
-    margin-right:200px ;
+    margin-right:50px ;
     margin-left: 30px;
-    margin-top: 20px; 
+    margin-top: 10px; 
 
+}
+
+#menuContent{
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    width: 150px;
+    border: rgb(243, 243, 243) ;
+}
+
+#menubtn{
+    font-size: x-large;
+    background-color: white;
+    
+    border-color: white;
 }
 .vihecles{
     margin-right: 30px;
@@ -62,8 +75,8 @@ body{
     margin-top: 10px;
     border-style: inherit;
     border-radius: 18px;
-    padding-right: 300px;
-    margin-right: 100px;
+    padding-right: 200px;
+    margin-right: 50px;
     
 }
 
@@ -439,17 +452,5 @@ body{
 
 }
 
-#menuContent{
-    background: rgb(255, 255, 255);
-    padding: 10px;
-    width: 150px;
-    border: rgb(243, 243, 243) ;
-}
 
-#menubtn{
-    font-size: x-large;
-    background-color: white;
-    
-    border-color: white;
-}
 
