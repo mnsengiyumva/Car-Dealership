@@ -1,5 +1,6 @@
-const togglebtn = document.querySelector("#darkToggle")
-const body  = document.querySelector("body");
-togglebtn,addEventListener("click", function(){
-    body.classList.toggle("dark");
-});
+const menubtn = document.querySelector("#menubtn");
+const menuContent = document.querySelector("#menuContent");
+
+menubtn.addEventListener("click", function(){
+    menuContent.classList.toggle("hidden");
+})

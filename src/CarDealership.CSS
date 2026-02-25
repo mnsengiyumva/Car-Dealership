@@ -434,10 +434,22 @@ body{
     
 }
 
-.darkToggle{
-    
-    background-color: #04cbee;
-    color: white;
+.hidden{
+    display: none;
 
+}
+
+#menuContent{
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    width: 150px;
+    border: rgb(243, 243, 243) ;
+}
+
+#menubtn{
+    font-size: x-large;
+    background-color: white;
+    
+    border-color: white;
 }
 
