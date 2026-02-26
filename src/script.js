@@ -7,9 +7,11 @@ menubtn.addEventListener("click", function(){
 });
 
 document.addEventListener("click", function(event){
-    if(!menContent.contains(event.target) && menBt.contains(event.target)){
+    if(!menuContent.contains(event.target) && !menubtn.contains(event.target)){
 
-    }menuContent.classList.add("hidden")
+        menuContent.classList.add("hidden")
+
+    }
 })
 
 const vihecleBtn = document.querySelector("#vihecleBtn");
