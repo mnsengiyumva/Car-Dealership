@@ -148,6 +148,14 @@ body{
 
 }
 
+.tog{
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.dark{
+    background-color: #121212;
+    color: white;
+}
+
 
 .page1{
     background-image: url(../Assets/Image6.jpg);

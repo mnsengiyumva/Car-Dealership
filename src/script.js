@@ -30,3 +30,9 @@ const moreCnt = document.querySelector("#moreContent")
 more.addEventListener("click", function(){
     moreCnt.classList.toggle("hideMore")
 })
+
+const toggleBtn = document.querySelector("#darkToggle")
+
+toggleBtn.addEventListener("#click", function(){
+    tog.classList.toggle("dark")
+})
