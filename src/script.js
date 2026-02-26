@@ -32,7 +32,15 @@ more.addEventListener("click", function(){
 })
 
 const toggleBtn = document.querySelector("#darkToggle")
+const body = document.querySelector("body")
 
-toggleBtn.addEventListener("#click", function(){
-    tog.classList.toggle("dark")
+toggleBtn.addEventListener("click", function(){
+    body.classList.toggle("dark")
+})
+
+const menBt = document.querySelector("#menBtn")
+const menContent = document.querySelector("#menContent")
+
+menBt.addEventListener("click", function(){
+    menContent.classList.toggle("hid")
 })

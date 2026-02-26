@@ -6,6 +6,7 @@ html{
 
 body{
     font-family: sans-serif, Open Sans, Helvetica Neue, sans-serif;
+    transition: background 0.3s ease, color 0.3 ease;
 }
 
 .section1{
@@ -148,12 +149,20 @@ body{
 
 }
 
-.tog{
-    transition: background 0.3s ease, color 0.3s ease;
-}
 .dark{
     background-color: #121212;
     color: white;
+}
+
+#menContent{
+    background: lightgray;
+    padding: 10px;
+    width: 150px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.hid{
+    display: none;
 }
 
 
