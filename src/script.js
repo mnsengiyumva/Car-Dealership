@@ -6,6 +6,12 @@ menubtn.addEventListener("click", function(){
     
 });
 
+document.addEventListener("click", function(event){
+    if(!menContent.contains(event.target) && menBt.contains(event.target)){
+
+    }menuContent.classList.add("hidden")
+})
+
 const vihecleBtn = document.querySelector("#vihecleBtn");
 const vihecleButton = document.querySelector("#vihecleButton");
 
