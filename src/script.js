@@ -22,7 +22,7 @@ vihecleBtn.addEventListener("click", function(){
 });
 
 document.addEventListener("click", function(event){
-    if(!vihecleButton.contains(event.target) && !vihecleBtn.contains(event.targer)){
+    if(!vihecleButton.contains(event.target) && !vihecleBtn.contains(event.target)){
         vihecleButton.classList.add("hide")
     }
 })
