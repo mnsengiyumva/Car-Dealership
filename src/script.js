@@ -21,6 +21,12 @@ vihecleBtn.addEventListener("click", function(){
     vihecleButton.classList.toggle("hide")
 });
 
+document.addEventListener("click", function(event){
+    if(!vihecleButton.contains(event.target) && !vihecleBtn.contains(event.targer)){
+        vihecleButton.classList.add("hide")
+    }
+})
+
 const openBtn = document.querySelector("#openModal")
 const closeBtn = document.querySelector("#closeModal")
 
