@@ -44,3 +44,11 @@ const menContent = document.querySelector("#menContent")
 menBt.addEventListener("click", function(){
     menContent.classList.toggle("hid")
 })
+
+document.addEventListener("click", function(event){
+
+    if(!menContent.contains(event.target) && !menBt.contains(event.target)){
+        menContent.classList.add("hid")
+    }
+    
+})
