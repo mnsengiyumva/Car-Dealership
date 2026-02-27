@@ -58,20 +58,6 @@ toggleBtn.addEventListener("click", function(){
     body.classList.toggle("dark")
 })
 
-const menBt = document.querySelector("#menBtn")
-const menContent = document.querySelector("#menContent")
-
-menBt.addEventListener("click", function(){
-    menContent.classList.toggle("hid")
-})
-
-document.addEventListener("click", function(event){
-
-    if(!menContent.contains(event.target) && !menBt.contains(event.target)){
-        menContent.classList.add("hid")
-    }
-    
-})
 
 const buildbtn = document.querySelector("#buildBtn")
 const buildCnt = document.querySelector("#buildContent")
