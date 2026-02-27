@@ -200,12 +200,25 @@ body{
     font-size: large;
     border: none;
     background: none;
+    margin-right: 20px;
 
 
 }
 
 .hideDealers{
     display: none;
+}
+#dealersBtn:hover{
+    
+    border:#ffffff solid 0.1px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    background-color: #f1eaea;
+    transition: 0.1s ease;
+    
 }
 
 
