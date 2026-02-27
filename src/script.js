@@ -47,7 +47,7 @@ more.addEventListener("click", function(){
 
 document.addEventListener("click", function(event){
     if(!more.contains(event.target) && !moreCnt.contains(event.target)){
-        moreCnt.classList.add("moreContent")
+        moreCnt.classList.add("hideMore")
     }
 })
 
