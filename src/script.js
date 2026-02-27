@@ -45,6 +45,12 @@ more.addEventListener("click", function(){
     moreCnt.classList.toggle("hideMore")
 })
 
+document.addEventListener("click", function(event){
+    if(!more.contains(event.target) && !moreCnt.contains(event.target)){
+        moreCnt.classList.add("moreContent")
+    }
+})
+
 const toggleBtn = document.querySelector("#darkToggle")
 const body = document.querySelector("body")
 
