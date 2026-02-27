@@ -95,6 +95,6 @@ dealersbtn.addEventListener("click", function(){
 
 document.addEventListener("click", function(event){
     if(!dealersbtn.contains(event.target) && !dealersCnt.contains(event.target)){
-        dealersCnt.classList.add("hideBuilders")
+        dealersCnt.classList.add("hideDealers")
     }
 })

@@ -195,12 +195,17 @@ body{
     
 }
 
-.dealers{
+#dealersBtn{
     margin-top: 10px;
     font-size: large;
     border: none;
+    background: none;
 
 
+}
+
+.hideDealers{
+    display: none;
 }
 
 
