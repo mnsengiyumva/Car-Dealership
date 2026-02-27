@@ -196,7 +196,10 @@ body{
 }
 
 .dealers{
-    margin-right: 30px;
+    margin-top: 10px;
+    font-size: large;
+    border: none;
+
 
 }
 
