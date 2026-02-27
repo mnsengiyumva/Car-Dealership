@@ -79,3 +79,9 @@ const buildCnt = document.querySelector("#buildContent")
 buildbtn.addEventListener("click", function(){
     buildCnt.classList.toggle("hideBuild")
 })
+
+document.addEventListener("click", function(event){
+    if(!buildbtn.contains(event.target) && !buildCnt.contains(event.target)){
+        buildCnt.classList.add("hideBuild")
+    }
+})
