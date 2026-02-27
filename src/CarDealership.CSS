@@ -170,6 +170,13 @@ body{
     margin-right: 30px;
 }
 
+#buildBtn{
+    margin-top: 10px;
+    font-size: large;
+    border: none;
+    background: none;
+}
+
 .dealers{
     margin-right: 30px;
 

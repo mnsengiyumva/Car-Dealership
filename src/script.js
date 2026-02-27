@@ -72,3 +72,10 @@ document.addEventListener("click", function(event){
     }
     
 })
+
+const buildbtn = document.querySelector("#buildBtn")
+const buildCnt = document.querySelector("#buildContent")
+
+buildbtn.addEventListener("click", function(){
+    buildCnt.classList("hideBuild")
+})
