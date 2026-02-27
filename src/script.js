@@ -85,3 +85,16 @@ document.addEventListener("click", function(event){
         buildCnt.classList.add("hideBuild")
     }
 })
+
+const dealersbtn = document.querySelector("#dealersBtn")
+const dealersCnt = document.querySelector("#dealersContent")
+
+dealersbtn.addEventListener("click", function(){
+    dealersCnt.classList.toggle("hideDealers")
+})
+
+document.addEventListener("click", function(event){
+    if(!dealersbtn.contains(event.target) && !dealersCnt.contains(event.target)){
+        dealersCnt.classList.add("hideBuilders")
+    }
+})
