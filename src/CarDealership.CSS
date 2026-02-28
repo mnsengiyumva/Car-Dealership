@@ -83,11 +83,12 @@ body{
     font-weight: bolder;
 }
 
-#vihecleButton{
+#vihecleContent{
 
-    width: 200px;
-    order: rgb(243, 243, 243) ;
-    padding-top: 0px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    width: 150px;
+    border: rgb(243, 243, 243) ;
     
     
 }

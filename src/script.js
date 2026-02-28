@@ -15,7 +15,7 @@ document.addEventListener("click", function(event){
 })
 
 const vihecleBtn = document.querySelector("#vihecleBtn");
-const vihecleButton = document.querySelector("#vihecleButton");
+const vihecleButton = document.querySelector("#vihecleContent");
 
 vihecleBtn.addEventListener("click", function(){
     vihecleButton.classList.toggle("hide")
