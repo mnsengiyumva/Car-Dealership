@@ -7,14 +7,14 @@ html{
 body{
     font-family: sans-serif, Open Sans, Helvetica Neue, sans-serif;
     transition: background 0.3s ease, color 0.3 ease;
-    background: #f7f7f7;
+    background: lch(97.23% 0.01 296.81);
     background-size: cover;
 }
 
 .section1{
     display: flex;
     position: fixed;
-    background-color: white;
+    background-color: rgb(240, 234, 234);
     top: 0;
     right: 0;
     left: 0;
@@ -65,9 +65,8 @@ body{
 
 #menubtn{
     font-size: large;
-    background-color: white;
     border: white;
-    
+    font-weight: bolder;   
 }
 
 #menubtn:hover{
@@ -78,21 +77,24 @@ body{
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 20px;
-    background-color: #f1eaea;
+    background-color: #656464;
     transition: 0.1s ease;
+    color: white;
+    font-weight: bolder;
 }
 
 #vihecleButton{
-    background: rgb(255, 255, 255);
-    padding: 10px;
-    width: 150px;
-    order: rgb(243, 243, 243) ;;
+
+    width: 200px;
+    order: rgb(243, 243, 243) ;
+    padding-top: 0px;
     
     
 }
 
 #vihecleBtn{
     font-size: large;
+    font-weight: bolder;
     background-color: white;
     border-color: white;
     border: none;
@@ -105,8 +107,10 @@ body{
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 20px;
-    background-color: #f1eaea;
+    background-color: #656464;
     transition: 0.1s ease;
+    color: white;
+    font-weight: bolder;
 }
 #moreContent{
     background: rgb(255, 255, 255);
