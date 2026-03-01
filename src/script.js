@@ -105,5 +105,7 @@ dotsbtn.addEventListener("click", function(){
 })
 
 document.addEventListener("click", function(event){
-    dotsCt.classList.add("hideDots")
+   if(!dotsbtn.contains(event.target) && !dotsCt.contains(event.target)){
+        dotsCt.classList.add("hideDots")
+    }
 })
