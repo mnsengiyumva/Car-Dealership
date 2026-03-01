@@ -149,6 +149,8 @@ body{
 
 .build{
     margin-right: 30px;
+    position: relative;
+    display: inline-block;
 }
 
 #buildBtn{
@@ -157,9 +159,23 @@ body{
     border: none;
     background: none;
     font-weight: bolder;
+    margin-bottom: 10px;
+    
     
     
 }
+
+#buildContent{
+
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    width: 150px;
+    border: rgb(243, 243, 243) ;
+    position: absolute;
+    
+    
+}
+
 
 .hideBuild{
     display: none;
@@ -181,11 +197,13 @@ body{
 }
 
 #dealersContent{
-
+    background: rgb(255, 255, 255);
     padding: 10px;
     width: 150px;
-    margin-top: 5px;
-    border-radius: 5px;
+    border: rgb(243, 243, 243) ;
+    position: absolute;
+
+    
 }
 
 #dealersBtn{
@@ -193,6 +211,7 @@ body{
     font-size: large;
     border: none;
     margin-right: 20px;
+    margin-bottom: 10px;
     background: none;
     font-weight: bolder;
 
