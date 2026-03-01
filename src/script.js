@@ -84,3 +84,15 @@ document.addEventListener("click", function(event){
         dealersCnt.classList.add("hideDealers")
     }
 })
+
+const userbtn = document.querySelector("#userBtn")
+const userCt = document.querySelector("#userContent")
+
+userbtn.addEventListener("click", function(){
+    userCt.classList.toggle("userHide")
+
+})
+
+document.addEventListener("click", function(event){
+    userCt.classList.add("hideUser")
+})
