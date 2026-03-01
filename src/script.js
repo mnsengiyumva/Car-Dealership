@@ -94,5 +94,5 @@ userbtn.addEventListener("click", function(){
 })
 
 document.addEventListener("click", function(event){
-    userCt.classList.add("hideUser")
+    userCt.classList.add("userHide")
 })
