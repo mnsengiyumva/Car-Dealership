@@ -96,3 +96,14 @@ userbtn.addEventListener("click", function(){
 document.addEventListener("click", function(event){
     userCt.classList.add("userHide")
 })
+
+const dotsbtn = document.querySelector("#dotsBtn")
+const dotsCt = document.querySelector("#dotsContent")
+
+dotsbtn.addEventListener("click", function(){
+    dotsCt.classList.toggle("hideDots")
+})
+
+document.addEventListener("click", function(event){
+    dotsCt.classList.add("hideDots")
+})

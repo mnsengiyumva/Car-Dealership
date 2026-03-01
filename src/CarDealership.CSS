@@ -322,6 +322,47 @@ body{
 
 }
 
+#dotsBtn{
+    border: none;
+    font-size: xx-large;
+    margin-top: 1px;
+    margin-left: 30px;
+
+}
+#dotsContent{
+    
+    padding: 10px;
+    width: 150px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.hideDots{
+    display: none;
+}
+#moreBtn{
+    font-size: large;
+    font-weight: bolder;
+    border-color: white;
+    border: none;
+    margin-bottom: 10px;
+  
+}
+
+#dotsBtn:hover{
+    
+    border:#ffffff solid 0.1px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 90px;
+    font-weight: bolder;
+    background-color: #656464;
+    transition: 0.1s ease;
+    color: white;
+    
+}
+
 
 
 
