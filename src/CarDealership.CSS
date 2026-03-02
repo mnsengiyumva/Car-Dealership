@@ -101,7 +101,7 @@ body{
     border: none;
     font-size: larger;
     background: none;
-    color: #82b5dc;
+    color: #1d8add;
     font-weight: bolder;
 
 }
@@ -114,7 +114,7 @@ body{
    
     padding: 10px;
     background-color: #e1e4e4;
-    margin-top: 10px;
+    margin-top: 14px;
     border-style: inherit;
     border-radius: 18px;
     padding-right: 200px;
@@ -123,9 +123,8 @@ body{
 }
 
 .vihecles{
-    margin-top: 10px;
+    margin-top: 16px;
     margin-right: 30px;
-    
     
     position: relative;
     display: inline-block;
@@ -152,6 +151,7 @@ body{
     border: none;
     margin-bottom: 10px;
     background: none;
+    color: #453e3e;
 }
 #vihecleBtn:hover{
     
@@ -189,12 +189,14 @@ body{
 }
 
 #buildBtn{
-    margin-top: 10px;
+    
     font-size: large;
     border: none;
     background: none;
     font-weight: bolder;
     margin-bottom: 10px;
+    color: #453e3e;
+    margin-top: 16px;
     
     
     
@@ -244,13 +246,14 @@ body{
 }
 
 #dealersBtn{
-    margin-top: 10px;
     font-size: large;
     border: none;
     margin-right: 20px;
     margin-bottom: 10px;
     background: none;
     font-weight: bolder;
+    color: #453e3e;
+    margin-top: 16px;
 
 
 }
@@ -289,6 +292,8 @@ body{
     border-color: white;
     border: none;
     margin-bottom: 10px;
+    color: #453e3e;
+    margin-top: 8px;
   
 }
 
@@ -344,6 +349,8 @@ body{
     margin-top: 1px;
     margin-left: 10px;
     background: none;
+    color: #453e3e;
+    margin-top: 8px;
     
 
 }
