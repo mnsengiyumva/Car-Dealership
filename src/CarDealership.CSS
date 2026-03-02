@@ -350,7 +350,7 @@ body{
     margin-left: 10px;
     background: none;
     color: #453e3e;
-    margin-top: 8px;
+    margin-top: 10px;
     
 
 }
@@ -613,6 +613,87 @@ body{
     margin-top: 30px;
 }
 
+.lastSectionDiv1 a{
+    text-decoration:white;
+    color: rgb(237, 237, 237);
+    
+    text-decoration: underline 2px;
+    
+    
+}
+
+
+.lastSectionDiv1 a:hover{
+    color: #ec0707;
+    text-decoration: underline;
+    
+}
+.lastSection1 p{
+    font-size: small;
+    
+}
+
+
+.lastSectionDiv2{
+    margin-top: 20px;
+    display: flex;
+    padding-left: 20px;
+    color: white;
+    
+    padding-bottom: 30px;
+    border-bottom: rgb(31, 31, 31) solid 0.1px;
+    
+    
+}
+
+.lastSectionDiv2-1{
+    margin-right: 50px;
+    text-decoration: none;
+}
+.lastSectionDiv2 a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+
+}
+.lastSectionDiv2 h3{
+  font-weight: bolder;
+}
+
+
+.lastSectionDiv2-2{
+    margin-right: 0px;
+}
+
+.lastSectionDiv2 h3{
+    font-weight: bolder;
+}
+.lastSectionDiv2-3{
+    margin-left: 30px;
+}
+
+.lastSectionDiv2 a:hover{
+    color: #bd0404;
+    text-decoration: underline;
+    
+}
+.lastSection{
+    background-color: black;
+    color: white;
+}
+
+.lastSectionDiv1{
+
+    margin-top: 30px;
+    padding-top: 10px;
+    justify-items: center;
+    border-bottom: rgb(29, 28, 28) solid 0.1px;
+    padding-bottom: 20px;
+    
+  
+    
+}
+
 .last{
 
     display: flex;
@@ -661,85 +742,7 @@ body{
     width: 10%;
 }
 
-.las{
-    margin-top: 20px;
-    display: flex;
-    padding-left: 20px;
-    color: white;
-    font-weight: bolder;
-    padding-bottom: 30px;
-    border-bottom: rgb(31, 31, 31) solid 0.1px;
-    
-    
-}
 
-.las1{
-    margin-right: 50px;
-    text-decoration: none;
-}
-.las a{
-    text-decoration: none;
-    color: white;
-    font-size: small;
-
-}
-.las h3{
-  font-weight: bolder;
-}
-
-
-.las2{
-    margin-right: 0px;
-}
-
-.las2 h3{
-    font-weight: bolder;
-}
-.las3{
-    margin-left: 30px;
-}
-
-.las a:hover{
-    color: #bd0404;
-    text-decoration: underline;
-    
-}
-.lastSection{
-    background-color: black;
-    color: white;
-}
-
-.lastSection1{
-
-    margin-top: 30px;
-    padding-top: 10px;
-    justify-items: center;
-    border-bottom: rgb(29, 28, 28) solid 0.1px;
-    padding-bottom: 20px;
-    
-  
-    
-}
-
-.l1 a{
-    text-decoration:white;
-    color: rgb(237, 237, 237);
-    font-weight: bolder;
-    text-decoration: underline 2px;
-    
-    
-}
-
-
-.l1 a:hover{
-    color: #ec0707;
-    text-decoration: underline;
-    
-}
-.l1 p{
-    font-size: small;
-    
-}
 
 .modal{
     position:fixed;
