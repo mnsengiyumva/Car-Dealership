@@ -18,7 +18,7 @@ body{
     top: 0;
     right: 0;
     left: 0;
-    padding-bottom: 5px;
+    padding-bottom: px;
     
     
 } 
@@ -89,6 +89,19 @@ body{
     transition: 0.1s ease;
     color: white;
     font-weight: bolder;
+}
+
+.home{
+    font-size: large;
+    margin-right: 40px;
+    top: 0;
+}
+
+#homeBtn{
+    border: none;
+    font-size: large;
+    background: none;
+    margin-bottom:0px;
 }
 
 .search{
