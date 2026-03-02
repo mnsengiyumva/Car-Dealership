@@ -615,7 +615,7 @@ body{
 
 .lastSectionDiv1 a{
     text-decoration:white;
-    color: rgb(237, 237, 237);
+    color: rgb(204, 13, 13);
     
     text-decoration: underline 2px;
     
@@ -631,7 +631,7 @@ body{
 
 
 .lastSectionDiv1 a:hover{
-    color: #ec0707;
+    color: #fcfcfc;
     text-decoration: underline;
     
 }
