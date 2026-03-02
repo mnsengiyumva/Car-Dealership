@@ -314,14 +314,10 @@ body{
     display: none;
 }
 
-
-
-
-.user{
-    margin-left: 150px;
-    margin-top: 10px;  
-
+.threeDots{
+    margin-right: 200px;
 }
+
 
 #dotsBtn{
     border: none;
@@ -329,6 +325,7 @@ body{
     margin-top: 1px;
     margin-left: 10px;
     background: none;
+    
 
 }
 #dotsContent{
