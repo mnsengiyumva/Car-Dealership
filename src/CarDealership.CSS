@@ -622,23 +622,27 @@ body{
     
 }
 
+.lastSectionDiv1 p{
+    font-weight: lighter;
+    font-size: small;
+    word-spacing: 1px;
+    color: #a3a0a0;
+}
+
 
 .lastSectionDiv1 a:hover{
     color: #ec0707;
     text-decoration: underline;
     
 }
-.lastSection1 p{
-    font-size: small;
-    
-}
+
 
 
 .lastSectionDiv2{
     margin-top: 20px;
     display: flex;
     padding-left: 20px;
-    color: white;
+    color: rgb(210, 208, 208);
     
     padding-bottom: 30px;
     border-bottom: rgb(31, 31, 31) solid 0.1px;
@@ -654,6 +658,7 @@ body{
     text-decoration: none;
     color: white;
     font-size: small;
+    color: rgb(179, 176, 176);
 
 }
 .lastSectionDiv2 h3{
