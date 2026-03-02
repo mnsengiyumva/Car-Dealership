@@ -74,7 +74,7 @@ body{
     font-size: large;
     border: white;
     font-weight: bolder;
-    margin-bottom: 10px;
+    
 }
 
 #menubtn:hover{
@@ -92,16 +92,21 @@ body{
 }
 
 .home{
-    font-size: large;
     margin-right: 40px;
     top: 0;
 }
 
 #homeBtn{
     border: none;
-    font-size: large;
+    font-size: larger;
     background: none;
-    margin-bottom:0px;
+    color: #82b5dc;
+    font-weight: bolder;
+
+}
+
+#homeBtn:hover{
+   text-decoration: none;
 }
 
 .search{
