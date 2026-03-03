@@ -340,7 +340,7 @@ body{
 }
 
 .threeDots{
-    margin-right: 200px;
+    margin-right: 10px;
 }
 
 
@@ -348,7 +348,7 @@ body{
     border: none;
     font-size: xx-large;
     margin-top: 1px;
-    margin-left: 10px;
+    margin-left: 100px;
     background: none;
     color: #453e3e;
     margin-top: 10px;
@@ -412,6 +412,7 @@ body{
 .page2 h4{
     font-weight: bolder;
 }
+
 
 .page2 a{
     background-color: #f30202;
