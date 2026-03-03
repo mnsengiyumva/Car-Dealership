@@ -359,10 +359,9 @@ body{
     
     padding: 10px;
     width: 200px;
-    margin-top: 5px;
-    border-radius: 20px;
     position: absolute;
     background: #e1e4e4;
+    border-radius: 20px;
 }
 .hideDots{
     display: none;
@@ -383,8 +382,6 @@ body{
     color: white;
     
 }
-
-
 
 
 .page1{
