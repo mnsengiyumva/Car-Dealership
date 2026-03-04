@@ -372,9 +372,10 @@ body{
     padding: 10px;
     width: 100px;
     margin-top: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     position: absolute;
-    background-color: ;
+    background:white ;
+    color: #7f7c7c;
 
 
 }
