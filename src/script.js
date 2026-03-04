@@ -38,18 +38,6 @@ closeBtn.addEventListener("click", function(){
     modal.classList.add("hidden")
 })
 
-const more = document.querySelector("#moreBtn")
-const moreCnt = document.querySelector("#moreContent")
-
-more.addEventListener("click", function(){
-    moreCnt.classList.toggle("hideMore")
-})
-
-document.addEventListener("click", function(event){
-    if(!more.contains(event.target) && !moreCnt.contains(event.target)){
-        moreCnt.classList.add("hideMore")
-    }
-})
 
 const toggleBtn = document.querySelector("#darkToggle")
 const body = document.querySelector("body")
@@ -85,6 +73,20 @@ document.addEventListener("click", function(event){
     }
 })
 
+const more = document.querySelector("#moreBtn")
+const moreCnt = document.querySelector("#moreContent")
+
+more.addEventListener("click", function(){
+    moreCnt.classList.toggle("hideMore")
+})
+
+document.addEventListener("click", function(event){
+    if(!more.contains(event.target) && !moreCnt.contains(event.target)){
+        moreCnt.classList.add("hideMore")
+    }
+})
+
+const userbtn = document.querySelector()
 
 const dotsbtn = document.querySelector("#dotsBtn")
 const dotsCt = document.querySelector("#dotsContent")
