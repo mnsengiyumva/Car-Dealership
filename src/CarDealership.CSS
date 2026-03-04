@@ -447,6 +447,9 @@ body{
 
 
 
+
+
+
 .page1{
     background-image: url(../Assets/Image6.jpg);
     background-position: center;
@@ -612,13 +615,16 @@ body{
     
 }
 
-.im{
-    background-image: url(../Assets/im4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 00px;
-    padding-bottom: 300px;
-   
+.image img{
+    width: 70%;
+    height: 80vh;
+
+    
+}
+.image2 img{
+    width: 120%;
+    height: 80vh;
+
     
 }
 
@@ -641,8 +647,8 @@ body{
 }
 
 .sec11{
-    margin-right: 50px;
-    padding-left:30px;
+   
+    
     padding-top: 80px;
     padding-bottom: 10px;
     
@@ -654,13 +660,11 @@ body{
 .sec12 h6{
     color: #767676;
 }
-
-.im2{
-    background-image: url(../Assets/im10.jpg);
-    padding-bottom: 300px;
-    background-position: center;
+.sec12{
+   
     
-    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 10px;
     
 }
 

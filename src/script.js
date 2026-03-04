@@ -113,3 +113,16 @@ document.addEventListener("click", function(event){
         dotsCt.classList.add("hideDots")
     }
 })
+
+const reveals =document.querySelectorAll(".reveal");
+
+window.addEventListener("scroll", () => {
+    reveals.forEach(element => {
+        const top = element.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if(top<windowHeight-100){
+            element.classList.add("active");
+        }
+    })
+})
