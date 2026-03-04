@@ -374,7 +374,7 @@ body{
     margin-top: 5px;
     border-radius: 10px;
     position: absolute;
-    background:rgb(208, 200, 200) ;
+    background:white ;
     color: #7f7c7c;
 
 
@@ -423,6 +423,13 @@ body{
     background-color: #656464;
     transition: 0.1s ease;
     color: white;
+    
+}
+.submit{
+    padding: 7px;
+    border: none;
+    background: #82cfdc;
+    border-radius: 10px;
     
 }
 
