@@ -86,7 +86,18 @@ document.addEventListener("click", function(event){
     }
 })
 
-const userbtn = document.querySelector()
+const userbtn = document.querySelector("#userBtn")
+const userCt = document.querySelector("#userContent")
+
+userbtn.addEventListener("click", function(){
+    userCt.classList.toggle("hideUser")
+})
+
+document.addEventListener("click", function(event){
+
+    if(!userbtn.contains(event.target) && )
+
+})
 
 const dotsbtn = document.querySelector("#dotsBtn")
 const dotsCt = document.querySelector("#dotsContent")
