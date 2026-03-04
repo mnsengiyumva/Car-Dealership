@@ -425,13 +425,26 @@ body{
     color: white;
     
 }
+
+.emailSpace{
+    border: none;
+    background: #d7d9da;
+    padding: 7px;
+    border-radius: 10px;
+}
 .submit{
     padding: 7px;
     border: none;
-    background: #82cfdc;
+    background: #869b9b;
     border-radius: 10px;
-    
+
 }
+
+.submit:hover{
+    color: white;
+    background:red;
+}
+
 
 
 .page1{
@@ -751,11 +764,14 @@ body{
 .last{
 
     display: flex;
-    color: white;
-    justify-content: end;
     
+    justify-content: center;
 
     
+}
+.last p{
+    margin-top: 20px;
+    color: #e8ebeb;
 }
 
 .last a{
@@ -764,33 +780,19 @@ body{
     transition: color 0.1s ease, transform 0.2s ease;
     text-decoration: none;
     margin-left: 10px;
-    color: white;
+    color: #a8adb0;
+    
+   
     
 
 }
 
 .last a:hover {
-   color: #82cfdc;
+   color: red;
    text-decoration: underline;
 }
 
-.y{
-    color: white;
-}
 
-.wh{
-    color: white;;
-}
-.ins{
-    color: white;
-}
-
-.tw{
-    color: white;
-}
-.fa{
-    color: white;
-}
 
 .last a:hover::after{
     width: 10%;
