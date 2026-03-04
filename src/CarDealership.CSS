@@ -608,22 +608,21 @@ body{
 
 .sec1{
     display: flex;
-    justify-content: center;
-    
     padding-bottom: 30px;
+    justify-content: center;
     
     
 }
 
 .image img{
-    width: 70%;
-    height: 80vh;
+    width: 500px;
+    height: 500px;
 
     
 }
 .image2 img{
-    width: 120%;
-    height: 80vh;
+    width: 500px;
+    height: 500px;
 
     
 }
@@ -650,6 +649,7 @@ body{
    
     
     padding-top: 80px;
+    margin-right: 40px;
     padding-bottom: 10px;
     
 }
