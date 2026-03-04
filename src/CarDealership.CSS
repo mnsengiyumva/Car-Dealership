@@ -347,6 +347,20 @@ body{
 
 }
 
+#userBtn:hover{
+    border:#ffffff solid 0.1px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+    background-color: #656464;
+    transition: 0.1s ease;
+    color: white;
+
+}
+
 .threeDots{
     margin-right: 10px;
     
@@ -357,7 +371,7 @@ body{
     border: none;
     font-size: xx-large;
     margin-top: 1px;
-    margin-left: 100px;
+    margin-left: 50px;
     background: none;
     color: #453e3e;
     margin-top: 10px;
