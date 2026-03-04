@@ -334,6 +334,7 @@ body{
     width: 100px;
     margin-top: 5px;
     border-radius: 5px;
+    position: absolute;
 }
 .hid{
     display: none;
@@ -364,10 +365,16 @@ body{
 .hideUser{
     display: none;
 
+
 }
 
 #userContent{
-    
+    padding: 10px;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 5px;
+
+
 }
 
 .threeDots{
