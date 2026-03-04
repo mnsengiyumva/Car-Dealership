@@ -95,7 +95,9 @@ userbtn.addEventListener("click", function(){
 
 document.addEventListener("click", function(event){
 
-    if(!userbtn.contains(event.target) && )
+    if(!userbtn.contains(event.target) && !userCt.contains(event.target)){
+        userCt.classList.add("hideUser")
+    }
 
 })
 

@@ -361,10 +361,20 @@ body{
 
 }
 
+.hideUser{
+    display: none;
+
+}
+
+#userContent{
+    
+}
+
 .threeDots{
     margin-right: 10px;
     
 }
+
 
 
 #dotsBtn{
