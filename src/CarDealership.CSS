@@ -339,8 +339,17 @@ body{
     display: none;
 }
 
+#userBtn{
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+
+}
+
 .threeDots{
     margin-right: 10px;
+    
 }
 
 
