@@ -686,8 +686,16 @@ body{
 }
 
 .shop1 img{
-    height: 29vh;
+    height: 170px;
+    width: 135px;
     margin-top: 30px;
+    
+
+}
+.shop2 img{
+    height: 170px;
+    margin-top: 30px;
+    width: 135px;
     
 
 }
