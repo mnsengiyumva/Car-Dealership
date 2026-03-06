@@ -687,24 +687,29 @@ body{
 
 .slideShop{
     display: flex;
-    margin: 10px;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+
 
 }
 
-.slideLeft img{
+.slide img{
     height: 130px;
     width: 110px;
     margin-top: 30px;
     
 
 }
-.slideRight img{
+.slide img{
     height: 130px;
     margin-top: 30px;
     width: 110px;
     
 
 }
+
+
 
 .lastSectionDiv1 a{
     text-decoration:white;
