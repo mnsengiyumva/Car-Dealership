@@ -134,3 +134,15 @@ leftBtn.addEventListener("click", () =>{
     }
     slider.style.transform = `translateX(-${scrollAmount}px)`
 })
+
+leftBtn.addEventListener("click", () =>{
+    scrollAmount -=320;
+
+    if(scrollAmount <0){
+        scrollAmount = 0;
+    }
+
+    console.log(scrollAmount);
+
+    slider.style.transform = `translateX(-${scrollAmount}px)`
+});
