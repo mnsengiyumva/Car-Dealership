@@ -141,5 +141,5 @@ slider.addEventListener("mousemove", (e) =>{
     const currentX = e.pageX;
     const move = currentX-startX;
     currentTranslate = previousTranlate + move;
-    slider.styletransform = `translateX(${currentTranslate})`;
+    slider.stylet.ransform = `translateX(${currentTranslate})`;
 })

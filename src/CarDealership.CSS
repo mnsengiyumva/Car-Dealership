@@ -686,15 +686,7 @@ body{
 }
 
 .slideShop{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    width: 600px;
-    margin-left: 50px;
-    
-    
-    
+
 
 
 }
@@ -709,35 +701,21 @@ body{
     
 
 }
-.left, .right{
-position:fixed;
-top:50%;
-transform:translateY(50%);
-z-index:0;
-}
 
-.left{
-left:3px;
-
-}
-
-.right{
-right:-0px;
-}
 
 .slider{
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     transition: transform 0.5s ease;
     margin-left: 20px;
     padding-bottom: 30px;
-    border: #0587ea solid 1px;
     user-select: none;
+    cursor: grab;
 }
 
 .sliderContainer{
     overflow:hidden;
-    width: auto;
+    width: 600px;
     
   
 }
@@ -745,12 +723,14 @@ right:-0px;
 .slide{
   min-width:200px;
   height:200px;
-
   display:flex;
   align-items:center;
   justify-content:center;
   margin-right:20px;
-  background: lightgray;
+  
+}
+.slide:active{
+    cursor: grabbing;
 }
 
 
