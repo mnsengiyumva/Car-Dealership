@@ -121,32 +121,16 @@ const rightBtn = document.querySelector(".right")
 let scrollAmount = 0;
 
 rightBtn.addEventListener("click", () =>{
-    const maxScroll = slider.scrollWidth-container.clientWidth;
-    scrollAmount += 320
-    if(scrollAmount >maxScroll){
-        scrollAmount = maxScroll;
-    }
+    scrollAmount += 190
     slider.style.transform = `translateX(-${scrollAmount}px)`;
 
 });
 
 
 leftBtn.addEventListener("click", () =>{
-    scrollAmount -= 320;
+    scrollAmount -=0;
     if(scrollAmount <0) {
         scrollAmount = 0;
     }
     slider.style.transform = `translateX(-${scrollAmount}px)`
 })
-
-leftBtn.addEventListener("click", () =>{
-    scrollAmount =0;
-
-    if(scrollAmount <0){
-        scrollAmount = 0;
-    }
-
-    console.log(scrollAmount);
-
-    slider.style.transform = `translateX(-${scrollAmount}px)`
-});
