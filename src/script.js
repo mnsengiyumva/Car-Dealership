@@ -122,14 +122,14 @@ let scrollAmount = 0;
 
 right.addEventListener("click", () =>{
     scrollAmount += 320
-    slider.style.transform = `translateX(-{scrollAmount}px)`;
+    slider.style.transform = `translateX(-${scrollAmount}px)`;
 
 });
 
 left.addEventListener("click", () =>{
     scrollAmount -=320;
     if(scrollAmount <0) scrollAmount = 0;
-    slider.style.transform = `translateX(-{scrollAmount}px)`
+    slider.style.transform = `translateX(-${scrollAmount}px)`
 })
 
 slider.addEventListener("wheel", (e) =>{
