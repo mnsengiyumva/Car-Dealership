@@ -115,24 +115,22 @@ document.addEventListener("click", function(event){
 })
 
 const slider = document.querySelector(".slider");
-const left = document.querySelector(".left")
-const right = document.querySelector(".right")
+const leftBtn = document.querySelector(".left")
+const rightBtn = document.querySelector(".right")
 
 let scrollAmount = 0;
 
-right.addEventListener("click", () =>{
+rightBtn.addEventListener("click", () =>{
     scrollAmount += 320
     slider.style.transform = `translateX(-${scrollAmount}px)`;
 
 });
 
-left.addEventListener("click", () =>{
-    scrollAmount -=320;
-    if(scrollAmount <0) scrollAmount = 0;
-    slider.style.transform = `translateX(-${scrollAmount}px)`
-})
 
-slider.addEventListener("wheel", (e) =>{
-    e.preventDefault();
-    slider.scrollLeft += e.deltaY
+leftBtn.addEventListener("click", () =>{
+    scrollAmount -=320;
+    if(scrollAmount <0) {
+        scrollAmount = 0;
+    }
+    slider.style.transform = `translateX(-${scrollAmount}px)`
 })
