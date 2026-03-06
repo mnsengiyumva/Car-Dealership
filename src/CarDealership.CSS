@@ -685,14 +685,20 @@ body{
     margin-top: 30px;
 }
 
-.shop1 img{
+.slideShop{
+    display: flex;
+    margin: 10px;
+
+}
+
+.slideLeft img{
     height: 130px;
     width: 110px;
     margin-top: 30px;
     
 
 }
-.shop2 img{
+.slideRight img{
     height: 130px;
     margin-top: 30px;
     width: 110px;
