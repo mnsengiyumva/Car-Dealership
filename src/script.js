@@ -128,7 +128,7 @@ rightBtn.addEventListener("click", () =>{
 
 
 leftBtn.addEventListener("click", () =>{
-    scrollAmount -=320;
+    scrollAmount =30;
     if(scrollAmount <0) {
         scrollAmount = 0;
     }
@@ -136,7 +136,7 @@ leftBtn.addEventListener("click", () =>{
 })
 
 leftBtn.addEventListener("click", () =>{
-    scrollAmount -=320;
+    scrollAmount =0;
 
     if(scrollAmount <0){
         scrollAmount = 0;

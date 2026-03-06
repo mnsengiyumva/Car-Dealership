@@ -698,9 +698,10 @@ body{
 
 
 .slide img{
-    height: 220px;
+    height: 150px;
     margin-top: 30px;
-    width: 190px;
+    width: 150px;
+    border-radius: 50px;
     
 
 }
@@ -721,14 +722,21 @@ right:-0px;
 }
 
 .slider{
+    margin-top: 40px;
     display: flex;
     transition: transform 0.5s ease;
     margin-left: 20px;
+    padding-bottom: 30px;
+    border-top: #0587ea solid 1px;
+    border-bottom:  #0587ea solid 1px;
+    border-left: #0587ea solid 1px;
+    border-right:  #0587ea solid 1px;
 }
 
 .sliderContainer{
     overflow:hidden;
     width: auto;
+    
   
 }
 
