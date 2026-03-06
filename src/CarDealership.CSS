@@ -694,21 +694,29 @@ body{
 
 }
 
-.slide img{
-    height: 130px;
-    width: 110px;
-    margin-top: 30px;
-    
 
-}
 .slide img{
-    height: 130px;
+    height: 240px;
     margin-top: 30px;
-    width: 110px;
+    width: 200px;
     
 
 }
 
+.slider{
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide{
+  min-width:200px;
+  height:200px;
+  background:#eee;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-right:20px;
+}
 
 
 .lastSectionDiv1 a{
