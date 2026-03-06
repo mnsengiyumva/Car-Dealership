@@ -114,15 +114,25 @@ document.addEventListener("click", function(event){
     }
 })
 
-const reveals =document.querySelectorAll(".reveal");
+const slider = document.querySelector(".slider");
+const left = document.querySelector(".left")
+const right = document.querySelector(".right")
 
-window.addEventListener("scroll", () => {
-    reveals.forEach(element => {
-        const top = element.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
+let scrollAmount = 0;
 
-        if(top<windowHeight-100){
-            element.classList.add("active");
-        }
-    })
+right.addEventListener("click", () =>{
+    scrollAmount += 320
+    slider.style.transform = `translateX(-{scrollAmount}px)`;
+
+});
+
+left.addEventListener("click", () =>{
+    scrollAmount -=320;
+    if(scrollAmount <0) scrollAmount = 0;
+    slider.style.transform = `translateX(-{scrollAmount}px)`
+})
+
+slider.addEventListener("wheel", (e) =>{
+    e.preventDefault();
+    slider.scrollLeft += e.deltaY
 })
