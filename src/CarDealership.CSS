@@ -732,6 +732,7 @@ right:-0px;
     margin-left: 20px;
     padding-bottom: 30px;
     border: #0587ea solid 1px;
+    user-select: none;
 }
 
 .sliderContainer{
@@ -749,6 +750,7 @@ right:-0px;
   align-items:center;
   justify-content:center;
   margin-right:20px;
+  background: lightgray;
 }
 
 
