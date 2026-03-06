@@ -696,9 +696,9 @@ body{
 
 
 .slide img{
-    height: 240px;
+    height: 220px;
     margin-top: 30px;
-    width: 200px;
+    width: 190px;
     
 
 }
@@ -711,7 +711,7 @@ body{
 .slide{
   min-width:200px;
   height:200px;
-  background:#eee;
+
   display:flex;
   align-items:center;
   justify-content:center;
