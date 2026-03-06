@@ -115,22 +115,31 @@ document.addEventListener("click", function(event){
 })
 
 const slider = document.querySelector(".slider");
-const leftBtn = document.querySelector(".left")
-const rightBtn = document.querySelector(".right")
 
-let scrollAmount = 0;
+let isDragging = false;
+let startX;
+let currentTranslate = 0;
+let previousTranlate = 0;
+slider.addEventListener("mousedown", (e) =>{
+    isDragging = true;
+    startX = e.pageX;
+})
 
-rightBtn.addEventListener("click", () =>{
-    scrollAmount += 190
-    slider.style.transform = `translateX(-${scrollAmount}px)`;
+slider.addEventListener("mouseup", () =>{
+    isDragging = false;
+    previousTranlate = currentTranslate;
+})
 
-});
+slider.addEventListener("mouseleave", () =>{
+    isDragging = false;
+    previousTranlate = currentTranslate;
+})
 
+slider.addEventListener("mousemove", (e) =>{
+    if(!isDragging) return;
 
-leftBtn.addEventListener("click", () =>{
-    scrollAmount -=24;
-    if(scrollAmount <0) {
-        scrollAmount = 0;
-    }
-    slider.style.transform = `translateX(${scrollAmount}px)`;
+    const currentX = e.pageX;
+    const move = currentX-startX;
+    currentTranslate = previousTranlate + move;
+    slider.styletransform = `translateX(${currentTranslate})`;
 })
