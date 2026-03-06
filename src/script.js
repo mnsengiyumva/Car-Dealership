@@ -128,9 +128,9 @@ rightBtn.addEventListener("click", () =>{
 
 
 leftBtn.addEventListener("click", () =>{
-    scrollAmount -=0;
+    scrollAmount -=24;
     if(scrollAmount <0) {
         scrollAmount = 0;
     }
-    slider.style.transform = `translateX(-${scrollAmount}px)`
+    slider.style.transform = `translateX(${scrollAmount}px)`;
 })
