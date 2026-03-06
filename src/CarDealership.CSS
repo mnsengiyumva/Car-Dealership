@@ -689,6 +689,8 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
+    position: relative;
+    width: 600px;
     
 
 
@@ -702,15 +704,32 @@ body{
     
 
 }
+.left, .right{
+position:fixed;
+top:50%;
+transform:translateY(50%);
+z-index:0;
+}
+
+.left{
+left:3px;
+
+}
+
+.right{
+right:-0px;
+}
 
 .slider{
     display: flex;
     transition: transform 0.5s ease;
+    margin-left: 20px;
 }
 
 .sliderContainer{
-    overflow:visible;
-   
+    overflow:hidden;
+    width: auto;
+  
 }
 
 .slide{
