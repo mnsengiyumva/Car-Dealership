@@ -714,6 +714,7 @@ body{
     width: 150px;
     border-radius: 30px;
     
+    
 
 }
 
@@ -725,15 +726,12 @@ body{
     margin-left: 20px;
     padding-bottom: 30px;
     user-select: none;
+    gap: 30px;
+    
     
 }
 
-.sliderContainer{
-    overflow:hidden;
-    width: 600px;
-    
-  
-}
+
 
 .slide{
   min-width:200px;
@@ -742,6 +740,12 @@ body{
   justify-content:center;
   margin-right:20px;
   
+  
+}
+
+.shopCar{
+    border: #869b9b solid 1px;
+    padding-left: 10px;
 }
 
 
