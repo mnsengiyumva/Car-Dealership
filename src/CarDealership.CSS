@@ -712,7 +712,7 @@ body{
     height: 150px;
     margin-top: 30px;
     width: 150px;
-    border-radius: 50px;
+    border-radius: 30px;
     
 
 }
@@ -738,7 +738,6 @@ body{
 .slide{
   min-width:200px;
   height:200px;
-  display:flex;
   align-items:center;
   justify-content:center;
   margin-right:20px;
