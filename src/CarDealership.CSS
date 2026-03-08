@@ -344,6 +344,7 @@ body{
     border: none;
     margin-top: 20px;
     margin-left: 30px;
+    background: none;
     
 
 }
@@ -443,6 +444,20 @@ body{
 .submit:hover{
     color: white;
     background:red;
+}
+
+#cart{
+    margin: 20px;
+}
+
+.shoppingCart{
+    border: none;
+    background: none;
+    font-size: larger;
+}
+
+.shoppingCart:hover{
+    color: #e70c0c;
 }
 
 
