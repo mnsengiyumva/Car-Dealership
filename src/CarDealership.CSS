@@ -746,6 +746,26 @@ body{
 .shopCar{
     border: #869b9b solid 1px;
     padding-left: 10px;
+    
+}
+
+.shopCar p{
+    font-size: small;
+}
+
+.price{
+  
+    color: #7f7c7c;
+    font-weight: bold;
+}
+
+.priceDetails{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #04d3f8;
+    padding: 3px;
+    border-radius: 6px;
 }
 
 
