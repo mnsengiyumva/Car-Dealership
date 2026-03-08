@@ -14,7 +14,7 @@ body{
 .section1{
     display: flex;
     position: fixed;
-    background-color: rgb(240, 234, 234);
+    background: white;
     top: 0;
     right: 0;
     left: 0;
@@ -707,7 +707,7 @@ body{
     height: 150px;
     margin-top: 30px;
     width: 150px;
-    border-radius: 30px;
+    border-radius:30px;
     
     
 
