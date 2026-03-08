@@ -114,32 +114,4 @@ document.addEventListener("click", function(event){
     }
 })
 
-const slider = document.querySelector(".slider");
 
-let isDragging = false;
-let startX;
-let currentTranslate = 0;
-let previousTranlate = 0;
-slider.addEventListener("mousedown", (e) =>{
-    isDragging = true;
-    startX = e.pageX;
-})
-
-slider.addEventListener("mouseup", () =>{
-    isDragging = false;
-    previousTranlate = currentTranslate;
-})
-
-slider.addEventListener("mouseleave", () =>{
-    isDragging = false;
-    previousTranlate = currentTranslate;
-})
-
-slider.addEventListener("mousemove", (e) =>{
-    if(!isDragging) return;
-
-    const currentX = e.pageX;
-    const move = currentX-startX;
-    currentTranslate = previousTranlate + move;
-    slider.stylet.ransform = `translateX(${currentTranslate})`;
-})

@@ -743,10 +743,6 @@ body{
   margin-right:20px;
   
 }
-.slide:active{
-    cursor: grabbing;
-}
-
 
 .lastSectionDiv1 a{
     text-decoration:white;
