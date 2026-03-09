@@ -114,4 +114,9 @@ document.addEventListener("click", function(event){
     }
 })
 
-const evbtn = document.querySelector("#ev")
+const evbtn = document.querySelector("#evButton")
+const evCt = document.querySelector("#evContent")
+
+document.addEventListener("click", function(){
+    evCt.classList.toggle("hideEv")
+})
