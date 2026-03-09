@@ -741,12 +741,25 @@ body{
 .shopCar{
     padding-left: 10px;
     
+    
+}
+
+.discover:hover{
+    color: black;
+    background: rgb(179, 175, 175);
+    border: #7f7c7c solid 0.1 px;
+    text-decoration: underline;
 }
 
 .shopCar p{
     font-size: small;
 }
 
+.shopCar:hover{
+    background: #ebeaea;
+    padding-left: 40px;
+    transition: transform 0s ease;
+}
 .price{
   
     color: #7f7c7c;
