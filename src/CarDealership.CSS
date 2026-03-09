@@ -675,6 +675,11 @@ body{
     
 }
 
+
+.hideEv{
+    display: none;
+}
+
 .sec11 h6{
     color: #767676;
 }
