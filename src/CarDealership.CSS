@@ -18,7 +18,7 @@ body{
     top: 0;
     right: 0;
     left: 0;
-    padding-bottom: px;
+    padding-bottom:10 px;
     
     
 } 
@@ -460,6 +460,9 @@ body{
     color: #e70c0c;
 }
 
+.introduction{
+    margin-top: ;
+}
 
 .ev-dark{
     display: flex;
@@ -507,8 +510,6 @@ body{
     padding-bottom: 10px;
     
 }
-
-
 
 
 .evCar h6{
