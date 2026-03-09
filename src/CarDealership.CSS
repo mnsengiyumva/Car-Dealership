@@ -750,6 +750,19 @@ body{
     border: #7f7c7c solid 0.1 px;
     text-decoration: underline;
 }
+.rent:hover{
+    color: black;
+    background: rgb(179, 175, 175);
+    border: #7f7c7c solid 0.1 px;
+    text-decoration: underline;
+}
+.buy:hover{
+    color: black;
+    background: rgb(179, 175, 175);
+    border: #7f7c7c solid 0.1 px;
+    text-decoration: underline;
+}
+
 
 .shopCar p{
     font-size: small;
@@ -785,6 +798,11 @@ body{
     color: white;
     font-weight: bold;
     padding: 10px;
+    
+}
+
+.shopDetails a{
+    text-decoration: none;
 }
 .rent{
     
