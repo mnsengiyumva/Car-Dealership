@@ -461,7 +461,7 @@ body{
 }
 
 
-.sec1{
+.ev-dark{
     display: flex;
     padding-bottom: 30px;
     justify-content: center;
@@ -483,11 +483,11 @@ body{
     
 }
 
-.sec1 p{
+.ev-dark p{
     margin-bottom: 30px;
 }
 
-.sec1 a{
+.ev-dark a{
     text-decoration: none;
     color: black;
     border: black solid 0.1px;
@@ -496,12 +496,12 @@ body{
     padding-right: 30px;
 }
 
-.sec1 a:hover{
+.ev-dark a:hover{
     background-color: black;
     color: white;
 }
 
-.sec11{  
+.evCar{  
     padding-top: 80px;
     margin-right: 40px;
     padding-bottom: 10px;
@@ -511,15 +511,14 @@ body{
 
 
 
-.sec11 h6{
+.evCar h6{
     color: #767676;
 }
-.sec12 h6{
+.darkCar h6{
     color: #767676;
 }
-.sec12{
-   
-    
+.darkCar{
+
     padding-top: 80px;
     padding-bottom: 10px;
     
@@ -785,9 +784,6 @@ body{
 .last a:hover::after{
     width: 10%;
 }
-
-
-
 
 
 
