@@ -744,24 +744,7 @@ body{
     
 }
 
-.discover:hover{
-    color: black;
-    background: rgb(179, 175, 175);
-    border: #7f7c7c solid 0.1 px;
-    text-decoration: underline;
-}
-.rent:hover{
-    color: black;
-    background: rgb(179, 175, 175);
-    border: #7f7c7c solid 0.1 px;
-    text-decoration: underline;
-}
-.buy:hover{
-    color: black;
-    background: rgb(179, 175, 175);
-    border: #7f7c7c solid 0.1 px;
-    text-decoration: underline;
-}
+
 
 
 .shopCar p{
@@ -804,6 +787,7 @@ body{
 .shopDetails a{
     text-decoration: none;
 }
+
 .rent{
     
     margin-right: 100px;
@@ -819,6 +803,24 @@ body{
     color: white;
     font-weight: bold;
     padding: 10px;
+}
+.discover:hover{
+    color:white;
+    background: black;
+   
+    text-decoration: underline;
+}
+.rent:hover{
+    color:white;
+    background: black;
+   
+    text-decoration: underline;
+}
+.buy:hover{
+    color:white;
+    background: black;
+   
+    text-decoration: underline;
 }
 
 
