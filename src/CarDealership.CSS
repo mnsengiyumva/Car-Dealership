@@ -461,18 +461,21 @@ body{
 .introduction{
     display: flex;
     justify-content: center;
-    gap: 30px;
-    border: black solid 0.1px;
+    gap: 0px;
+    
+   
 
 }
 
 .introductoryImage img{
     height: 1;
-    height: 330px;
+    height: 320px;
 }
 
 .infinityDescription{
     color: #1788de;
+    border: rgb(20, 94, 232) solid 0.1px;
+    margin-bottom: 4px;
 }
 
 .ev-dark{
