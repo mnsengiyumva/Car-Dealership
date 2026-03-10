@@ -459,7 +459,8 @@ body{
 }
 
 .introduction{
-    margin-top: ;
+    display: flex;
+    
 }
 
 .ev-dark{
