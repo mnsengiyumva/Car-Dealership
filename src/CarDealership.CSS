@@ -460,7 +460,19 @@ body{
 
 .introduction{
     display: flex;
-    
+    justify-content: center;
+    gap: 30px;
+    border: black solid 0.1px;
+
+}
+
+.introductoryImage img{
+    height: 1;
+    height: 330px;
+}
+
+.infinityDescription{
+    color: #1788de;
 }
 
 .ev-dark{
