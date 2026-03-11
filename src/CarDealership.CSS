@@ -503,6 +503,8 @@ body{
     border-radius: 20px;
     border: none;
     background: #0587ea;
+    font-weight: bolder;
+    color: white;
 
 }
 
@@ -510,6 +512,9 @@ body{
     background: #ffffff;
     color:#0587ea;
     font-weight: bolder;
+    border: #0587ea solid 0.1px;
+    transition:  transiform 1s ease;
+    
 }
 
 .ev-dark{
