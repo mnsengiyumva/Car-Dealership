@@ -470,16 +470,27 @@ body{
 .introductoryImage img{
     height: 1;
     height: 320px;
+    border-radius: 170px;
 }
 
 .infinityDescription h1{
     color: #1788de;
+    padding-left: 120px;
 
     
 }
 .infinityDescription{
     border: rgb(20, 94, 232) solid 0.1px;
     margin-bottom: 4px;
+    padding-left: 10px;
+    border-radius: 170px;
+    
+    
+}
+.infinityDescription p{
+    padding-right: 10px;
+
+    
 }
 
 .ev-dark{
