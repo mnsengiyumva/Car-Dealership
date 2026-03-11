@@ -472,8 +472,12 @@ body{
     height: 320px;
 }
 
-.infinityDescription{
+.infinityDescription h1{
     color: #1788de;
+
+    
+}
+.infinityDescription{
     border: rgb(20, 94, 232) solid 0.1px;
     margin-bottom: 4px;
 }
