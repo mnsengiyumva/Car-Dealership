@@ -485,17 +485,20 @@ body{
     margin-bottom: 4px;
     padding-left: 10px;
     border-radius: 170px;
+    padding-top: 40px;
     
     
 }
 .infinityDescription p{
     padding-right: 40px;
     padding-left: 30px;
+    font-family: sans-serif;
+    color: #1d1c1c;
 
     
 }
 
-#about{
+#aboutInfinty{
     margin-top: 30px;
     margin-left: 150px;
     padding: 13px;
@@ -509,7 +512,7 @@ body{
 
 }
 
-#about:hover{
+#aboutInfinty:hover{
     background: #ffffff;
     color:#0587ea;
     font-weight: bolder;
