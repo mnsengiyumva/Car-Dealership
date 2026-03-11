@@ -29,7 +29,7 @@ body{
 
 
 .section1 a:hover {
-    color: #ee0404;
+    color:#0587ea;
     text-decoration: underline;
    
 
@@ -403,7 +403,7 @@ body{
     width: 200px;
     position: absolute;
     border-radius: 20px;
-    border: #767676 solid 0.1px;
+    border: #d5d1d1 solid 0.1px;
 }
 .hideDots{
     display: none;
@@ -434,14 +434,17 @@ body{
 .submit{
     padding: 7px;
     border: none;
-    background: #869b9b;
-    border-radius: 10px;
+    border-radius: 20px;
+    background: #0587ea;
+    margin-top: 10px;
+    color: white;
 
 }
 
 .submit:hover{
-    color: white;
-    background:red;
+    color: rgb(0, 0, 0);
+    background:#ffffff;
+    border: #8b8989 solid 0.1px;
 }
 
 #cart{
