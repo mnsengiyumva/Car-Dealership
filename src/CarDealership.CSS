@@ -502,7 +502,14 @@ body{
     padding-left: 30px;
     border-radius: 20px;
     border: none;
+    background: #0587ea;
 
+}
+
+#about:hover{
+    background: #ffffff;
+    color:#0587ea;
+    font-weight: bolder;
 }
 
 .ev-dark{
