@@ -84,7 +84,7 @@ body{
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 20px;
-    background-color: #656464;
+    background: #0587ea;
     transition: 0.1s ease;
     color: white;
     font-weight: bolder;
@@ -476,7 +476,7 @@ body{
 
 .infinityDescription h1{
     color: #1788de;
-    padding-left: 120px;
+    padding-left: 160px;
 
     
 }
@@ -500,7 +500,7 @@ body{
 
 #aboutInfinty{
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 170px;
     padding: 13px;
     padding-right: 30px;
     padding-left: 30px;
