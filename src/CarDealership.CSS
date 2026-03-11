@@ -402,8 +402,8 @@ body{
     padding: 10px;
     width: 200px;
     position: absolute;
-    background: #e1e4e4;
     border-radius: 20px;
+    border: #767676 solid 0.1px;
 }
 .hideDots{
     display: none;
@@ -472,6 +472,7 @@ body{
     height: 1;
     height: 320px;
     border-radius: 170px;
+
 }
 
 .infinityDescription h1{
