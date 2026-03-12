@@ -557,16 +557,19 @@ body{
 
 .ev-dark a{
     text-decoration: none;
-    color: black;
-    border: black solid 0.1px;
+    color: white;
+    background-color:#0587ea;
+    
     padding: 10px;
     margin-top: 10px;
     padding-right: 30px;
 }
 
 .ev-dark a:hover{
-    background-color: black;
+    background-color:#0587ea;
     color: white;
+    border: none;
+    text-decoration: underline;
 }
 
 .evCar{  
