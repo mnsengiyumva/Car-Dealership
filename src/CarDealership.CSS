@@ -458,13 +458,12 @@ body{
 }
 
 .shoppingCart:hover{
-    color: #e70c0c;
+    color: #0587ea;
 }
 
 .introduction{
     display: flex;
     justify-content: center;
-    
     margin-top: 30px;
     
    
