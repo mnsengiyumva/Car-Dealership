@@ -492,10 +492,14 @@ body{
     
     
 }
+
+.infinityDescription a{
+    color: #0587ea;
+}
 .infinityDescription p{
     padding-right: 40px;
     padding-left: 30px;
-    font-family: sans-serif;
+    font-family: system-ui;
     color: #1d1c1c;
 
     
