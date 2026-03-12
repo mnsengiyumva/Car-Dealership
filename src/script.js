@@ -103,11 +103,3 @@ document.addEventListener("click", function(event){
         dotsCt.classList.add("hideDots")
     }
 })
-
-const learnInf = document.querySelector("#aboutInfinity")
-const aboutCt = document.querySelector("#aboutInfintyContent")
-
-document.addEventListener("click", function()){
-
-    aboutCt.classList.toggle("hideAbout")
-}
