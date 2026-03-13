@@ -208,7 +208,7 @@ body{
 
     background: rgb(255, 255, 255);
     padding: 10px;
-    width: 150px;
+    width: 160px;
     border: rgb(243, 243, 243) ;
     position: absolute;
     border-radius: 20px;
@@ -280,7 +280,7 @@ body{
 #moreContent{
     background: rgb(255, 255, 255);
     padding: 10px;
-    width: 150px;
+    width: 180px;
     order: rgb(243, 243, 243) ;
     position: absolute;
     border-radius: 20px;
