@@ -439,16 +439,19 @@ body{
     padding: 7px;
     border: none;
     border-radius: 20px;
-    background: #0587ea;
+    background: rgb(242, 3, 3);
     margin-top: 10px;
     color: white;
+    font-weight: bold;
 
 }
 
 .submit:hover{
-    color: rgb(0, 0, 0);
-    background:#ffffff;
+    color: w;
+    
     border: #8b8989 solid 0.1px;
+    background: #0587ea;
+    color: white;
 }
 
 #cart{
