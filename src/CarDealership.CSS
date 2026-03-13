@@ -29,8 +29,10 @@ body{
 
 
 .section1 a:hover {
-    color:#0587ea;
-    text-decoration: underline;
+    background: #0587ea;
+    padding: 7px;
+    color:white;
+    text-decoration: none;
    
 
 }
@@ -141,6 +143,8 @@ body{
     
     
 }
+
+
 
 #vihecleBtn{
     font-size: large;
