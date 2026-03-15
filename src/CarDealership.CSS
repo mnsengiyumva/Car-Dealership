@@ -597,7 +597,11 @@ body{
     
 }
 
+.slidingSection{
+    display: flex;
+    
 
+}
 .section4{
     background-color: #82cfdc;
     background-image: url(../Assets/im5.jpg);
@@ -606,6 +610,10 @@ body{
     background-position: 0%;
     padding: 30px;
     margin-top: 30px;
+}
+
+.slidingDiv1{
+    
 }
 
 
