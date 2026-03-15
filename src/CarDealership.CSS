@@ -869,14 +869,24 @@ body{
     padding: 5px;
     padding-right: 10px;
     padding-left: 10px;
+    border: none;
     
 }
 
 .lastSub input{
     padding: 5px;
-    border-radius: 20px;
+    padding-right: 50px;
+    border: none;
+
+    
 }
 
+.lastSub button:hover{
+    background: #0587ea;
+    color: white;
+    font-weight: bolder;
+
+}
 
 
 
