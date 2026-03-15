@@ -178,7 +178,7 @@ body{
 }
 
 #darkToggle:hover{
-    color: red;
+    color:#1788de;
     text-decoration: underline;
 }
 
@@ -440,7 +440,7 @@ body{
     padding: 7px;
     border: none;
     border-radius: 20px;
-    background: rgb(242, 3, 3);
+    background: black;
     margin-top: 10px;
     color: white;
     font-weight: bold;
