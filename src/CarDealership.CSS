@@ -653,10 +653,21 @@ body{
 
 .prev{
   left: 10px;
+  background: none;
+  font-weight: bolder;
 }
 
 .next{
   right: 10px;
+  background: none;
+  font-weight: bolder;
+}
+
+.next:hover{
+    color: #0587ea;
+}
+.prev:hover{
+    color: #0587ea;
 }
 
 
