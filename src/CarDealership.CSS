@@ -598,7 +598,10 @@ body{
 }
 
 .slidingSection{
+    margin-top: 180px;
     display: flex;
+    gap: 10px;
+    justify-content: center;
     
 
 }
@@ -614,17 +617,17 @@ body{
 
 .slidingDiv1 img{
     
-    border-radius: 150px;
-    height: 400px;
+    height: 490px;
+    width: 360px;
+    
+
     
 
 }
 .slidingDiv2 img{
+    height: 490px;
     
-    border-radius: 150px;
-    height: 400px;
-    width: 110%;
-    
+ 
 
 }
 
