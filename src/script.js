@@ -105,7 +105,7 @@ document.addEventListener("click", function(event){
 })
 
 
-const slides = document.querySelector(".sliding");
+const slides = document.querySelectorAll(".sliding");
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
 
