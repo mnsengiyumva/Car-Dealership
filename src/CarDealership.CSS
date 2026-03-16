@@ -610,8 +610,10 @@ body{
 
 .slidingSection{
     margin-top: 150px;
+    border-top: #000000 solid 0.1px;
+    display: flex;
+ 
 
-    justify-items: center;
 }
 
 
@@ -634,7 +636,7 @@ body{
     object-fit: cover;
     opacity: 0;
     transition: opacity 0.7s ease;
-    border-radius: 100px;
+    
 } 
 
 .prev, .next{
