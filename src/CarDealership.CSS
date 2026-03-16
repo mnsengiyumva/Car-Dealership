@@ -608,11 +608,17 @@ body{
     margin-top: 30px;
 }
 
+.slidingSection{
+    margin-top: 150px;
+
+    justify-items: center;
+}
+
 
 .slideshow{
     position: relative;
     width: 600px;
-    height: 750px;
+    height: 500px;
     overflow: hidden;
 
 }
@@ -628,6 +634,7 @@ body{
     object-fit: cover;
     opacity: 0;
     transition: opacity 0.5s ease;
+    border-radius: 100px;
 }
 
 .prev, .next{
