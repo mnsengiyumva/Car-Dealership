@@ -597,14 +597,7 @@ body{
     
 }
 
-.slidingSection{
-    margin-top: 180px;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    
 
-}
 .section4{
     background-color: #82cfdc;
     background-image: url(../Assets/im5.jpg);
@@ -615,21 +608,7 @@ body{
     margin-top: 30px;
 }
 
-.slidingDiv1 img{
-    
-    height: 490px;
-    width: 360px;
-    
 
-    
-
-}
-.slidingDiv2 img{
-    height: 490px;
-    
- 
-
-}
 
 
 
