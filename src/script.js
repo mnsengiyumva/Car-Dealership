@@ -105,14 +105,14 @@ document.addEventListener("click", function(event){
 })
 
 
-const slides = document.querySelector(".slide");
+const slides = document.querySelector(".sliding");
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
 
 let index = 0;
 
 function showSlide(i){
-    slides.forEach(slide => slide.classList.remove("active"));
+    slides.forEach(sliding => sliding.classList.remove("active"));
     slides[i].classList.add("active");
 }
 
