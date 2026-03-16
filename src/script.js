@@ -119,5 +119,17 @@ function showSlide(i){
 next.addEventListener("click", () =>{
     index++;
 
-    if
-})
+    if (index >= slides.length){
+        index = 0;
+    }
+    showSlide(index);
+});
+
+prev.addEventListener("click", () =>{
+    index--;
+
+    if(index<0){
+        index = slides.length-1;
+    }
+    showSlide(index);
+});
