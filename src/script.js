@@ -103,3 +103,21 @@ document.addEventListener("click", function(event){
         dotsCt.classList.add("hideDots")
     }
 })
+
+
+const slides = document.querySelector(".slide");
+const next = document.querySelector(".next");
+const prev = document.querySelector(".prev");
+
+let index = 0;
+
+function showSlide(i){
+    slides.forEach(slide => slide.classList.remove("active"));
+    slides[i].classList.add("active");
+}
+
+next.addEventListener("click", () =>{
+    index++;
+
+    if
+})
