@@ -617,7 +617,11 @@ body{
 
 }
 
-.slide{
+.sliding.active{
+    opacity: 1;
+}
+
+.sliding{
     position: absolute;
     width: 100%;
     height: 100%;
