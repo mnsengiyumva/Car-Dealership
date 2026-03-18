@@ -610,14 +610,21 @@ body{
 
 .slidingSection{
     margin-top: 150px;
-    border-top: #0587ea solid 2px;
-    border-top-right-radius: 200px;
+    gap: 30px;
     display: flex;
     margin-right: 100px;
+    
  
 
 }
 
+.latestModels{
+    border-top: #0587ea solid 2px;
+    border-top-right-radius: 200px;
+    border-bottom: #0587ea solid 2px;
+    border-bottom-right-radius: 200px;
+
+}
 
 .slideshow{
     position: relative;
