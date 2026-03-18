@@ -613,17 +613,28 @@ body{
     gap: 30px;
     display: flex;
     margin-right: 100px;
+    align-items: center;
     
  
 
 }
 
 .latestModels{
-    border-top: #0587ea solid 2px;
+    border-top: #0587ea solid 4px;
+    border-top-right-radius: 100px;
     
-    border-bottom: #0587ea solid 2px;
+    
  
 
+}
+.latestModels h1{
+    border-left: #0587ea;
+    color: #0587ea;
+    font-weight: bolder;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    border-bottom: #0587ea solid 4px;
+    border-bottom-right-radius: 100px;
 }
 
 .slideshow{
