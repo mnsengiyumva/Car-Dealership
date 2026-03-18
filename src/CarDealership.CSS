@@ -469,13 +469,12 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    gap: 0;
    
 
 }
 
 .introductoryImage img{
-    height: 1;
+    color: #0587ea;
     height: 320px;
     border-radius: 170px;
     
@@ -488,7 +487,8 @@ body{
     
 }
 .infinityDescription{
-    border: rgb(20, 94, 232) solid 0.1px;
+    border-top: rgb(20, 94, 232) solid 0.1px;
+    border-bottom: rgb(20, 94, 232) solid 0.1px;
     margin-bottom: 4px;
     padding-left: 10px;
     border-radius: 170px;
@@ -530,6 +530,7 @@ body{
     font-weight: bolder;
     border: #0587ea solid 0.1px;
     transition:  transiform 1s ease;
+    text-decoration: underline;
     
 }
 
