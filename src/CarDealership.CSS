@@ -719,6 +719,7 @@ body{
 
 
 
+
 .slide img{
     height: 150px;
     margin-top: 30px;
@@ -754,6 +755,16 @@ body{
   
 }
 
+
+.slideShop{
+    border-top: #0587ea solid 1px;
+    border-bottom: #0587ea solid 1px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+
+}
 .shopCar{
     padding-left: 10px;
     
