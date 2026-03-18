@@ -610,8 +610,10 @@ body{
 
 .slidingSection{
     margin-top: 150px;
-    border-top: #000000 solid 0.1px;
+    border-top: #0587ea solid 2px;
+    border-top-right-radius: 200px;
     display: flex;
+    margin-right: 100px;
  
 
 }
