@@ -759,10 +759,12 @@ body{
 .slideShop{
     border-top: #0587ea solid 1px;
     border-bottom: #0587ea solid 1px;
-    border-bottom-left-radius: 100px;
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-top-right-radius: 100px;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    margin-top: 30px;
+    margin-left: 50px;
 
 }
 .shopCar{
@@ -781,7 +783,8 @@ body{
 .shopCar:hover{
     background: #ebeaea;
     padding-left: 40px;
-    transition: transform 0s ease;
+    transition: transform 2s ease;
+    border-radius: 30px;
 }
 .price{
   
