@@ -514,12 +514,12 @@ body{
     
 }
 .infinityDescription{
-    border-top: rgb(20, 94, 232) solid 0.1px;
-    border-bottom: rgb(20, 94, 232) solid 0.1px;
-    margin-bottom: 4px;
+    border-top: rgb(20, 94, 232) solid 50px;
+
+    
     padding-left: 10px;
     border-radius: 170px;
-    padding-top: 40px;
+    
     
     
 }
@@ -653,7 +653,7 @@ body{
 }
 
 .latestModelsLeft{
-    border-top: #0587ea solid 1px;
+    border-top: #0587ea solid 30px;
     border-top-right-radius: 100px;
     
     
@@ -666,12 +666,12 @@ body{
     font-weight: bolder;
     padding-right: 50px;
     padding-bottom: 30px;
-    border-bottom: #0587ea solid 1px;
+    border-bottom: #0587ea solid 30px;
     border-bottom-right-radius: 100px;
     padding-left: 10px;
 }
 .latestModelsRight{
-    border-top: #0587ea solid 1px;
+    border-top: #0587ea solid 30px;
     border-top-left-radius: 100px;
    
     
@@ -686,7 +686,7 @@ body{
     font-weight: bolder;
     padding-left: 50px;
     padding-bottom: 30px;
-    border-bottom: #0587ea solid 1px;
+    border-bottom: #0587ea solid 30px;
     border-bottom-left-radius: 100px;
 }
 .slideshow{
@@ -785,14 +785,14 @@ body{
 
 
 .slideShop{
-    border-top: #0587ea solid 1px;
-    border-bottom: #0587ea solid 1px;
+    border-top: #0587ea solid 30px;
+    border-bottom: #0587ea solid 30px;
     border-bottom-left-radius: 90px;
     border-top-left-radius: 90px;
     border-bottom-right-radius: 90px;
     border-top-right-radius: 90px;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 10px;
 
 }
 .shopCar{
