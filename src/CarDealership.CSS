@@ -536,8 +536,8 @@ body{
 
 
 #aboutInfinty{
-    margin-top: 30px;
-    margin-left: 170px;
+    top: 0;
+    margin-left: 600px;
     padding: 13px;
     padding-right: 30px;
     padding-left: 30px;
@@ -557,6 +557,10 @@ body{
     transition:  transiform 1s ease;
     text-decoration: underline;
     
+}
+
+.hideInfinity{
+    display: none;
 }
 
 .ev-dark{

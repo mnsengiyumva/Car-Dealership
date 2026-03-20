@@ -136,3 +136,8 @@ prev.addEventListener("click", () =>{
 
 
 const infinityBtn = document.querySelector("#aboutInfintyBtn")
+const infinityCt = document.querySelector("#aboutInfintyContent")
+
+infinityBtn.addEventListener("click", function(){
+    infinityCt.classList.toggle()
+})
