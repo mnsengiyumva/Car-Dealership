@@ -404,9 +404,7 @@ body{
     border: #d5d1d1 solid 0.1px;
     background: white;
 }
-.hideDots{
-    display: none;
-}
+
 
 
 #dotsBtn:hover{
@@ -559,7 +557,9 @@ body{
     
 }
 
-
+.hideInfinity{
+    display:none;
+}
 
 .ev-dark{
     display: flex;
@@ -637,7 +637,11 @@ body{
     
 }
 
-.slidingSection{
+.hideInfinity{
+    display: none;
+}
+
+#slidingSection{
     margin-top: 60px;
     gap: 30px;
     display: flex;
