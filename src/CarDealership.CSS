@@ -511,8 +511,6 @@ body{
 }
 .infinityDescription{
     border-top: rgb(20, 94, 232) solid 50px;
-
-    
     padding-left: 10px;
     border-radius: 170px;
     
@@ -557,8 +555,15 @@ body{
     
 }
 
+
+
 .hideInfinity{
     display:none;
+}
+
+
+#aboutInfinity{
+    position: absolute;
 }
 
 .ev-dark{
