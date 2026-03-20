@@ -135,7 +135,7 @@ prev.addEventListener("click", () =>{
 });
 
 
-const infinityBtn = document.querySelector("#aboutInfinity")
+const infinityBtn = document.querySelector("aboutInfinity")
 const infinityCt = document.querySelector("#slidingSection")
 
 infinityBtn.addEventListener("click", function(){
