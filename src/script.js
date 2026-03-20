@@ -135,9 +135,9 @@ prev.addEventListener("click", () =>{
 });
 
 
-const infinityBtn = document.querySelector("#aboutInfintyBtn")
-const infinityCt = document.querySelector("#aboutInfintyContent")
+const infinityBtn = document.querySelector("#aboutInfinity")
+const infinityCt = document.querySelector("#slidingSection")
 
 infinityBtn.addEventListener("click", function(){
-    infinityCt.classList.toggle()
+    infinityCt.classList.toggle("hideInfinity")
 })
