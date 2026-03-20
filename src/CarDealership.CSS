@@ -535,25 +535,95 @@ body{
 }
 
 
+#slidingSection{
+    margin-top: 60px;
+    display: flex;
+    margin-right: 100px;
+    align-content: center;
+    border-radius: 50px;
+    margin-left: 80px;
+    
+    
+ 
+
+}
+
+
+.slideshow{
+    position: relative;
+    width: 700px;
+    height: 700px;
+    overflow: hidden;
+
+}
+
+.sliding.active{
+    opacity: 1;
+}
+
+.sliding{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+    
+} 
+
+.prev, .next{
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+
+
+}
+
+.prev{
+  left: 10px;
+  background: none;
+  font-weight: bolder;
+}
+
+.next{
+  right: 10px;
+  background: none;
+  font-weight: bolder;
+}
+
+.next:hover{
+    color: #0587ea;
+}
+.prev:hover{
+    color: #0587ea;
+}
+
+
 #aboutInfinty{
     top: 0;
-    margin-left: 600px;
+    margin-left: 170px;
     padding: 13px;
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 20px;
     border: none;
-    background: #0587ea;
+    background: #ffffff;
     font-weight: bolder;
-    color: white;
+    color: #0587ea;
+    border: #0587ea solid 0.1px;
 
 }
 
 #aboutInfinty:hover{
-    background: #ffffff;
-    color:#0587ea;
+    background:#0587ea;
+    color:#ffffff;
     font-weight: bolder;
-    border: #0587ea solid 0.1px;
     transition:  transiform 1s ease;
     text-decoration: underline;
     
@@ -561,7 +631,7 @@ body{
 
 
 
-.hideInfinity{
+.hide-infinity{
     display:none;
 }
 
@@ -646,115 +716,6 @@ body{
     
 }
 
-
-#slidingSection{
-    margin-top: 60px;
-    gap: 30px;
-    display: flex;
-    margin-right: 100px;
-    align-items: center;
-    border: #0587ea solid 1px;
-    border-radius: 50px;
-    margin-left: 80px;
-    
-    
- 
-
-}
-
-.latestModelsLeft{
-    border-top: #0587ea solid 1px;
-    border-top-right-radius: 100px;
-    
-    
- 
-
-}
-.latestModelsLeft h1{
-    border-left: #0587ea;
-    color: #0587ea;
-    font-weight: bolder;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    border-bottom: #0587ea solid 1px;
-    border-bottom-right-radius: 100px;
-    padding-left: 10px;
-}
-
-.latestModelsRight{
-    border-top: #0587ea solid 1px;
-    border-top-left-radius: 100px;
-   
-    
-    
- 
-
-}
-
-.latestModelsRight h1{
-    border-left:#0587ea;
-    color: #0587ea;
-    font-weight: bolder;
-    padding-left: 50px;
-    padding-bottom: 30px;
-    border-bottom: #0587ea solid 1px;
-    border-bottom-left-radius: 100px;
-}
-
-.slideshow{
-    position: relative;
-    width: 600px;
-    height: 500px;
-    overflow: hidden;
-
-}
-
-.sliding.active{
-    opacity: 1;
-}
-
-.sliding{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: opacity 0.7s ease;
-    
-} 
-
-.prev, .next{
-
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0,0,0,0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-
-
-}
-
-.prev{
-  left: 10px;
-  background: none;
-  font-weight: bolder;
-}
-
-.next{
-  right: 10px;
-  background: none;
-  font-weight: bolder;
-}
-
-.next:hover{
-    color: #0587ea;
-}
-.prev:hover{
-    color: #0587ea;
-}
 
 
 
