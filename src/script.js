@@ -133,3 +133,6 @@ prev.addEventListener("click", () =>{
     }
     showSlide(index);
 });
+
+
+const infinityBtn = document.querySelector("#aboutInfintyBtn")
