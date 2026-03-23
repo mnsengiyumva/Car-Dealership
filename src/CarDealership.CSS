@@ -766,8 +766,7 @@ body{
   align-items:center;
   justify-content:center;
   margin-right:20px;
-  
-  
+   
 }
 
 
@@ -790,10 +789,7 @@ body{
 .shopCar{
     padding-left: 10px;
     
-    
 }
-
-
 
 
 .shopCar p{
@@ -816,7 +812,6 @@ body{
     text-decoration: none;
     font-weight: bold;
     color: #0587ea;
-    
     padding: 3px;
     border-radius: 6px;
 }
