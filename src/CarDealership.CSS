@@ -770,6 +770,18 @@ body{
 }
 
 
+.shopOptions{
+
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    color: #333;
+
+}
+
+.shopOptions{
+    
+}
 .slideShop{
     
     border-bottom-left-radius: 90px;
