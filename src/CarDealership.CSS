@@ -779,8 +779,10 @@ body{
 
 }
 
-.shopOptions{
-    
+.shopOptions button{
+    border: none;
+    background: none;
+
 }
 .slideShop{
     
