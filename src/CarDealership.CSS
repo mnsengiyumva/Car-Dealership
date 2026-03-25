@@ -84,6 +84,7 @@ body{
     transition: 0.1s ease;
     color: white;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .home{
@@ -161,6 +162,7 @@ body{
     color: white;
     font-weight: bolder;
     background: #0587ea;
+    cursor: pointer;
 }
 
 
@@ -227,6 +229,7 @@ body{
     background: #0587ea;
     transition: 0.1s ease;
     color: white;
+    cursor: pointer;
     
 }
 
@@ -264,6 +267,7 @@ body{
     background: #0587ea;
     transition: 0.1s ease;
     color: white;
+    cursor: pointer;
 
 }
 
@@ -306,6 +310,7 @@ body{
     background: #0587ea;
     transition: 0.1s ease;
     color: white;
+    cursor: pointer;
     
 }
 
@@ -356,6 +361,7 @@ body{
     background: #0587ea;
     transition: 0.1s ease;
     color: white;
+    cursor: pointer;
 
 }
 
