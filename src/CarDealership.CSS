@@ -776,8 +776,15 @@ body{
     display: flex;
     gap: 50px;
     justify-content: center;
-    color: #333;
+    
+    color: #767676;
 
+}
+
+.shopOptions a{
+    text-decoration: none;
+    color: #413f3f;
+    
 }
 
 .shopOptions button{
@@ -785,7 +792,7 @@ body{
     background: none;
 
 }
-.shopOptions button:hover{
+.shopOptions a:hover{
     
     text-decoration: underline;
     color: #0587ea;
