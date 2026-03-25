@@ -788,14 +788,31 @@ body{
 }
 
 .shopOptions button{
-    border: none;
+    border: #0587ea solid 1px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 15px;
+    color: #0587ea;
     background: none;
 
 }
+.shopOptions button:hover{
+    border: #0587ea solid 1px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 15px;
+    
+    background: #0587ea;
+
+}
+
+
 .shopOptions a:hover{
     
-    text-decoration: underline;
+    
     color: #0587ea;
+    color: #ffffff;
+    
 
 }
 .slideShop{
