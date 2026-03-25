@@ -803,17 +803,15 @@ body{
     border-radius: 15px;
     color: #ffffff;
     background: #0587ea;
+    cursor: pointer;
 
 }
 
 
-.shopOptions a:hover{
-    
-    
-    color: #0587ea;
-    
-    
 
+
+.hideEv{
+    display: none;
 }
 .slideShop{
     
