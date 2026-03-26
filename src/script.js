@@ -146,3 +146,10 @@ document.addEventListener("click", function(event){
         evCt.classList.add("hideEv")
     }
 })
+
+const hybridBtn = document.querySelector("#hybridButton");
+const hybrintCt = document.querySelector("#hybridContent");
+
+hybridBtn.addEventListener("click", function(){
+    hybrintCt.addEventListener.toggle("hideHybrid")
+})
