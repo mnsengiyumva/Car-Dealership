@@ -151,5 +151,13 @@ const hybridBtn = document.querySelector("#hybridButton");
 const hybrintCt = document.querySelector("#hybridContent");
 
 hybridBtn.addEventListener("click", function(){
-    hybrintCt.addEventListener.toggle("hideHybrid")
+    hybrintCt.classList.toggle("hideHybrid")
+})
+
+document.addEventListener("click", function(event){
+
+    if(!hybridBtn.contains(event.target) && !hybrintCt.contains(event.target)){
+
+        hybrintCt.classList.add("hideHybrid")
+    }
 })
