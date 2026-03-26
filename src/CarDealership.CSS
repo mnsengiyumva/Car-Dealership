@@ -819,6 +819,10 @@ body{
 .hideEv{
     display: none;
 }
+
+.hideHybrid{
+    display: none;
+}
 .slideShop{
     
     border-bottom-left-radius: 90px;
