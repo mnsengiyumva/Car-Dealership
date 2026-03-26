@@ -140,3 +140,9 @@ const evCt = document.querySelector("#evContent")
 evBtn.addEventListener("click", function(){
     evCt.classList.toggle("hideEv")
 })
+
+document.addEventListener("click", function(event){
+    if(!evBtn.contains(event.target) && !evCt.contains(event.target)){
+        evCt.classList.add("hideEv")
+    }
+})
