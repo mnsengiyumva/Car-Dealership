@@ -133,3 +133,6 @@ prev.addEventListener("click", () =>{
     }
     showSlide(index);
 });
+
+const evBtn = document.querySelector("#evButton");
+const evCt = document.querySelector("#evContent")
