@@ -161,3 +161,5 @@ document.addEventListener("click", function(event){
         hybrintCt.classList.add("hideHybrid")
     }
 })
+
+const suvBtn = document.querySelector("#evButton")
