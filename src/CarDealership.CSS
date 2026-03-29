@@ -838,6 +838,10 @@ body{
 .hideHybrid{
     display: none;
 }
+
+.hideSuv{
+    display: none;
+}
 .slideShop{
     
     border-bottom-left-radius: 90px;
