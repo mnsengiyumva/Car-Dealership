@@ -814,6 +814,10 @@ body{
 }
 
 
+#evContent{
+    margin-right: 100px;
+    position: absolute;
+}
 
 
 .hideEv{
