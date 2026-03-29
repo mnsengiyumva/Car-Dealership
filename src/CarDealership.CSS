@@ -841,8 +841,13 @@ body{
 
 .hideSuv{
     display: none;
+    
 }
 
+.suv{
+    justify-content: center;
+    margin-right: 300px;
+}
 #suvContent{
     position: absolute;
     
