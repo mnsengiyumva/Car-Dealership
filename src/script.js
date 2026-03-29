@@ -168,3 +168,9 @@ const suvCt = document.querySelector("#suvContent")
 suvBtn.addEventListener("click", function(){
     suvCt.classList.toggle("hideSuv")
 })
+
+document.addEventListener("click", function(event){
+    if(!suvBtn.contains(event.target) && !suvCt.contains(event.target)){
+        suvCt.classList.add("hideSuv")
+    }
+})
