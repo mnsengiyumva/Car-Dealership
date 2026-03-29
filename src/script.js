@@ -162,4 +162,9 @@ document.addEventListener("click", function(event){
     }
 })
 
-const suvBtn = document.querySelector("#evButton")
+const suvBtn = document.querySelector("#suvButton")
+const suvCt = document.querySelector("#suvContent")
+
+suvBtn.addEventListener("click", function(){
+    suvCt.classList.toggle("hideSuv")
+})
