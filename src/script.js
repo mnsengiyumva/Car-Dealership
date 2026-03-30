@@ -175,9 +175,3 @@ document.addEventListener("click", function(event){
     }
 })
 
-const allCarsBtn = document.querySelector("#all-cars-button")
-const allCarsCt = document.querySelector("#all-cars-content")
-
-document.addEventListener("click", function(){
-    allCarsCt.classList.toggle("hideAll")
-})
