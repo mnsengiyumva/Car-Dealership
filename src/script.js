@@ -175,3 +175,5 @@ document.addEventListener("click", function(event){
     }
 })
 
+const demoBtn = document.querySelector("#demoButton")
+const demoCt = document.querySelector("#slidingSection")
