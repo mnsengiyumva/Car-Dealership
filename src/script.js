@@ -179,11 +179,11 @@ const demoBtn = document.querySelector("#demoButton")
 const demoCt = document.querySelector("#slidingSection")
 
 demoBtn.addEventListener("click", function(){
-    demoCt.classList.toggle("hideDemo")
+    demoCt.classList.toggle("#hideDemo")
 })
 
 document.addEventListener("click", function(event){
     if(!demoBtn.contains(event.target) && !demoCt.contains(event.target)){
-        demoCt.classList.add("hideDemo");
+        demoCt.classList.add("#hideDemo");
     }
 })
