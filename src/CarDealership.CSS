@@ -579,7 +579,7 @@ body{
 }
 
 
-#slidingSection{
+#cars-content{
     margin-top: 60px;
     display: flex;
     margin-right: 100px;
@@ -593,7 +593,7 @@ body{
 
 }
 
-#hideDemo{
+.hideDemo{
     display: none;
 }
 .slideshow{
