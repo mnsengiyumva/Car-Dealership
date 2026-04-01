@@ -561,7 +561,18 @@ body{
 
 #our-cars{
     margin-top: 60px;
+    display: flex;
+    border-left: #0587ea solid 50px;
+    border-radius: 70px;
 
+}
+
+.explore{
+    color: #0587ea;
+    margin-right: 200px;
+    border-top: #0587ea solid 50px;
+    border-bottom: #0587ea solid 50px;
+    
 }
 
 .hideDemo{
