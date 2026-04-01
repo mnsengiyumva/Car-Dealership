@@ -560,36 +560,12 @@ body{
 }
 
 
-.our-cars{
-    margin-top: 40px;
-   
-
-}
-#demoButton{
-    border: none;
-    background: none;
-    background: #0587ea;
-    color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 30px;
-    cursor: pointer;
-}
 
 
-#cars-content{
+
+
+#our-cars{
     margin-top: 60px;
-    display: flex;
-    margin-right: 100px;
-    align-content: center;
-    border-radius: 50px;
-    margin-left: 80px;
-    
-    
-    
- 
 
 }
 
