@@ -993,7 +993,7 @@ body{
 
 
 .lastSectionDiv1 a:hover{
-    color: #fcfcfc;
+    color: #f50000;
     text-decoration: underline;
     
 }
@@ -1091,6 +1091,8 @@ body{
 .last a:hover {
    color: #0587ea;
    text-decoration: underline;
+
+   
 }
 
 
