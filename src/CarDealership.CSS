@@ -999,7 +999,6 @@ body{
 }
 
 
-
 .lastSectionDiv2{
     margin-top: 20px;
     display: flex;
@@ -1129,6 +1128,13 @@ body{
     font-weight: bolder;
     
 
+}
+
+.copyright{
+    font-size: small;
+    color: #e7e3e3;
+    padding: 1px;
+    padding-left: 10px;
 }
 
 
