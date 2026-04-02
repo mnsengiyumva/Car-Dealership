@@ -723,6 +723,12 @@ body{
     
 }
 
+.evCar a:hover{
+    background: white;
+    color: #0587ea;
+    border: #0587ea solid 1px;
+}
+
 
 .evCar h6{
     color: #767676;
