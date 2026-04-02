@@ -563,15 +563,19 @@ body{
     margin-top: 60px;
     display: flex;
     border-left: #0587ea solid 50px;
-    border-radius: 70px;
+    
+    margin-left: 200px;
 
 }
 
 .explore{
     color: #0587ea;
-    margin-right: 200px;
+    margin-right: 00px;
     border-top: #0587ea solid 50px;
     border-bottom: #0587ea solid 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 90px;
     
 }
 
