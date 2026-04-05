@@ -81,7 +81,7 @@ body{
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     background: #0587ea;
     transition: 0.1s ease;
     color: white;
@@ -159,7 +159,7 @@ body{
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
-    border-radius: 20px;
+    border-radius: 5px;
     transition: 0.1s ease;
     color: white;
     font-weight: bolder;
