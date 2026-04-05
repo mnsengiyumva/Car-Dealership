@@ -727,6 +727,7 @@ body{
     background: white;
     color: #0587ea;
     border: #0587ea solid 1px;
+    text-decoration: none;
 }
 
 
@@ -741,6 +742,13 @@ body{
     padding-top: 80px;
     padding-bottom: 10px;
     
+}
+
+.darkCar a:hover{
+    background: white;
+    color: #0587ea;
+    border: #0587ea solid 1px;
+    text-decoration: none;
 }
 
 
