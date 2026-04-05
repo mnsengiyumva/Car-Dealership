@@ -562,11 +562,20 @@ body{
     
 }
 
+
+
 .infinityDescription h1{
     color: #1788de;
     padding-left: 160px;
 
     
+}
+
+@media(max-width: 1024px){
+    .infinityDescription h1{
+        padding-left: 60px;
+    }
+   
 }
 .infinityDescription{
     border-top: rgb(20, 94, 232) solid 50px;
