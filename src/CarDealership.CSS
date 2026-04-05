@@ -23,7 +23,7 @@ body{
     padding-bottom:10 px;   
 }
 
-@media(max-width:726px){
+@media(max-width:1024px){
     .section1{
         flex-direction: column;
     }
@@ -61,6 +61,13 @@ body{
     position: relative;
     display: inline-block;
 
+}
+
+@media(max-width: 1024px){
+    .menu{
+        margin-right: 25px;
+        margin-left: 10px;
+    }
 }
 
 
