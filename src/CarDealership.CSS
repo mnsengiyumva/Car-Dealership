@@ -553,8 +553,6 @@ body{
 }
 
 
-
-
 .introductoryImage img{
     color: #0587ea;
     height: 320px;
@@ -581,9 +579,7 @@ body{
     border-top: rgb(20, 94, 232) solid 50px;
     padding-left: 10px;
     border-radius: 170px;
-    
-    
-    
+      
 }
 
 .infinityDescription a{
@@ -604,6 +600,13 @@ body{
     border-left: #0587ea solid 50px;
     margin-left: 200px;
 
+}
+@media(max-width: 1024px){
+
+    #our-cars{
+        margin-left: 30px;
+    }
+   
 }
 
 .explore{
