@@ -529,7 +529,7 @@ body{
 
 @media(max-width: 1024px){
     .carShow{
-        width: 250%;
+        width: 200%;
     }
 }
 
@@ -594,6 +594,8 @@ body{
     
 }
 
+
+
 #our-cars{
     margin-top: 60px;
     display: flex;
@@ -604,7 +606,7 @@ body{
 @media(max-width: 1024px){
 
     #our-cars{
-        margin-left: 30px;
+        margin-left: 10px;
     }
    
 }
