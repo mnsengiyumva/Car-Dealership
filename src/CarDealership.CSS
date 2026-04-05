@@ -150,9 +150,19 @@ body{
     width: 150px;
     border: rgb(243, 243, 243) ;
     position: absolute;
+    opacity: 1;
     border-radius: 20px;
+
     
     
+}
+
+@media(max-width: 1024px){
+    #vihecleContent{
+        width: 100%;
+        
+        
+    }
 }
 
 
