@@ -610,13 +610,13 @@ body{
 
     #our-cars{
         margin-left: 10px;
+        
     }
    
 }
 
 .explore{
     color: #0587ea;
-    margin-right: 00px;
     border-top: #0587ea solid 50px;
     border-bottom: #0587ea solid 50px;
     margin-top: 60px;
@@ -624,6 +624,7 @@ body{
     padding-top: 90px;
     
 }
+
 
 .hideDemo{
     display: none;
@@ -635,6 +636,19 @@ body{
     overflow: hidden;
    
 
+}
+
+@media(max-width: 726px){
+
+    .slideshow{
+
+        height: 500px;
+        width: 600px;
+        
+    }
+
+    
+   
 }
 
 .sliding.active{
