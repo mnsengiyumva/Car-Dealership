@@ -749,8 +749,10 @@ body{
 @media(max-width: 1024px){
     .ev-dark{
         flex-direction: column;
-        margin-left: 100px;
+        margin-left: 50px;
         font-size: x-large;
+        border-bottom: #a3a0a0 solid 10px;
+        
     }
 
 }
@@ -974,6 +976,13 @@ body{
 .slideShop h1{
     margin-left: 600px;
     color: #333;
+}
+
+@media(max-width: 726px){
+    .slideShop h1{
+        margin-left: 100px;
+
+    }
 }
 .shopCar{
     padding-left: 10px;
