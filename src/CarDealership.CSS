@@ -20,12 +20,14 @@ body{
     top: 0;
     right: 0;
     left: 0;
+    gap: 10px;
     padding-bottom:10 px;   
 }
 
 @media(max-width:1024px){
     .section1{
         flex-direction: column;
+        font-size: xx-large;
     }
 }
 .section1 a{
@@ -370,7 +372,7 @@ body{
 #userBtn{
     border: none;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 0px;
     background: none;
     
 
@@ -424,7 +426,7 @@ body{
     border: none;
     font-size: xx-large;
     margin-top: 1px;
-    margin-left: 50px;
+    margin-left: 0px;
     background: none;
     color: #453e3e;
     margin-top: 10px;
@@ -572,6 +574,7 @@ body{
 @media(max-width: 1024px){
     .infinityDescription h1{
         padding-left: 60px;
+        
     }
    
 }
@@ -724,6 +727,15 @@ body{
     border-bottom: #a3a0a0 solid 0.1px;
     clip-rule: evenodd;  
     
+}
+
+@media(max-width: 1024px){
+    .ev-dark{
+        flex-direction: column;
+        margin-left: 100px;
+        font-size: x-large;
+    }
+
 }
 
 .image img{
