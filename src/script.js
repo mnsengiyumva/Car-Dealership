@@ -15,6 +15,10 @@ document.addEventListener("click", function(event){
 })
 
 const searchBtn = document.querySelector("searchButton")
+const searchCt = document.querySelector("searchContent")
+
+
+
 
 const vihecleBtn = document.querySelector("#vihecleBtn");
 const vihecleButton = document.querySelector("#vihecleContent");
