@@ -752,7 +752,7 @@ body{
 @media(max-width: 726px){
     .ev-dark{
         flex-direction: column;
-        margin-left: 10px;
+        margin-left: 30px;
         font-size: x-large;
         border-bottom: #a3a0a0 solid 10px;
         
@@ -904,6 +904,7 @@ body{
 @media(max-width: 726px){
     .shopOptions{
         margin-left: 50px;
+        justify-content: flex-start;
     }
 }
 
