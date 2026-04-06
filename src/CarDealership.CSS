@@ -1077,7 +1077,12 @@ body{
 }
 
 
-
+@media(max-width: 726px){
+    .lastSection{
+        width: 810px;
+        
+    }
+}
 
 
 .lastSectionDiv1 a{
