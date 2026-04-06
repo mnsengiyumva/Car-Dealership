@@ -901,6 +901,11 @@ body{
 
 }
 
+@media(max-width: 726px){
+    .shopOptions{
+        margin-left: 50px;
+    }
+}
 
 
 .shopOptions a{
