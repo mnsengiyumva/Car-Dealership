@@ -646,6 +646,7 @@ body{
 
         height: 600px;
         width: 1400px;
+        margin-right: 20px;
         
         
     }
@@ -746,7 +747,7 @@ body{
     
 }
 
-@media(max-width: 1024px){
+@media(max-width: 726px){
     .ev-dark{
         flex-direction: column;
         margin-left: 50px;
@@ -871,6 +872,7 @@ body{
 @media(max-width: 726px){
     .slider{
         flex-direction: column;
+        
     }
 }
 
@@ -1073,6 +1075,7 @@ body{
    
     text-decoration: underline;
 }
+
 
 
 
