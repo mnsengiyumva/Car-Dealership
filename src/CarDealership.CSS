@@ -752,7 +752,7 @@ body{
 @media(max-width: 726px){
     .ev-dark{
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 10px;
         font-size: x-large;
         border-bottom: #a3a0a0 solid 10px;
         
@@ -901,6 +901,8 @@ body{
 
 }
 
+
+
 .shopOptions a{
     text-decoration: none;
     color: #413f3f;
@@ -994,6 +996,7 @@ body{
         margin-left: 100px;
 
     }
+
 }
 .shopCar{
     padding-left: 10px;
