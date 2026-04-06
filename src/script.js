@@ -14,6 +14,8 @@ document.addEventListener("click", function(event){
     }
 })
 
+const searchBtn = document.querySelector("searchButton")
+
 const vihecleBtn = document.querySelector("#vihecleBtn");
 const vihecleButton = document.querySelector("#vihecleContent");
 
@@ -174,4 +176,5 @@ document.addEventListener("click", function(event){
         suvCt.classList.add("hideSuv")
     }
 })
+
 
