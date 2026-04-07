@@ -19,7 +19,7 @@ const searchCt = document.querySelector("#searchContent")
 
 searchBtn.addEventListener("click", function(){
 
-    searchCt.classList.toggle-right("hideSearch")
+    searchCt.classList.toggle("hideSearch")
 
 })
     
