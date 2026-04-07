@@ -866,6 +866,8 @@ body{
     padding-bottom: 30px;
     user-select: none;
     gap: 30px;
+
+
     
     
 }
@@ -1017,7 +1019,6 @@ body{
 .shopCar:hover{
     background: #ebeaea;
     padding-left: 40px;
-    transition: transform 2s ease;
     border-radius: 30px;
 }
 .price{
@@ -1094,6 +1095,33 @@ body{
     }
 }
 
+
+.pagination button{
+    padding: 10px 15px;
+  margin: 0 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+.pagination button:hover{
+    padding: 10px 15px;
+  margin: 0 10px;
+  border: #0587ea solid 1px;
+  background-color: white;
+  color: #0587ea;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
 
 .lastSectionDiv1 a{
     text-decoration:white;
