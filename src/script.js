@@ -14,8 +14,8 @@ document.addEventListener("click", function(event){
     }
 })
 
-const searchBtn = document.querySelector("searchButton")
-const searchCt = document.querySelector("searchContent")
+const searchBtn = document.querySelector("#searchButton")
+const searchCt = document.querySelector("#searchContent")
 
 searchBtn.addEventListener("click", function(){
 

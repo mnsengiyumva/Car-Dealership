@@ -137,10 +137,12 @@ body{
 }
 
 #searchButton{
-    margin-top: 18px;
+    margin-top: 17px;
     border: none;
     background: none;
     cursor: pointer;
+    font-size: large;
+    margin-right: 200px;
 }
 
 .hideSearch{
