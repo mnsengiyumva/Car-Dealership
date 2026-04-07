@@ -136,6 +136,17 @@ body{
     
 }
 
+#searchButton{
+    margin-top: 18px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.hideSearch{
+    display: none;
+}
+
 .vihecles{
     margin-top: 10px;
     margin-right: 30px;
