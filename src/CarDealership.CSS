@@ -124,11 +124,14 @@ body{
    text-decoration: none;
 }
 
+.searching{
+    display: flex;
+}
+
 .search{
    
     padding: 10px;
     background-color: #e1e4e4;
-    margin-top: 14px;
     border-style: inherit;
     border-radius: 18px;
     padding-right: 200px;
@@ -136,13 +139,17 @@ body{
     
 }
 
+#searchContent{
+    margin-top: 10px;
+}
+
 #searchButton{
-    margin-top: 17px;
+    
     border: none;
     background: none;
     cursor: pointer;
     font-size: large;
-    margin-right: 200px;
+    
 }
 
 .hideSearch{
@@ -154,7 +161,7 @@ body{
     margin-right: 30px;
     position: relative;
     display: inline-block;
- 
+  
   
 }
 
