@@ -152,6 +152,11 @@ body{
     
 }
 
+#searchButton:hover{
+    color: #007bff;
+
+}
+
 .hideSearch{
     display: none;
 }
@@ -203,7 +208,6 @@ body{
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 5px;
-    transition: 0.1s ease;
     color: white;
     font-weight: bolder;
     background: #0587ea;
