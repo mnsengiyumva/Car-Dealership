@@ -915,7 +915,10 @@ body{
 
 }
 
-
+#evContent img{
+    width: 200px;
+    height: 250px;
+}
 
 #black-button{
     padding: 10px;
