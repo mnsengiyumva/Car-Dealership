@@ -873,22 +873,6 @@ body{
     margin-bottom: 30px;
 }
 
-.ev-dark a{
-    text-decoration: none;
-    color: white;
-    background-color:#0587ea;
-    
-    padding: 10px;
-    margin-top: 10px;
-    padding-right: 30px;
-}
-
-.ev-dark a:hover{
-    background-color:#0587ea;
-    color: white;
-    border: none;
-    text-decoration: underline;
-}
 
 .evCar{  
     padding-top: 80px;
@@ -897,12 +881,7 @@ body{
     
 }
 
-.evCar a:hover{
-    background: white;
-    color: #0587ea;
-    border: #0587ea solid 1px;
-    text-decoration: none;
-}
+
 
 
 .evCar h6{
@@ -918,12 +897,14 @@ body{
     
 }
 
-.darkCar a:hover{
-    background: white;
-    color: #0587ea;
-    border: #0587ea solid 1px;
-    text-decoration: none;
+#ev-button{
+    padding: 10px;
+    border: none;
+    background: none;
+    
 }
+
+
 
 
 .section4{
