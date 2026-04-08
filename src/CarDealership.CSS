@@ -909,8 +909,27 @@ body{
     padding: 10px;
     border: #007bff solid 1px;
     font-weight: bold;
-    background: none;
+    background: #007bff;
     color: white;
+    cursor: pointer;
+
+}
+
+#black-button{
+    padding: 10px;
+    border: #007bff solid 1px;
+    font-weight: bold;
+    background: none;
+    color: #007bff;
+
+}
+#black-button:hover{
+    padding: 10px;
+    border: #007bff solid 1px;
+    font-weight: bold;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
 
 }
 
