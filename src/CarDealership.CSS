@@ -899,10 +899,21 @@ body{
 
 #ev-button{
     padding: 10px;
-    border: none;
+    border: #007bff solid 1px;
+    font-weight: bold;
     background: none;
-    
+    color: #007bff;
+
 }
+#ev-button:hover{
+    padding: 10px;
+    border: #007bff solid 1px;
+    font-weight: bold;
+    background: none;
+    color: white;
+
+}
+
 
 
 
