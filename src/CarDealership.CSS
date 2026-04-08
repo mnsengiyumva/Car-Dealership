@@ -134,7 +134,7 @@ body{
     background-color: #e1e4e4;
     border-style: inherit;
     border-radius: 18px;
-    padding-right: 200px;
+    padding-right: 100px;
     margin-right: 50px;
     
 }
@@ -373,8 +373,9 @@ body{
     border: none;
     margin-bottom: 1px;
     color: #453e3e;
-    margin-top: 8px;
+    margin-top: 4px;
     background: none;
+    margin-right: 100px;
 
     border:#ffffff solid 0.1px ;
     padding-top: 5px;
