@@ -915,6 +915,10 @@ body{
 
 }
 
+#evContent{
+    background: none;
+}
+
 #evContent img{
     width: 200px;
     height: 250px;
