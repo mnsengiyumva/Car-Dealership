@@ -21,7 +21,9 @@ body{
     right: 0;
     left: 0;
     gap: 10px;
-    padding-bottom:10 px;   
+    padding-bottom:10 px;
+
+    
 }
 
 @media(max-width:1024px){
@@ -88,14 +90,22 @@ body{
     border: white;
     font-weight: bolder;
     background: none;
+    border:#ffffff solid 0.1px ;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    transition: 0.1s ease;
+
+    font-weight: bolder;
+    cursor: pointer;
     
 }
 
 #menubtn:hover{
     
     border:#ffffff solid 0.1px ;
-    padding-top: 5px;
-    padding-bottom: 5px;
+   
+
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 10px;
