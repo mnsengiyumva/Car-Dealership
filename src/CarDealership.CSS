@@ -434,9 +434,20 @@ body{
 
 #userBtn{
     border: none;
-    margin-top: 20px;
-    margin-left: 0px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 10px;
     background: none;
+    border:#ffffff solid 0.1px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+    transition: 0.1s ease;
+ 
+    cursor: pointer;
     
 
 }
@@ -492,7 +503,17 @@ body{
     margin-left: 0px;
     background: none;
     color: #453e3e;
-    margin-top: 10px;
+    margin-top: 5px;
+    border:#ffffff solid 0.1px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 90px;
+    font-weight: bolder;
+ 
+    transition: 0.1s ease;
+   
     
 
 }
