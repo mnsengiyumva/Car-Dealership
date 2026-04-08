@@ -325,6 +325,15 @@ body{
     color: #453e3e;
     margin-top: 16px;
 
+    border:#ffffff solid 0.1px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: bolder;
+    transition: 0.3s ease;
+    cursor: pointer;
+
 
 }
 #dealersBtn:hover{
@@ -333,7 +342,7 @@ body{
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
-    border-radius: 20px;
+    border-radius: 5px;
     font-weight: bolder;
     background: #0587ea;
     transition: 0.1s ease;
@@ -362,10 +371,20 @@ body{
     font-weight: bolder;
     border-color: white;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     color: #453e3e;
     margin-top: 8px;
     background: none;
+
+    border:#ffffff solid 0.1px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: bolder;
+    transition: 0.1s ease;
+    cursor: pointer;
   
 }
 
@@ -376,7 +395,7 @@ body{
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
-    border-radius: 20px;
+    border-radius: 5px;
     font-weight: bolder;
     background: #0587ea;
     transition: 0.1s ease;
