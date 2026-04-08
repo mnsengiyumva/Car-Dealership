@@ -166,6 +166,7 @@ body{
     margin-right: 30px;
     position: relative;
     display: inline-block;
+    
   
   
 }
@@ -198,6 +199,16 @@ body{
     margin-bottom: 10px;
     color: #453e3e;
     margin-top: 6px;
+
+    border:#ffffff solid 0.1px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+
+    cursor: pointer;
     
 }
 #vihecleBtn:hover{
@@ -245,6 +256,17 @@ body{
     color: #453e3e;
     margin-top: 16px;
     
+
+    border:#ffffff solid 0.1px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    font-weight: bolder;
+    transition: 0.1s ease;
+
+    cursor: pointer;
     
     
 }
@@ -273,7 +295,7 @@ body{
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
-    border-radius: 20px;
+    border-radius: 5px;
     font-weight: bolder;
     background: #0587ea;
     transition: 0.1s ease;
