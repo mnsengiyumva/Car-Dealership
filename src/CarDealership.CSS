@@ -1105,6 +1105,7 @@ body{
 .shopCar{
     padding-left: 10px;
     padding-left: 20px;
+
     
     
 }
@@ -1116,7 +1117,7 @@ body{
 
 .shopCar:hover{
     background: #ebeaea;
-    
+    transition: transform 0.4s ease;
     border-radius: 30px;
 }
 .price{
