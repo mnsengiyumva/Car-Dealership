@@ -915,8 +915,10 @@ body{
 
 }
 
-#evContent{
+#ev-content img{
     background: none;
+    width: 400px;
+
 }
 
 #evContent img{
