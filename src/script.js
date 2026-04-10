@@ -160,6 +160,10 @@ findEv.addEventListener("click", function(){
     
 })
 
+document.addEventListener("click", function(event){
+    
+})
+
 const evBtn = document.querySelector("#evButton");
 const evCt = document.querySelector("#evContent");
 
