@@ -165,9 +165,7 @@ document.addEventListener("click", function(event){
     if(!findEv.contains(event.target) && !findEvCt.contains(event.target)){
 
         findEvCt.classList.add("hide-ev")
-
     }
-
 })
 
 const evBtn = document.querySelector("#evButton");
