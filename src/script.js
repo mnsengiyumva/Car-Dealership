@@ -154,9 +154,14 @@ prev.addEventListener("click", () =>{
 
 const findEv = document.querySelector("#ev-button")
 const findEvCt = document.querySelector("#ev-content")
+findEv.addEventListener("click", function(){
+    
+})
 
 const evBtn = document.querySelector("#evButton");
-const evCt = document.querySelector("#evContent")
+const evCt = document.querySelector("#evContent");
+
+
 
 evBtn.addEventListener("click", function(){
     evCt.classList.toggle("hideEv")
