@@ -905,6 +905,10 @@ body{
     color: #007bff;
 
 }
+
+.hide-ev{
+    display: none;
+}
 #ev-button:hover{
     padding: 10px;
     border: #007bff solid 1px;
