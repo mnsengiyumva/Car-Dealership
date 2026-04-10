@@ -163,7 +163,9 @@ findEv.addEventListener("click", function(){
 document.addEventListener("click", function(event){
 
     if(!findEv.contains(event.target) && !findEvCt.contains(event.target)){
-        
+
+        findEvCt.classList.add("hide-ev")
+
     }
 
 })
