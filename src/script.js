@@ -161,7 +161,11 @@ findEv.addEventListener("click", function(){
 })
 
 document.addEventListener("click", function(event){
-    
+
+    if(!findEv.contains(event.target) && !findEvCt.contains(event.target)){
+        
+    }
+
 })
 
 const evBtn = document.querySelector("#evButton");
