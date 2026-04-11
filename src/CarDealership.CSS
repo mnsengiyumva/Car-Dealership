@@ -924,11 +924,12 @@ body{
     width: 400px;
 
 }
-
-#evContent img{
-   
-    height: 250px;
+#ev-content{
+    background-image: url("/Assets/im1.jpg");
+    background-size: cover;
 }
+
+
 
 #black-button{
     padding: 10px;
