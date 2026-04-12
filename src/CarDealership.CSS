@@ -932,6 +932,21 @@ body{
     padding-top: 1px;
 }
 
+#ev-content a{
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: #007bff;
+}
+
+#ev-content a:hover{
+    background: white;
+    color: #007bff;
+
+}
+
 
 
 #black-button{
