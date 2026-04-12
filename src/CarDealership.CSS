@@ -923,6 +923,7 @@ body{
 
 }
 #ev-content{
+    margin-top: 10px;
     height: 500px;
     background-image: url("/Assets/im8.jpg");
     background-size: cover;
@@ -956,7 +957,7 @@ body{
 
 
 
-#black-button{
+#dark-button{
     padding: 10px;
     border: #007bff solid 1px;
     font-weight: bold;
@@ -972,6 +973,54 @@ body{
     color: white;
     cursor: pointer;
 
+}
+
+#ev-button:hover{
+    padding: 10px;
+    border: #007bff solid 1px;
+    font-weight: bold;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+
+}
+
+#ev-content img{
+    background: none;
+    width: 400px;
+
+}
+#dark-content{
+    margin-top: 10px;
+    height: 500px;
+    background-image: url("/Assets/black.jpg");
+    background-size: cover;
+    color:white;
+
+    padding-left: 20px;
+    padding-top: 1px;
+}
+
+#dark-content a{
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: #007bff;
+}
+
+#dark-content a:hover{
+    background: white;
+    color: #007bff;
+
+}
+
+#dark-content p{
+    font-size: smaller;
+    padding-top: 300px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 
