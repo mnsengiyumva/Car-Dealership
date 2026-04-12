@@ -600,15 +600,26 @@ body{
     height: 100vh;
     width: 100%;
     overflow: hidden;
+   
+}
+
+.videoContent{
+    padding-top: 400px;
+    padding-left: 20px;
+    color: white;
+    z-index: 1;
+    position: relative;
+
 }
 
 .big-video{
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    z-index: -1;
     
 
 }
