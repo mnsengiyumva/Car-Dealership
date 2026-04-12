@@ -612,6 +612,24 @@ body{
 
 }
 
+
+
+.videoContent a{
+    padding-top: 30px;
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.videoContent a:hover{
+    background: white;
+    color: #007bff;
+    font-weight: bolder;
+}
+
 .big-video{
     position: absolute;
     top: 0;
