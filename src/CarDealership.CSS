@@ -958,6 +958,7 @@ body{
 
 
 #dark-button{
+    margin-top: 19px;
     padding: 10px;
     border: #007bff solid 1px;
     font-weight: bold;
@@ -965,7 +966,7 @@ body{
     color: #007bff;
 
 }
-#black-button:hover{
+#dark-button:hover{
     padding: 10px;
     border: #007bff solid 1px;
     font-weight: bold;
