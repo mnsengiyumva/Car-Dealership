@@ -168,6 +168,20 @@ document.addEventListener("click", function(event){
     }
 })
 
+const findDark = document.querySelector("#dark-button");
+const findDkCt = document.querySelector("#dark-content")
+
+findDark.addEventListener("click", function(){
+
+    findDkCt.classList.toggle("hide-dark")
+})
+
+document.addEventListener("click", function(event){
+    if(!findDark.contains(event.target) && !findDkCt.contains(event.target)){
+        findDkCt.classList.add("hide-dark")
+    }
+})
+
 const evBtn = document.querySelector("#evButton");
 const evCt = document.querySelector("#evContent");
 

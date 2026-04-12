@@ -956,7 +956,13 @@ body{
 }
 
 
+.hide-ev{
+    display: none;
+}
 
+.hide-dark{
+    display: none;
+}
 #dark-button{
     margin-top: 19px;
     padding: 10px;
