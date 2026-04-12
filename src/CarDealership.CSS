@@ -947,6 +947,13 @@ body{
 
 }
 
+#ev-content p{
+    font-size: smaller;
+    padding-top: 300px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
 
 
 #black-button{
