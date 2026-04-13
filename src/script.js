@@ -1,3 +1,10 @@
+const { response } = require("express");
+
+fetch('/api/greet')
+.then(response => response.json)
+.then(response => console.log(DataTransfer.message))
+
+
 const menubtn = document.querySelector("#menubtn");
 const menuContent = document.querySelector("#menuContent");
 
