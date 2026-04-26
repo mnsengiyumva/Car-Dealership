@@ -30,6 +30,7 @@ body{
     .section1{
         
         overflow: hidden;
+        flex-direction: column;
         
     }
 }
