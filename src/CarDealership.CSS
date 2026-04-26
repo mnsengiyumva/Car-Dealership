@@ -36,6 +36,9 @@ body{
     .home{
         margin-left: 10px;
     }
+    .user{
+        margin-right: 1000px;
+    }
 }
 .section1 a{
     text-decoration: none;
@@ -449,7 +452,7 @@ body{
 #userBtn{
     border: none;
     margin-top: 15px;
-    margin-left: 10px;
+
     margin-right: 10px;
     background: none;
     border:#ffffff solid 0.1px ;
