@@ -75,19 +75,13 @@ body{
 
 .menu{
     margin-right:50px ;
-    margin-left: 20px;
+
     margin-top: 19px; 
     position: relative;
     display: inline-block;
 
 }
 
-@media(max-width: 1024px){
-    .menu{
-        margin-right: 25px;
-        margin-left: 10px;
-    }
-}
 
 #menuContent{
     background: rgb(255, 255, 255);
