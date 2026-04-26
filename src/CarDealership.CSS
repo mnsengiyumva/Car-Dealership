@@ -26,12 +26,15 @@ body{
     
 }
 
-@media(max-width:1024px){
+@media(max-width:726px){
     .section1{
         
-        overflow: hidden;
         flex-direction: column;
         
+    }
+
+    .home{
+        margin-left: 10px;
     }
 }
 .section1 a{
