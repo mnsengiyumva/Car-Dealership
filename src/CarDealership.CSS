@@ -30,6 +30,7 @@ body{
     .section1{
         
         flex-direction: column;
+        gap: 0;
         
     }
 
