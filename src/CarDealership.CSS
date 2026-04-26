@@ -37,11 +37,12 @@ body{
     .home{
         margin-left: 10px;
     }
-    .user{
-        margin-right: 1000px;
+    
+    #searchButton{
+        margin-left: 0px
     }
     .searching{
-       padding-right: 50px;
+       flex-direction: column;
     }
 }
 .section1 a{
