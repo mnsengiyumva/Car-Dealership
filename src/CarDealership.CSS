@@ -618,6 +618,7 @@ body{
         
     }
     #aboutInfinity{
+        padding-right: 130px;
     
     }
 
@@ -728,7 +729,9 @@ body{
 
 @media(max-width: 726px){
     .carShow{
-        width: 220%;
+        margin-top: 10px;
+        width: 60%;
+        height: 70vh;
     }
 }
 
