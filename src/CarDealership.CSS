@@ -604,10 +604,15 @@ body{
 
 @media(max-width: 726px){
     .introduction{
-        margin-left: 00px;
-        font-size: xx-small;
+
         flex-direction: column;
     }
+
+    .infinityDescription{
+        font-size: x-small;
+    }
+
+
 }
 
 
