@@ -40,6 +40,9 @@ body{
     .user{
         margin-right: 1000px;
     }
+    .searching{
+       padding-right: 50px;
+    }
 }
 .section1 a{
     text-decoration: none;
