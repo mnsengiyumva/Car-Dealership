@@ -614,7 +614,11 @@ body{
         width: 60%;
     }
     .introductoryImage{
-        size: 20%;
+        margin-right: 100px;
+        
+    }
+    #aboutInfinity{
+    
     }
 
 
