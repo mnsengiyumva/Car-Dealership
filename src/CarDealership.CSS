@@ -1134,6 +1134,7 @@ body{
 
 
 
+
 .slide img{
     height: 150px;
     margin-top: 30px;
@@ -1161,7 +1162,14 @@ body{
 @media(max-width: 726px){
     .slider{
         flex-direction: column;
+        font-size: xx-small;
         
+    }
+
+   
+
+    .slide-container{
+        margin-left: 1px;
     }
 }
 
@@ -1190,7 +1198,7 @@ body{
 
 @media(max-width: 726px){
     .shopOptions{
-        margin-left: 10px;
+        margin-left: 0px;
         flex-direction: column;
         gap: 5px;
     }
@@ -1300,10 +1308,20 @@ body{
 
 }
 .shopCar{
-    padding-left: 10px;
+    
     padding-left: 20px;   
     
 }
+
+@media(max-width: 726px){
+    .shopCar{
+        padding-left: 0px;
+
+    }
+
+}
+
+
 
 .shopCar p{
     font-size: small;
@@ -1384,6 +1402,7 @@ body{
 @media(max-width: 726px){
     .lastSection{
         width: 810px;
+        font-size: xx-small;
         
     }
 }
