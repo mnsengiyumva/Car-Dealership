@@ -1190,8 +1190,8 @@ body{
 
 @media(max-width: 726px){
     .shopOptions{
-        margin-left: 50px;
-        justify-content: flex-start;
+        margin-left: 10px;
+        flex-direction: column;
     }
 }
 
