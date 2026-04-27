@@ -940,6 +940,14 @@ body{
     
 }
 
+@media(max-width:726px){
+    .image2 img{
+        width: 250px;
+        height: 250px;
+    }
+    
+}
+
 
 
 .ev-dark p{
