@@ -757,12 +757,13 @@ body{
     margin-left: 200px;
 
 }
-@media(max-width: 1024px){
+@media(max-width: 726px){
 
-    #our-cars{
-        
-        width: 560px;
-        margin-left: 20px;
+    #our-cars{   
+        width: 290px;
+        border-left: #0587ea solid 1px;
+        font-size: xx-small;
+        margin-left: 0px;   
         
     }
    
@@ -776,6 +777,15 @@ body{
     margin-bottom: 60px;
     padding-top: 90px;
     
+}
+
+@media(max-width:726px){
+
+    .explore{
+        border-top: #0587ea solid 1px;
+    border-bottom: #0587ea solid 1px;
+
+    }
 }
 
 
