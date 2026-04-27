@@ -911,7 +911,7 @@ body{
 @media(max-width: 726px){
     .ev-dark{
         flex-direction: column;
-        margin-left: 30px;
+        margin-left: 10px;
         font-size: x-large;
         border-bottom: #a3a0a0 solid 10px;
         font-size: xx-small;
