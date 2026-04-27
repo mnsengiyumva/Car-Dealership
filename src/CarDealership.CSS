@@ -610,11 +610,12 @@ body{
     }
 
     .infinityDescription{
-        font-size: x-small;
-        width: 60%;
+        font-size: large;
+        width: 100%;
     }
     .introductoryImage{
-        margin-right: 100px;
+        margin-right: 60px;
+        margin-left: 40px;
         
     }
     #aboutInfinity{
@@ -730,7 +731,7 @@ body{
 @media(max-width: 726px){
     .carShow{
         margin-top: 10px;
-        width: 60%;
+        width: 100%;
         height: 70vh;
     }
 }
@@ -760,10 +761,10 @@ body{
 @media(max-width: 726px){
 
     #our-cars{   
-        width: 280px;
+        width: 420px;
         border-left: #0587ea solid 1px;
-        font-size: xx-small;
-        margin-left: 0px;   
+        font-size: x-small;
+        margin-left: 5px;   
         
     }
    
