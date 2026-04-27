@@ -1399,13 +1399,7 @@ body{
 }
 
 
-@media(max-width: 726px){
-    .lastSection{
-        width: 810px;
-        font-size: xx-small;
-        
-    }
-}
+
 
 
 .pagination button{
@@ -1433,6 +1427,20 @@ body{
 .pagination button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
+}
+
+.lastSection{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    right: 0;
+    margin-right: 0%;
+}
+@media(max-width: 726px){
+    .lastSection{
+       
+       
+        
+    }
 }
 
 .lastSectionDiv1 a{
@@ -1471,6 +1479,15 @@ body{
     
 }
 
+
+@media(max-width: 726px){
+    .lastSectionDiv2{
+       
+       
+        
+    }
+}
+
 .lastSectionDiv2-1{
     margin-right: 50px;
     text-decoration: none;
@@ -1503,12 +1520,7 @@ body{
     text-decoration: underline;
     
 }
-.lastSection{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    right: 0;
-    margin-right: 0%;
-}
+
 
 .lastSectionDiv1{
 
