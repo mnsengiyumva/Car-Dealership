@@ -806,7 +806,7 @@ body{
     .slideshow{
 
         height: 600px;
-        width: 1400px;
+        width: 1600px;
         margin-right: 20px;
         
         
@@ -914,7 +914,7 @@ body{
         margin-left: 10px;
         font-size: x-large;
         border-bottom: #a3a0a0 solid 10px;
-        font-size: xx-small;
+        font-size: larger;
         
     }
 
@@ -1162,7 +1162,7 @@ body{
 @media(max-width: 726px){
     .slider{
         flex-direction: column;
-        font-size: xx-small;
+        font-size: small;
         
     }
 
@@ -1291,7 +1291,7 @@ body{
 @media(max-width:726px){
 
     .slideShop{
-        font-size: x-small;
+        font-size: small;
     }
 }
 
