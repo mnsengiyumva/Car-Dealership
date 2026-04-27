@@ -1279,6 +1279,13 @@ body{
 
 }
 
+@media(max-width:726px){
+
+    .slideShop{
+        font-size: x-small;
+    }
+}
+
 .slideShop h1{
     margin-left: 600px;
     color: #333;
@@ -1286,7 +1293,7 @@ body{
 
 @media(max-width: 726px){
     .slideShop h1{
-        margin-left: 100px;
+        margin-left: 10px;
 
     }
 
