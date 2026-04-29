@@ -124,7 +124,7 @@ document.addEventListener("click", function(event){
     }
 })
 
-const cars = document.querySelector(".shopCar");
+const cars = document.querySelectorAll(".shopCar");
 
 const itemsPerPage = 5;
 
@@ -134,21 +134,22 @@ function showPage(page){
     let start = (page-1)*itemsPerPage
     let end = start+itemsPerPage;
 
-    cars.forEach((cars, index )=> {
+    cars.forEach((car, index )=> {
 
         if(index >= start && index<end ){
 
-            createDecipheriv.style.display = "block";
+            car.style.display = "block";
 
         } else{
-            createDecipheriv.style.display = "none";
+            car.style.display = "none";
         }
         
     });
 
     document.getElementById("pageNum").innerHTML = "Page "+page;
 
-    document.querySelector(".pre")
+    document.querySelector("#prevBtn").disabled = currentPage === 1;
+    document.querySelector("#nextBtn").disabled = currentPage === totalPages;
 }
 
 function nextPage(){
