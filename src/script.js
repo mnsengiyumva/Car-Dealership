@@ -124,35 +124,26 @@ document.addEventListener("click", function(event){
     }
 })
 
+const cars = document.querySelector(".shopCar");
 
-const slides = document.querySelectorAll(".sliding");
-const next = document.querySelector(".next");
-const prev = document.querySelector(".prev");
+const itemsPerPage = 5;
 
-let index = 0;
+let currentPage = 1;
 
-function showSlide(i){
-    slides.forEach(sliding => sliding.classList.remove("active"));
-    slides[i].classList.add("active");
+function showPage(page){
+    let start = (page-1)*itemsPerPage
+    let end = start+itemsPerPage;
+
+    cars.forEach((cars, index )=> {
+
+        if(index >= start && index<end ){
+
+            createDecipheriv.style.display = "block";
+        }
+        
+    });
 }
 
-next.addEventListener("click", () =>{
-    index++;
-
-    if (index >= slides.length){
-        index = 0;
-    }
-    showSlide(index);
-});
-
-prev.addEventListener("click", () =>{
-    index--;
-
-    if(index<0){
-        index = slides.length-1;
-    }
-    showSlide(index);
-});
 
 const findEv = document.querySelector("#ev-button")
 const findEvCt = document.querySelector("#ev-content")
@@ -227,6 +218,7 @@ document.addEventListener("click", function(event){
 
 //Pagination
 
-const cars = document.querySelector(".shopCar")
+
+
 
 
