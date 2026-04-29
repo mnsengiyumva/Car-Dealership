@@ -1333,9 +1333,13 @@ body{
     border:none;
     border-radius:50%;
     background:white;
-    font-size:22px;
+    font-size:25px;
     cursor:pointer;
-    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+}
+
+.heart-btn.active{
+    color: red;
 }
 
 
