@@ -139,10 +139,26 @@ function showPage(page){
         if(index >= start && index<end ){
 
             createDecipheriv.style.display = "block";
+
+        } else{
+            createDecipheriv.style.display = "none";
         }
         
     });
+
+    document.getElementById("pageNum").innerHTML = "Page "+page
 }
+
+function nextPage(){
+
+    let totalPages = Math.ceil(cars.length/itemsPerPage);
+
+    if(currentPage < totalPages){
+        currentPage ++;
+        showPage(currentPage);
+    }
+}
+
 
 
 const findEv = document.querySelector("#ev-button")
