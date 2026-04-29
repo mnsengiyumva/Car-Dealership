@@ -225,4 +225,8 @@ document.addEventListener("click", function(event){
     }
 })
 
+//Pagination
+
+const cars = document.querySelector(".shopCar")
+
 
