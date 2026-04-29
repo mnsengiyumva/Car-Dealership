@@ -1345,6 +1345,11 @@ body{
 .heart-btn:hover{
     color: white;
     background: #007bff;
+   
+}
+
+.heart-btn:hover::after{
+    
     transition:3s ease;
 }
 
