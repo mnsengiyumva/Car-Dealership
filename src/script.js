@@ -146,7 +146,9 @@ function showPage(page){
         
     });
 
-    document.getElementById("pageNum").innerHTML = "Page "+page
+    document.getElementById("pageNum").innerHTML = "Page "+page;
+
+    document.querySelector(".pre")
 }
 
 function nextPage(){
@@ -160,6 +162,16 @@ function nextPage(){
 }
 
 
+function prevPage(){
+
+    if(currentPage> 1){
+        currentPage --;
+
+        showPage(currentPage);
+    }
+}
+
+showPage(currentPage)
 
 const findEv = document.querySelector("#ev-button")
 const findEvCt = document.querySelector("#ev-content")
