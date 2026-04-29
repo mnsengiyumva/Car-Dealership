@@ -1342,6 +1342,11 @@ body{
     color: red;
 }
 
+.heart-btn:hover{
+    color: white;
+    background: #007bff;
+}
+
 
 
 .shopCar p{
