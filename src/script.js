@@ -146,31 +146,30 @@ function showPage(page){
         
     });
 
-    document.getElementById("pageNum").innerHTML = "Page "+page;
-
-    document.querySelector("#prevBtn").disabled = currentPage === 1;
-    document.querySelector("#nextBtn").disabled = currentPage === totalPages;
-}
-
-function nextPage(){
-
     let totalPages = Math.ceil(cars.length/itemsPerPage);
 
-    if(currentPage < totalPages){
-        currentPage ++;
-        showPage(currentPage);
-    }
+    document.getElementById("pageNum").innerText = "Page "+page;
+
+    document.querySelectorById("prevBtn").disabled = currentPage === 1;
+    document.querySelectorById("nextBtn").disabled = currentPage === totalPages;
 }
 
+document.getElementById("nextBtn").addEventListener("click", () => {
+    let totalPages = Math.ceil(cars.length / itemsPerPage);
 
-function prevPage(){
-
-    if(currentPage> 1){
-        currentPage --;
-
+    if (currentPage < totalPages) {
+        currentPage++;
         showPage(currentPage);
     }
-}
+});
+
+document.getElementById("prevBtn").addEventListener("click", () => {
+    if (currentPage > 1) {
+        currentPage--;
+        showPage(currentPage);
+    }
+});
+
 
 showPage(currentPage)
 
