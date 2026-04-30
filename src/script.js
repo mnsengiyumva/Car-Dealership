@@ -226,6 +226,8 @@ hearts.forEach(btn => {
     });
 });
 
+updateCount();
+
 
 const findDark = document.querySelector("#dark-button");
 const findDkCt = document.querySelector("#dark-content")
