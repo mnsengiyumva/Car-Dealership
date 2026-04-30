@@ -189,6 +189,18 @@ document.addEventListener("click", function(event){
     }
 })
 
+
+const hearts = document.querySelectorAll(".heart-btn")
+const favCount = document.getElementById("favCount")
+
+let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+
+function updateCount(){
+
+    favCount.innerText = favorites.length;
+}
+
+
 const findDark = document.querySelector("#dark-button");
 const findDkCt = document.querySelector("#dark-content")
 
