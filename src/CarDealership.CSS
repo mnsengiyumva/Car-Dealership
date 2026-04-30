@@ -126,7 +126,8 @@ body{
 
 .home{
     margin-right: 40px;
-    top: 0;
+    margin-top: 12px;
+    font-size: xx-large;
 }
 
 #homeBtn{
@@ -138,9 +139,6 @@ body{
 
 }
 
-#homeBtn:hover{
-   text-decoration: none;
-}
 
 .searching{
     display: flex;
