@@ -200,6 +200,17 @@ function updateCount(){
     favCount.innerText = favorites.length;
 }
 
+hearts.forEach(btn => {
+    const id = btn.dataset.id;
+
+    if(favorites.includes(id)){
+        btn.classList.add("active")
+        btn.innerText = "❤️"
+    }
+
+    btn.addEventListener()
+})
+
 
 const findDark = document.querySelector("#dark-button");
 const findDkCt = document.querySelector("#dark-content")
