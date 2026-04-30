@@ -195,6 +195,10 @@ const favCount = document.getElementById("favCount")
 
 let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
+const box = document.getElementById("favoriteCars");
+
+
+
 function updateCount(){
 
     favCount.innerText = favorites.length;
