@@ -15,5 +15,10 @@ if(favorites.length === 0){
 }
 
 function removeFav(id){
-    
+
+    favorites = favorites.filter(item => item !== id);
+    localStorage.setItem("favorites", JSON.stringify(favorites));
+
+    localStorage.reload();
+
 }
