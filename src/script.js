@@ -208,8 +208,23 @@ hearts.forEach(btn => {
         btn.innerText = "❤️"
     }
 
-    btn.addEventListener()
-})
+    btn.addEventListener("click", () => {
+
+        if(favorites.includes(id)){
+            favorites = favorites.filter(item => item !== id);
+            btn.classList.remove("active");
+            btn.innerText = "♡"
+        } else{
+
+            favorites.push(id);
+            btn.classList.add("active");
+            btn.innerText = "❤️"
+        }
+
+        localStorage.setItem("favorites", JSON.stringify(favorites));
+        updateCount();
+    });
+});
 
 
 const findDark = document.querySelector("#dark-button");
