@@ -1,0 +1,15 @@
+#evContent{
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    position: absolute;
+    background: rgb(241, 242, 243);
+}
+
+#hybridContent{
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 30px;
+    background: rgb(241, 242, 243);
+    border-radius: 20px;
+}
