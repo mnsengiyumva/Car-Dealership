@@ -51,6 +51,7 @@ body{
     text-decoration: none;
     color: #007bff;
     font-weight: bolder ;
+
 }
 
 section1 a
@@ -84,7 +85,9 @@ section1 a
     border-radius: 20px;
 
 }
-
+.hidden{
+    display: none;
+}
 #menubtn{
     font-size: x-large;
     border: white;
