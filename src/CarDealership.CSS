@@ -339,9 +339,19 @@ body{
     border: rgb(243, 243, 243) ;
     position: absolute;
     border-radius: 20px;
+    border: #b9baba solid 1px;
 
     
 }
+
+#dealersContent a:hover{
+    background: #007bff;
+    color: white;
+    padding: 7px;
+    
+    
+}
+
 
 #dealersBtn{
     font-size: x-large;
