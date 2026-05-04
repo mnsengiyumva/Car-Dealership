@@ -41,21 +41,21 @@ body{
     #searchButton{
         margin-left: 0px
     }
-    .searching{
-
-       
-    }
-
+ 
 }
 .section1 a{
     text-decoration: none;
     color: #413f3f;
     font-weight: bolder ;
+    
 
 }
 
 .section1 a:hover{
-    
+    background: #007bff;
+    padding: 8px;
+    color: white;
+   
 }
 
 .hidden{
