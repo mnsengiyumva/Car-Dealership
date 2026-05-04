@@ -459,14 +459,11 @@ body{
     border: none;
     background: white;
     font-size: large;
+    display: flex;
     
 }
 
-#darkToggle:hover{
-    color:#ffffff;
-    background: #007bff;
-    
-}
+
 
 #menContent{
     
