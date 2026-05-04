@@ -212,12 +212,9 @@ body{
     font-size: large;
     border: none;
     background: none;
-   
     margin-bottom: 10px;
-    
+    color: white;
     margin-top: 6px;
-
-    border:#ffffff solid 0.1px ;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
@@ -229,16 +226,15 @@ body{
     
 }
 #vihecleBtn:hover{
-    
-    border:#ffffff solid 0.1px ;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 5px;
-    color: white;
+    color: #007bff;
+    background: #edf0f3;
     font-weight: bolder;
-    background: #0587ea;
+    
     cursor: pointer;
 }
 
@@ -255,19 +251,15 @@ body{
     border: none;
     background: none;
     font-weight: bolder;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;  
     margin-top: 16px;
-    border:#ffffff solid 0.1px ;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
-
-
     transition: 0.1s ease;
-
     cursor: pointer;
+    color: white;
     
     
 }
@@ -304,16 +296,15 @@ body{
 
 #buildBtn:hover{
     
-    border:#ffffff solid 0.1px ;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 5px;
     font-weight: bolder;
-    background: #0587ea;
+    color: #007bff;
+    background: #edf0f3;
     transition: 0.1s ease;
-    color: white;
     cursor: pointer;
     
 }
