@@ -264,6 +264,21 @@ body{
     
 }
 
+#buildBtn:hover{
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: #007bff;
+    background: #edf0f3;
+    transition: 0.1s ease;
+    cursor: pointer;
+    
+}
+
 #buildContent{
 
     background: rgb(255, 255, 255);
@@ -287,26 +302,48 @@ body{
 }
 
 
-
-
-
 .hideBuild{
     display: none;
 }
 
-#buildBtn:hover{
-    
+
+
+
+
+
+#dealersBtn{
+    font-size: large;
+    border: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: none;
+    font-weight: bolder;
+    margin-top: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: bolder;
+    transition: 0.3s ease;
+    cursor: pointer;
+    color: white;
+
+
+}
+#dealersBtn:hover{
+    border:#ffffff solid 0.1px ;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 5px;
     font-weight: bolder;
+    background: #0587ea;
+    transition: 0.1s ease;
     color: #007bff;
     background: #edf0f3;
-    transition: 0.1s ease;
     cursor: pointer;
-    
+
 }
 
 #dealersContent{
@@ -330,46 +367,11 @@ body{
     
 }
 
-
-#dealersBtn{
-    font-size: large;
-    border: none;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    background: none;
-    font-weight: bolder;
-    
-    margin-top: 16px;
-
-    border:#ffffff solid 0.1px ;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
-    font-weight: bolder;
-    transition: 0.3s ease;
-    cursor: pointer;
-
-
-}
-#dealersBtn:hover{
-    border:#ffffff solid 0.1px ;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
-    border-radius: 5px;
-    font-weight: bolder;
-    background: #0587ea;
-    transition: 0.1s ease;
-    color: white;
-    cursor: pointer;
-
-}
-
 .hideDealers{
     display: none;
 }
+
+
 
 #moreContent{
     background: rgb(255, 255, 255);
