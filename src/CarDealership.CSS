@@ -21,7 +21,7 @@ body{
     right: 0;
     left: 0;
     gap: 10px;
-    padding-bottom:10 px;
+    
     background: #007bff;
     
 
@@ -49,6 +49,7 @@ body{
 .section1 a{
     text-decoration: none;
     color: rgb(81, 80, 80);
+    padding-bottom:20 px;
 }
 
 
@@ -126,6 +127,11 @@ body{
     margin-right: 40px;
     margin-top: 12px;
     font-size: xx-large;
+    
+}
+
+#homeBtn{
+    color: white;
 }
 
 
