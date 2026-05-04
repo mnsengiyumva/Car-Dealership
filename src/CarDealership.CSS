@@ -48,7 +48,7 @@ body{
 }
 .section1 a{
     text-decoration: none;
-    color: white;
+    color: rgb(81, 80, 80);
 }
 
 
@@ -68,7 +68,7 @@ body{
     margin-top: 19px; 
     position: relative;
     display: inline-block;
-    color: white;
+    
 
 }
 
@@ -98,15 +98,14 @@ body{
 }
 #menubtn{
     font-size: xx-large;
-    border: white;
+    border: none;
     background: none;
-    border:#ffffff solid 0.1px ;
     padding-right: 15px;
     padding-left: 15px;
-    border-radius: 10px;
+ 
     transition: 0.1s ease;
     cursor: pointer;
-    
+    color: white;
 }
 
 #menubtn:hover{
