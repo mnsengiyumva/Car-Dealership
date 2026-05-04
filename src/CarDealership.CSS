@@ -49,12 +49,14 @@ body{
 }
 .section1 a{
     text-decoration: none;
-    color: #007bff;
+    color: #413f3f;
     font-weight: bolder ;
 
 }
 
-section1 a
+.section1 a:hover{
+    
+}
 
 .hidden{
     display: none;
