@@ -191,8 +191,17 @@ body{
     width: 160px;
     border: rgb(243, 243, 243) ;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 10px;
+    border: #b9baba solid 1px;
     
+    
+}
+
+#vihecleContent a:hover{
+    background: #007bff;
+    color: white;
+    padding: 7px;
+    border: #b9baba solid 1px;
     
 }
 
@@ -287,6 +296,8 @@ body{
     border-radius: 20px;
  
 }
+
+
 
 
 .hideBuild{
