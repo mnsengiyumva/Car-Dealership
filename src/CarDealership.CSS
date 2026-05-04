@@ -47,9 +47,6 @@ body{
 .section1 a{
     text-decoration: none;
     color: rgb(95, 94, 94);
-    font-weight: bolder ;
-    
-
 }
 
 
@@ -98,17 +95,14 @@ body{
     display: none;
 }
 #menubtn{
-    font-size: x-large;
+    font-size: xx-large;
     border: white;
-    font-weight: bolder;
     background: none;
     border:#ffffff solid 0.1px ;
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 10px;
     transition: 0.1s ease;
-
-    font-weight: bolder;
     cursor: pointer;
     
 }
@@ -124,7 +118,6 @@ body{
     background: #0587ea;
     transition: 0.1s ease;
     color: white;
-    font-weight: bolder;
     cursor: pointer;
 }
 
@@ -209,10 +202,10 @@ body{
 
 
 #vihecleBtn{
-    font-size: x-large;
+    font-size: large;
     border: none;
     background: none;
-    font-weight: bolder;
+   
     margin-bottom: 10px;
     
     margin-top: 6px;
@@ -607,7 +600,7 @@ body{
     padding: 7px;
     border: none;
     border-radius: 20px;
-    background: black;
+    background: rgb(255, 0, 0);
     margin-top: 10px;
     color: white;
     font-weight: bold;
@@ -615,8 +608,6 @@ body{
 }
 
 .submit:hover{
-    color: w;
-    
     border: #8b8989 solid 0.1px;
     background: #0587ea;
     color: white;
