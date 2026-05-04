@@ -484,7 +484,6 @@ body{
 #userBtn{
     border: none;
     margin-top: 15px;
-
     margin-right: 10px;
     background: none;
     border:#ffffff solid 0.1px ;
@@ -494,8 +493,6 @@ body{
     padding-left: 15px;
     border-radius: 20px;
     font-weight: bolder;
-    transition: 0.1s ease;
- 
     cursor: pointer;
     
 
@@ -525,13 +522,20 @@ body{
 #userContent{
     padding: 10px;
     width: 100px;
-    margin-top: 5px;
+    margin-top: 15px;
     border-radius: 10px;
     position: absolute;
     background:white ;
-    color: #7f7c7c;
+    color: #a7a2a2;
+    border: #7f7c7c solid 1px;
 
 
+}
+
+#userContent a:hover{
+    color: white;
+    background: #007bff;
+    padding: 10px;
 }
 
 .threeDots{
