@@ -243,20 +243,6 @@ body{
 }
 
 
-
-#darkToggle{
-    border: none;
-    background: white;
-    
-}
-
-#darkToggle:hover{
-    color:#1788de;
-    text-decoration: underline;
-}
-
-
-
 .build{
     margin-right: 30px;
     position: relative;
@@ -348,6 +334,7 @@ body{
     background: #007bff;
     color: white;
     padding: 7px;
+
     
     
 }
@@ -400,6 +387,16 @@ body{
     order: rgb(243, 243, 243) ;
     position: absolute;
     border-radius: 20px;
+    border: #b9baba solid 1px;
+    
+    
+}
+
+#moreContent a:hover{
+    background: #007bff;
+    color: white;
+    padding: 7px;
+
     
     
 }
@@ -456,6 +453,19 @@ body{
 .dark{
     background-color: #121212;
     color: white;
+}
+
+#darkToggle{
+    border: none;
+    background: white;
+    font-size: large;
+    
+}
+
+#darkToggle:hover{
+    color:#ffffff;
+    background: #007bff;
+    
 }
 
 #menContent{
