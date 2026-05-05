@@ -438,7 +438,7 @@ body{
 }
 
 .dark{
-    background-color: #e60909;
+    background-color: #121212;
     color: white;
 }
 
@@ -475,7 +475,6 @@ body{
     margin-top: 15px;
     margin-right: 10px;
     background: none;
-    border:#ffffff solid 0.1px ;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
@@ -483,12 +482,12 @@ body{
     border-radius: 20px;
     font-weight: bolder;
     cursor: pointer;
+    color: white;
     
 
 }
 
 #userBtn:hover{
-    border:#ffffff solid 0.1px ;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
@@ -496,8 +495,8 @@ body{
     border-radius: 5px;
     font-weight: bolder;
     background: #0587ea;
-    transition: 0.1s ease;
-    color: white;
+    color: #007bff;
+    background: #edf0f3;
     cursor: pointer;
 
 }
