@@ -135,45 +135,6 @@ body{
 }
 
 
-
-
-.searching{
-    display: flex;
-}
-
-.search{
-   
-    padding: 10px;
-    background-color: #e1e4e4;
-    border-style: inherit;
-    border-radius: 18px;
-    padding-right: 50px;
-    margin-right: 50px;
-    
-}
-
-#searchContent{
-    margin-top: 10px;
-}
-
-#searchButton{
-
-    border: none;
-    background: none;
-    cursor: pointer;
-    font-size: large;
-    
-}
-
-#searchButton:hover{
-    color: #007bff;
-
-}
-
-.hideSearch{
-    display: none;
-}
-
 .vihecles{
     margin-top: 10px;
     margin-right: 30px;
@@ -526,6 +487,53 @@ body{
     padding: 10px;
 }
 
+.shoppingCart{
+    border: none;
+    background: none;
+    font-size: larger;
+    color: white;
+}
+
+.searching{
+    display: flex;
+    
+}
+
+.search{
+   
+    padding: 10px;
+    background-color: #e1e4e4;
+    border-style: inherit;
+    border-radius: 18px;
+    padding-right: 50px;
+    margin-right: 50px;
+    
+}
+
+#searchContent{
+    margin-top: 10px;
+}
+
+#searchButton{
+
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: large;
+    color: white;
+}
+
+#searchButton:hover{
+    color: #ffffff;
+
+}
+
+.hideSearch{
+    display: none;
+}
+
+
+
 .threeDots{
     margin-right: 10px;
     
@@ -543,17 +551,14 @@ body{
     margin-top: 1px;
     margin-left: 0px;
     background: none;
-    color: #453e3e;
+    color: white;
     margin-top: 5px;
-    border:#ffffff solid 0.1px ;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
-   
     font-weight: bolder;
- 
-    transition: 0.1s ease;
+
    
     
 
@@ -572,7 +577,6 @@ body{
 
 #dotsBtn:hover{
     
-    border:#ffffff solid 0.1px ;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
@@ -581,7 +585,8 @@ body{
     font-weight: bolder;
     background: #0587ea;
     transition: 0.1s ease;
-    color: white;
+    color: #007bff;
+    background: #edf0f3;
     
 }
 
@@ -612,15 +617,7 @@ body{
     margin: 15px;
 }
 
-.shoppingCart{
-    border: none;
-    background: none;
-    font-size: larger;
-}
 
-.shoppingCart:hover{
-    color: #0587ea;
-}
 
 
 .introduction{
