@@ -617,7 +617,11 @@ body{
     margin: 15px;
 }
 
-
+#favorite{
+    color: white;
+    margin-left: 40px;
+    margin-top: 40px;
+}
 
 
 .introduction{
