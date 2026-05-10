@@ -103,24 +103,28 @@ body{
     background: none;
     padding-right: 15px;
     padding-left: 15px;
- 
     transition: 0.1s ease;
     cursor: pointer;
     color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+
+    
+
 }
 
 #menubtn:hover{
     
-    border:#ffffff solid 0.1px ;
-   
-
     padding-right: 15px;
     padding-left: 15px;
-    border-radius: 10px;
-    background: #0587ea;
+    border-radius: 5px;
+    background: white;
     transition: 0.1s ease;
-    color: white;
+    color: #007bff;
+    border: none;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .home{
