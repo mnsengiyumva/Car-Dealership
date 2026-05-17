@@ -1200,6 +1200,7 @@ body{
         
     }
 
+
    
 
     .slide-container{
@@ -1357,34 +1358,9 @@ body{
 }
 
 
-.heart-btn{
-    position:absolute;
-    top:15px;
-    right:15px;
-    width:45px;
-    height:45px;
-    border:none;
-    border-radius:50%;
-    background:white;
-    font-size:25px;
-    cursor:pointer;
-    box-shadow:0 4px 8px rgba(0,0,0,0.2);
-}
 
-.heart-btn.active{
-    color: red;
-}
 
-.heart-btn:hover{
-    color: white;
-    background: #007bff;
-   
-}
 
-.heart-btn:hover::after{
-    
-    transition:3s ease;
-}
 
 
 
@@ -1398,6 +1374,13 @@ body{
     background: #ebeaea;
     transition: transform 0.4s ease;
     border-radius: 30px;
+    
+}
+
+@media(width:726px){
+    .shopCar:hover{
+        padding-left: 10px;
+    }
 }
 .price{
   
