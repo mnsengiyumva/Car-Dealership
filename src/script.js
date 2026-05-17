@@ -124,6 +124,34 @@ document.addEventListener("click", function(event){
     }
 })
 
+
+
+const slides  = document.querySelector(".sliding");
+const prev = document.querySelector(".prev");
+const next = document.querySelector(".next");
+
+let current = 0;
+
+function showSlide(index){
+
+    slides.forEach(slide => slide.classList.remove("active"));
+
+    current = (index+slides.length)%slides.length;
+    slides[current].classList.add('active');
+
+
+    if(slides[current].tagName == 'VIDEO'){
+
+        slides[current].currentTime = 0;
+
+        slides[current].play();
+    }
+}
+
+
+prev.addEventListener('click', () => showSlide(current-1))
+next.addEventListener('click', () => showSlide(current+1))
+
 const cars = document.querySelectorAll(".shopCar");
 
 const itemsPerPage = 5;
@@ -190,43 +218,9 @@ document.addEventListener("click", function(event){
 })
 
 
-const hearts = document.querySelectorAll(".heart-btn")
-const favCt = document.getElementById("favCount")
 
-let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
-function updateCount(){
 
-    favCt.innerText = favorites.length;
-}
-
-hearts.forEach(btn => {
-    const id = btn.dataset.id;
-
-    if(favorites.includes(id)){
-        btn.classList.add("active")
-        btn.innerText = "❤️"
-    }
-
-    btn.addEventListener("click", () => {
-
-        if(favorites.includes(id)){
-            favorites = favorites.filter(item => item !== id);
-            btn.classList.remove("active");
-            btn.innerText = "♡"
-        } else{
-
-            favorites.push(id);
-            btn.classList.add("active");
-            btn.innerText = "❤️"
-        }
-
-        localStorage.setItem("favorites", JSON.stringify(favorites));
-        updateCount();
-    });
-});
-
-updateCount();
 
 
 const findDark = document.querySelector("#dark-button");
@@ -286,55 +280,7 @@ document.addEventListener("click", function(event){
 
 
 
-const slides = document.querySelectorAll(".sliding");
-const nextBtn = document.querySelector(".next");
-const prevBtn = document.querySelector(".prev");
 
-let currentIndex = 0;
-
-// Show current slide
-function showSlide(index) {
-    slides.forEach((slide, i) => {
-        slide.classList.remove("active");
-        slide.style.display = "none";
-
-        // Pause videos when hidden
-        if (slide.tagName === "VIDEO") {
-            slide.pause();
-        }
-
-        if (i === index) {
-            slide.classList.add("active");
-            slide.style.display = "block";
-
-            // Play video if current slide is video
-            if (slide.tagName === "VIDEO") {
-                slide.play();
-            }
-        }
-    });
-}
-
-// Next button
-nextBtn.addEventListener("click", () => {
-    currentIndex++;
-    if (currentIndex >= slides.length) {
-        currentIndex = 0;
-    }
-    showSlide(currentIndex);
-});
-
-// Previous button
-prevBtn.addEventListener("click", () => {
-    currentIndex--;
-    if (currentIndex < 0) {
-        currentIndex = slides.length - 1;
-    }
-    showSlide(currentIndex);
-});
-
-// Initialize
-showSlide(currentIndex);
 
 
 

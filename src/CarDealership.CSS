@@ -860,10 +860,14 @@ body{
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    transition: opacity 0.7s ease;
+    
+    
     
 } 
 
+.sliding.active{
+    display: block;
+}
 .prev, .next{
 
     position: absolute;
