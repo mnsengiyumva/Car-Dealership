@@ -126,6 +126,52 @@ document.addEventListener("click", function(event){
 
 
 
+
+const evBtn = document.querySelector("#evButton");
+const evCt = document.querySelector("#evContent");
+
+evBtn.addEventListener("click", function(){
+    evCt.classList.toggle("hideEv")
+})
+
+document.addEventListener("click", function(event){
+    if(!evBtn.contains(event.target) && !evCt.contains(event.target)){
+        evCt.classList.add("hidev")
+    }
+})
+
+const hybridBtn = document.querySelector("#hybridButton");
+const hybrintCt = document.querySelector("#hybridContent");
+
+hybridBtn.addEventListener("click", function(){
+    hybrintCt.classList.toggle("hideHybrid")
+})
+
+document.addEventListener("click", function(event){
+
+    if(!hybridBtn.contains(event.target) && !hybrintCt.contains(event.target)){
+
+        hybrintCt.classList.add("hideHybrid")
+    }
+})
+
+const suvBtn = document.querySelector("#suvButton")
+const suvCt = document.querySelector("#suvContent")
+
+suvBtn.addEventListener("click", function(){
+    suvCt.classList.toggle("hideSuv")
+})
+
+document.addEventListener("click", function(event){
+    if(!suvBtn.contains(event.target) && !suvCt.contains(event.target)){
+        suvCt.classList.add("hideSuv")
+    }
+})
+
+
+
+
+
 const cars = document.querySelectorAll(".shopCar");
 
 const itemsPerPage = 5;
@@ -211,46 +257,6 @@ document.addEventListener("click", function(event){
     }
 })
 
-const evBtn = document.querySelector("#evButton");
-const evCt = document.querySelector("#evContent");
-
-evBtn.addEventListener("click", function(){
-    evCt.classList.toggle("hideEv")
-})
-
-document.addEventListener("click", function(event){
-    if(!evBtn.contains(event.target) && !evCt.contains(event.target)){
-        evCt.classList.add("hidev")
-    }
-})
-
-const hybridBtn = document.querySelector("#hybridButton");
-const hybrintCt = document.querySelector("#hybridContent");
-
-hybridBtn.addEventListener("click", function(){
-    hybrintCt.classList.toggle("hideHybrid")
-})
-
-document.addEventListener("click", function(event){
-
-    if(!hybridBtn.contains(event.target) && !hybrintCt.contains(event.target)){
-
-        hybrintCt.classList.add("hideHybrid")
-    }
-})
-
-const suvBtn = document.querySelector("#suvButton")
-const suvCt = document.querySelector("#suvContent")
-
-suvBtn.addEventListener("click", function(){
-    suvCt.classList.toggle("hideSuv")
-})
-
-document.addEventListener("click", function(event){
-    if(!suvBtn.contains(event.target) && !suvCt.contains(event.target)){
-        suvCt.classList.add("hideSuv")
-    }
-})
 
 
 
