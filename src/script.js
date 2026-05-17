@@ -126,32 +126,6 @@ document.addEventListener("click", function(event){
 
 
 
-const slides  = document.querySelector(".sliding");
-const prev = document.querySelector(".prev");
-const next = document.querySelector(".next");
-
-let current = 0;
-
-function showSlide(index){
-
-    slides.forEach(slide => slide.classList.remove("active"));
-
-    current = (index+slides.length)%slides.length;
-    slides[current].classList.add('active');
-
-
-    if(slides[current].tagName == 'VIDEO'){
-
-        slides[current].currentTime = 0;
-
-        slides[current].play();
-    }
-}
-
-
-prev.addEventListener('click', () => showSlide(current-1))
-next.addEventListener('click', () => showSlide(current+1))
-
 const cars = document.querySelectorAll(".shopCar");
 
 const itemsPerPage = 5;
