@@ -193,10 +193,6 @@ document.addEventListener("click", function(event){
 
 
 
-
-
-
-
 const findDark = document.querySelector("#dark-button");
 const findDkCt = document.querySelector("#dark-content")
 
