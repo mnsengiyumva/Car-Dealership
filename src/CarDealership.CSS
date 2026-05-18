@@ -1262,6 +1262,7 @@ body{
     border-radius: 15px;
     color: #0587ea;
     background: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 
 }
 .shopOptions button:hover{
@@ -1272,7 +1273,10 @@ body{
     color: #ffffff;
     background: #0587ea;
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.4);
+    box-shadow: 0 8px 20px #007bff;
+   
+    
 
 }
 
