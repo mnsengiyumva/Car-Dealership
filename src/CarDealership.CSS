@@ -161,31 +161,6 @@ body{
   
 }
 
-#vihecleContent{
-
-    background: white;
-    padding: 10px;
-    width: 160px;
-    border: rgb(243, 243, 243) ;
-    position: absolute;
-    margin-top: 10px;
-    border-radius: 10px;
-    border: #b9baba solid 1px;
-    
-    
-}
-
-#vihecleContent a:hover{
-    background: #007bff;
-    color: white;
-    padding: 7px;
-    border: #b9baba solid 1px;
-    
-}
-
-
-
-
 #vihecleBtn{
     font-size: large;
     border: none;
@@ -212,11 +187,38 @@ body{
     color: #007bff;
     background: white;
     font-weight: bolder;
-    transform: scale(1.2);
+    transform: scale(1.5);
     box-shadow: 0, 8px, 20px white;
     
     cursor: pointer;
 }
+
+#vihecleContent{
+
+    background: white;
+    padding: 10px;
+    width: 160px;
+    border: rgb(243, 243, 243) ;
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: #b9baba solid 1px;
+    
+    
+}
+
+#vihecleContent a:hover{
+    background: #007bff;
+    color: white;
+    padding: 7px;
+    border: #b9baba solid 1px;
+    
+}
+
+
+
+
+
 
 
 .build{
@@ -240,6 +242,8 @@ body{
     transition: 0.1s ease;
     cursor: pointer;
     color: white;
+    transition: transform 0.5s ease box-shadow 0.5 ease;
+    
     
     
 }
@@ -256,6 +260,8 @@ body{
     background: #edf0f3;
     transition: 0.1s ease;
     cursor: pointer;
+    transform: scale(1.5);
+    box-shadow: 0, 8px, 20px white;
     
 }
 
@@ -307,6 +313,7 @@ body{
     transition: 0.3s ease;
     cursor: pointer;
     color: white;
+    transition: transform 0.5s ease box-shadow 0.5 ease;
 
 
 }
@@ -322,6 +329,8 @@ body{
     color: #007bff;
     background: #edf0f3;
     cursor: pointer;
+    transform: scale(1.5);
+    box-shadow: 0, 8px, 20px white;
 
 }
 
