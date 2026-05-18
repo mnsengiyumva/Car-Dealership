@@ -276,6 +276,7 @@ body{
     position: absolute;
     border-radius: 10px;
     border: #b9baba solid 1px;
+    transition: transform 0.5s ease box-shadow 0.5 ease;
 
  
 }
@@ -284,6 +285,10 @@ body{
     background: #007bff;
     color: white;
     padding: 7px;
+    transform: scale(2);
+    box-shadow: 0, 8px, 20px white;
+    transition: 0.2s ease;
+  
     
     
 }
@@ -326,12 +331,13 @@ body{
     border-radius: 5px;
     font-weight: bolder;
     background: #0587ea;
-    transition: 0.3s ease;
+    
     color: #007bff;
     background: #edf0f3;
     cursor: pointer;
     transform: scale(1.7);
     box-shadow: 0, 8px, 20px white;
+    transition: 0.3s ease;
 
 }
 
@@ -343,6 +349,7 @@ body{
     position: absolute;
     border-radius: 20px;
     border: #b9baba solid 1px;
+    transition: transform 0.5s ease box-shadow 0.5 ease;
 
     
 }
@@ -351,9 +358,10 @@ body{
     background: #007bff;
     color: white;
     padding: 7px;
-
-    
-    
+    transform: scale(2);
+    box-shadow: 0, 8px, 20px white;
+    transition: 0.2s ease;
+  
 }
 
 .hideDealers{
