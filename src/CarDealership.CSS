@@ -1277,8 +1277,9 @@ body{
     padding-left: 20px;
     padding-right: 30px;
     position: absolute;
-    background: rgb(241, 242, 243);
+    background: white;
     margin-bottom: 450px;
+    color: #007bff;
     
 }
 
