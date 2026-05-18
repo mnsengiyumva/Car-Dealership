@@ -1332,13 +1332,10 @@ body{
 }
 .slideShop{
     
-    border-bottom-left-radius: 90px;
-    border-top-left-radius: 90px;
-    border-bottom-right-radius: 90px;
-    border-top-right-radius: 90px;
     margin-top: 30px;
     margin-left: 10px;
     justify-content: center;
+    
 
 }
 
@@ -1387,6 +1384,7 @@ body{
 
 .shopCar p{
     font-size: small;
+    
 }
 
 .shopCar:hover{
@@ -1425,7 +1423,7 @@ body{
     color: #007bff;
     font-weight: bold;
     padding: 10px;
-    transition: trannsform 0.2s ease, box-shadow 0.2s ease;
+    transition: trannsform 0.4s ease, box-shadow 0.4s ease;
     border: #007bff solid 1px;
     border-radius: 20px;
     
