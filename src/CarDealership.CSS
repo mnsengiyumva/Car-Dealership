@@ -1272,12 +1272,13 @@ body{
 
 
 
-#evContent{
+#evCont{
     border-radius: 20px;
     padding-left: 20px;
     padding-right: 30px;
     position: absolute;
     background: rgb(241, 242, 243);
+    translate: var(#007bff);
     
     
     
