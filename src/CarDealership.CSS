@@ -212,7 +212,10 @@ body{
     background: #007bff;
     color: white;
     padding: 7px;
-    border: #b9baba solid 1px;
+    transition: 0.3s ease;
+    transform: scale(1);
+    box-shadow: 0, 8px, 20px white;
+    transition: 0.2s ease;
     
 }
 
@@ -378,6 +381,7 @@ body{
     position: absolute;
     border-radius: 20px;
     border: #b9baba solid 1px;
+    transition: transform 0.5s ease box-shadow 0.5 ease;
     
     
 }
@@ -386,6 +390,10 @@ body{
     background: #007bff;
     color: white;
     padding: 7px;
+    transition: 0.3s ease;
+    transform: scale(1);
+    box-shadow: 0, 8px, 20px white;
+    transition: 0.2s ease;
 
     
     
@@ -454,7 +462,8 @@ body{
 #darkToggle:hover{
     color: white;
     background: black;
-    padding: 10px;
+    padding: 7px;
+    
 }
 
 
@@ -484,6 +493,9 @@ body{
     font-weight: bolder;
     cursor: pointer;
     color: white;
+    transition: 0.1s ease;
+    transform: scale(1.7);
+    box-shadow: 0, 8px, 20px white;
     
 
 }
@@ -511,12 +523,15 @@ body{
 #userContent{
     padding: 10px;
     width: 100px;
-    margin-top: 15px;
+    margin-top: 25px;
     border-radius: 10px;
     position: absolute;
     background:white ;
     color: #a7a2a2;
     border: #7f7c7c solid 1px;
+    transition: transform 0.5s ease box-shadow 0.5 ease;
+    
+
 
 
 }
@@ -525,6 +540,12 @@ body{
     color: white;
     background: #007bff;
     padding: 10px;
+    transition: 0.1s ease;
+    transform: scale(1.7);
+    box-shadow: 0, 8px, 20px white;
+    
+
+   
 }
 
 .shoppingCart{
