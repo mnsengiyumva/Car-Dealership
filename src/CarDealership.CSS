@@ -21,8 +21,6 @@ body{
     right: 0;
     left: 0;
     gap: 10px;
-    
-   
     background: #007bff;
       
 }
@@ -71,6 +69,7 @@ body{
     position: relative;
     display: inline-block;
     
+    
 
 }
 
@@ -110,6 +109,9 @@ body{
     margin-left: 10px;
     border-radius: 5px;
     
+    transform: scale(1.2);
+    box-shadow: 0, 8px, 20px #007bff;
+    
 
     
 
@@ -126,6 +128,8 @@ body{
     border: none;
     cursor: pointer;
     margin-left: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
 }
 
 .home{
@@ -1425,6 +1429,7 @@ body{
     font-weight: bold;
     padding: 10px;
     border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     
 }
 
@@ -1435,6 +1440,7 @@ body{
     border-radius: 10px;
     transform: scale(1.2);
     box-shadow: 0 8px 20px, #007bff;
+
 }
 
 .shopDetails a{
@@ -1444,7 +1450,7 @@ body{
 .rent{
     
     margin-right: 100px;
-    transition: trannsform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     color:white;
     background: #007bff;
     border-radius: 10px;
@@ -1455,7 +1461,7 @@ body{
     
     margin-right: 100px;
 
-    transition: trannsform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     color:white;
     background: #007bff;
     border-radius: 10px;
