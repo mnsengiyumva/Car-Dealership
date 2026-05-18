@@ -87,6 +87,8 @@ body{
     position: absolute;
     border-radius: 10px;
     border: #b9baba solid 1px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease
+    
 
 
 }
@@ -95,6 +97,9 @@ body{
     background: #007bff;
     color: white;
     padding: 7px;
+    transition: 0.2s ease;
+    transform: scale(1.7);
+    box-shadow: 0, 8px, 20px white;
     
 }
 
