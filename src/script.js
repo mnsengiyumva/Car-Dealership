@@ -136,7 +136,7 @@ evBtn.addEventListener("click", function(){
 
 document.addEventListener("click", function(event){
     if(!evBtn.contains(event.target) && !evCt.contains(event.target)){
-        evCt.classList.add("hidev")
+        evCt.classList.add("hideEv")
     }
 })
 
