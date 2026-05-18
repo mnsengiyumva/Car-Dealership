@@ -1362,7 +1362,7 @@ body{
     
     padding-left: 20px; 
     position: relative;
-     
+
     
 }
 
@@ -1420,13 +1420,11 @@ body{
 .discover{
     
     margin-right: 100px;
-    background: white;
-    color: #007bff;
+    background:#007bff;
+    color:white;
     font-weight: bold;
     padding: 10px;
-    transition: trannsform 0.4s ease, box-shadow 0.4s ease;
-    border: #007bff solid 1px;
-    border-radius: 20px;
+    border-radius: 10px;
     
 }
 
@@ -1434,8 +1432,8 @@ body{
     color:white;
     background: #007bff;
     text-decoration: underline;
-    border-radius: 20px;
-    transform: scale(1.3);
+    border-radius: 10px;
+    transform: scale(1.2);
     box-shadow: 0 8px 20px, #007bff;
 }
 
@@ -1446,28 +1444,29 @@ body{
 .rent{
     
     margin-right: 100px;
-    border: #007bff solid 1px;
     transition: trannsform 0.2s ease, box-shadow 0.2s ease;
-    color: #007bff;
-    border-radius: 20px;
+    color:white;
+    background: #007bff;
+    border-radius: 10px;
     font-weight: bold;
     padding: 10px;
 }
 .buy{
     
     margin-right: 100px;
-    border: #007bff solid 1px;
+
     transition: trannsform 0.2s ease, box-shadow 0.2s ease;
-    color: #007bff;
-    border-radius: 20px;
+    color:white;
+    background: #007bff;
+    border-radius: 10px;
     font-weight: bold;
     padding: 10px;
 }
 
 .rent:hover{
     border: #007bff solid 1px;
-    border-radius: 20px;
-    transform: scale(1.3);
+    border-radius: 10px;
+    transform: scale(1.2);
     box-shadow: 0 8px 20px, #007bff;
     background: #007bff;
     color: white;
@@ -1475,8 +1474,8 @@ body{
 .buy:hover{
     
     border: #007bff solid 1px;
-    border-radius: 20px;
-    transform: scale(1.3);
+    border-radius: 10px;
+    transform: scale(1.2);
     box-shadow: 0 8px 20px, #007bff;
     background: #007bff;
     color: white;
