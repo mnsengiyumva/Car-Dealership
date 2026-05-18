@@ -1427,6 +1427,7 @@ body{
     padding: 10px;
     transition: trannsform 0.2s ease, box-shadow 0.2s ease;
     border: #007bff solid 1px;
+    border-radius: 20px;
     
 }
 
@@ -1434,8 +1435,7 @@ body{
     color:white;
     background: #007bff;
     text-decoration: underline;
-    
-
+    border-radius: 20px;
     transform: scale(1.3);
     box-shadow: 0 8px 20px, #007bff;
 }
@@ -1447,31 +1447,40 @@ body{
 .rent{
     
     margin-right: 100px;
-    background: #007bff;
-    color: white;
+    border: #007bff solid 1px;
+    transition: trannsform 0.2s ease, box-shadow 0.2s ease;
+    color: #007bff;
+    border-radius: 20px;
     font-weight: bold;
     padding: 10px;
 }
 .buy{
     
     margin-right: 100px;
-    background: #007bff;
-    color: white;
+    border: #007bff solid 1px;
+    transition: trannsform 0.2s ease, box-shadow 0.2s ease;
+    color: #007bff;
+    border-radius: 20px;
     font-weight: bold;
     padding: 10px;
 }
 
 .rent:hover{
-    color:white;
-    background: black;
-   
-    text-decoration: underline;
+    border: #007bff solid 1px;
+    border-radius: 20px;
+    transform: scale(1.3);
+    box-shadow: 0 8px 20px, #007bff;
+    background: #007bff;
+    color: white;
 }
 .buy:hover{
-    color:white;
-    background: black;
-   
-    text-decoration: underline;
+    
+    border: #007bff solid 1px;
+    border-radius: 20px;
+    transform: scale(1.3);
+    box-shadow: 0 8px 20px, #007bff;
+    background: #007bff;
+    color: white;
 }
 
 
