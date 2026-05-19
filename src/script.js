@@ -264,3 +264,47 @@ document.addEventListener("click", function(event){
 
 
 
+document.addEventListener('DOMContentLoaded', () => {
+  const slides = document.querySelectorAll('.sliding');
+  const prev = document.querySelector('.prev');
+  const next = document.querySelector('.next');
+  let current = 0;
+  let animating = false;
+
+  function showSlide(newIndex) {
+    if (animating) return;
+    animating = true;
+
+    const currentSlide = slides[current];
+    current = (newIndex + slides.length) % slides.length;
+    const nextSlide = slides[current];
+
+    // Flip out the current slide
+    currentSlide.classList.remove('active');
+    currentSlide.classList.add('flip-out');
+
+    // After half the animation, show the new slide flipping in
+    setTimeout(() => {
+      currentSlide.classList.remove('flip-out');
+      currentSlide.style.display = 'none';
+
+      nextSlide.style.display = 'block';
+      nextSlide.classList.add('flip-in');
+
+      if (nextSlide.tagName === 'VIDEO') {
+        nextSlide.currentTime = 0;
+        nextSlide.play();
+      }
+
+      nextSlide.addEventListener('animationend', () => {
+        nextSlide.classList.remove('flip-in');
+        nextSlide.classList.add('active');
+        animating = false;
+      }, { once: true });
+
+    }, 300);
+  }
+
+  prev.addEventListener('click', () => showSlide(current - 1));
+  next.addEventListener('click', () => showSlide(current + 1));
+});
