@@ -271,6 +271,16 @@ document.addEventListener('DOMContentLoaded', () => {
   let current = 0;
   let animating = false;
 
+  // Fix: make sure only first slide is active
+  slides.forEach((slide, i) => {
+    slide.classList.remove('active');
+    slide.style.display = 'none';
+    if (i === 0) {
+      slide.classList.add('active');
+      slide.style.display = 'block';
+    }
+  });
+
   function showSlide(newIndex) {
     if (animating) return;
     animating = true;
@@ -279,11 +289,9 @@ document.addEventListener('DOMContentLoaded', () => {
     current = (newIndex + slides.length) % slides.length;
     const nextSlide = slides[current];
 
-    // Flip out the current slide
     currentSlide.classList.remove('active');
     currentSlide.classList.add('flip-out');
 
-    // After half the animation, show the new slide flipping in
     setTimeout(() => {
       currentSlide.classList.remove('flip-out');
       currentSlide.style.display = 'none';
