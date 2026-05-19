@@ -865,23 +865,14 @@ body{
 }
 
 .explore{
-    color: #0587ea;
-    border-top: #0587ea solid 50px;
-    border-bottom: #0587ea solid 50px;
+ 
     margin-top: 60px;
     margin-bottom: 60px;
     padding-top: 90px;
     
 }
 
-@media(max-width:726px){
 
-    .explore{
-        border-top: #0587ea solid 1px;
-    border-bottom: #0587ea solid 1px;
-
-    }
-}
 
 
 .hideDemo{
