@@ -1410,7 +1410,7 @@ body{
     color: #007bff;
     font-size: xx-large;
     border-left: #007bff solid 10px;
-    border-bottom: #007bff solid 10px;
+    border-bottom: #007bff solid 10p;
 }
 @media(max-width:726px){
 
