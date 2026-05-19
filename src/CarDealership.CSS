@@ -1303,10 +1303,12 @@ body{
 
 @media(max-width: 726px){
     .shopOptions{
-        margin-left: 0px;
-        flex-direction: column;
+        margin-left: 200px;
+        border: none;
         gap: 5px;
     }
+
+    
 }
 
 
@@ -1361,6 +1363,7 @@ body{
     padding-right: 30px;
     background: rgb(241, 242, 243);
     border-radius: 20px;
+    z-index: 10;
 }
 
 
@@ -1388,6 +1391,7 @@ body{
     padding-right: 30px;
     background: rgb(241, 242, 243);
     border-radius: 20px;
+    z-index: 10;
     
 
 }
