@@ -178,29 +178,67 @@ const itemsPerPage = 5;
 
 let currentPage = 1;
 
-function showPage(page){
-    let start = (page-1)*itemsPerPage
-    let end = start+itemsPerPage;
+// function showPage(page){
+//     let start = (page-1)*itemsPerPage
+//     let end = start+itemsPerPage;
 
-    cars.forEach((car, index )=> {
+//     cars.forEach((car, index )=> {
 
-        if(index >= start && index<end ){
+//         if(index >= start && index<end ){
 
+//             car.style.display = "block";
+
+//         } else{
+//             car.style.display = "none";
+//         }
+        
+//     });
+
+//     let totalPages = Math.ceil(cars.length/itemsPerPage);
+//     const pageNumElem = document.getElementById("pageNum");
+//     if (pageNumElem) {
+//         pageNumElem.innerText = "Page " + page;
+//     }
+
+//     document.getElementById("pageNum").innerText = "Page "+page;
+
+//     document.querySelectorById("prevBtn").disabled = currentPage === 1;
+//     document.querySelectorById("nextBtn").disabled = currentPage === totalPages;
+// }
+
+function showPage(page) {
+    let start = (page - 1) * itemsPerPage;
+    let end = start + itemsPerPage;
+
+    cars.forEach((car, index) => {
+        if (index >= start && index < end) {
             car.style.display = "block";
-
-        } else{
+        } else {
             car.style.display = "none";
         }
-        
     });
 
-    let totalPages = Math.ceil(cars.length/itemsPerPage);
+    let totalPages = Math.ceil(cars.length / itemsPerPage);
 
-    document.getElementById("pageNum").innerText = "Page "+page;
+    // FIX 1: Safety check for pageNum element
+    const pageNumElem = document.getElementById("pageNum");
+    if (pageNumElem) {
+        pageNumElem.innerText = "Page " + page;
+    }
 
-    document.querySelectorById("prevBtn").disabled = currentPage === 1;
-    document.querySelectorById("nextBtn").disabled = currentPage === totalPages;
+    // FIX 2: Fixed the typo 'querySelectorById' to 'getElementById' + added safety checks
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    if (prevBtn) {
+        prevBtn.disabled = currentPage === 1;
+    }
+    
+    if (nextBtn) {
+        nextBtn.disabled = currentPage === totalPages;
+    }
 }
+
 
 document.getElementById("nextBtn").addEventListener("click", () => {
     let totalPages = Math.ceil(cars.length / itemsPerPage);
@@ -262,58 +300,35 @@ document.addEventListener("click", function(event){
 
 
 
+document.addEventListener("DOMContentLoaded", () => {
+    const slides = document.querySelectorAll(".slideshow .sliding");
+    const prevBtn = document.querySelector(".slideshow .prev");
+    const nextBtn = document.querySelector(".slideshow .next");
+    let currentIndex = 0;
 
+    // Helper function to update classes
+    function showSlide(index) {
+        // Remove active class from the current slide
+        slides[currentIndex].classList.remove("active");
+        
+        // Update index to the new slide
+        currentIndex = index;
+        
+        // Add active class to the new slide
+        slides[currentIndex].classList.add("active");
+    }
 
-// document.addEventListener('DOMContentLoaded', () => {
-//   const slides = document.querySelectorAll('.sliding');
-//   const prev = document.querySelector('.prev');
-//   const next = document.querySelector('.next');
-//   let current = 0;
-//   let animating = false;
+    // Next Button Click
+    nextBtn.addEventListener("click", () => {
+        // If we're at the end, loop back to 0. Otherwise, go to next.
+        let nextIndex = (currentIndex + 1) % slides.length;
+        showSlide(nextIndex);
+    });
 
-//   // Fix: make sure only first slide is active
-//   slides.forEach((slide, i) => {
-//     slide.classList.remove('active');
-//     slide.style.display = 'none';
-//     if (i === 0) {
-//       slide.classList.add('active');
-//       slide.style.display = 'block';
-//     }
-//   });
-
-//   function showSlide(newIndex) {
-//     if (animating) return;
-//     animating = true;
-
-//     const currentSlide = slides[current];
-//     current = (newIndex + slides.length) % slides.length;
-//     const nextSlide = slides[current];
-
-//     currentSlide.classList.remove('active');
-//     currentSlide.classList.add('flip-out');
-
-//     setTimeout(() => {
-//       currentSlide.classList.remove('flip-out');
-//       currentSlide.style.display = 'none';
-
-//       nextSlide.style.display = 'block';
-//       nextSlide.classList.add('flip-in');
-
-//       if (nextSlide.tagName === 'VIDEO') {
-//         nextSlide.currentTime = 0;
-//         nextSlide.play();
-//       }
-
-//       nextSlide.addEventListener('animationend', () => {
-//         nextSlide.classList.remove('flip-in');
-//         nextSlide.classList.add('active');
-//         animating = false;
-//       }, { once: true });
-
-//     }, 300);
-//   }
-
-//   prev.addEventListener('click', () => showSlide(current - 1));
-//   next.addEventListener('click', () => showSlide(current + 1));
-// });
-
+    // Prev Button Click
+    prevBtn.addEventListener("click", () => {
+        // If we're at the beginning, loop to the last slide. Otherwise, go back one.
+        let prevIndex = (currentIndex - 1 + slides.length) % slides.length;
+        showSlide(prevIndex);
+    });
+});
