@@ -125,6 +125,40 @@ document.addEventListener("click", function(event){
 })
 
 
+document.addEventListener("DOMContentLoaded", () => {
+    const slides = document.querySelectorAll(".slideshow .sliding");
+    const prevBtn = document.querySelector(".slideshow .prev");
+    const nextBtn = document.querySelector(".slideshow .next");
+    let currentIndex = 0;
+
+    // Helper function to update classes
+    function showSlide(index) {
+        // Remove active class from the current slide
+        slides[currentIndex].classList.remove("active");
+        
+        // Update index to the new slide
+        currentIndex = index;
+        
+        // Add active class to the new slide
+        slides[currentIndex].classList.add("active");
+    }
+
+    // Next Button Click
+    nextBtn.addEventListener("click", () => {
+        // If we're at the end, loop back to 0. Otherwise, go to next.
+        let nextIndex = (currentIndex + 1) % slides.length;
+        showSlide(nextIndex);
+    });
+
+    // Prev Button Click
+    prevBtn.addEventListener("click", () => {
+        // If we're at the beginning, loop to the last slide. Otherwise, go back one.
+        let prevIndex = (currentIndex - 1 + slides.length) % slides.length;
+        showSlide(prevIndex);
+    });
+});
+
+
 
 
 const evBtn = document.querySelector("#evButton");
@@ -178,33 +212,6 @@ const itemsPerPage = 5;
 
 let currentPage = 1;
 
-// function showPage(page){
-//     let start = (page-1)*itemsPerPage
-//     let end = start+itemsPerPage;
-
-//     cars.forEach((car, index )=> {
-
-//         if(index >= start && index<end ){
-
-//             car.style.display = "block";
-
-//         } else{
-//             car.style.display = "none";
-//         }
-        
-//     });
-
-//     let totalPages = Math.ceil(cars.length/itemsPerPage);
-//     const pageNumElem = document.getElementById("pageNum");
-//     if (pageNumElem) {
-//         pageNumElem.innerText = "Page " + page;
-//     }
-
-//     document.getElementById("pageNum").innerText = "Page "+page;
-
-//     document.querySelectorById("prevBtn").disabled = currentPage === 1;
-//     document.querySelectorById("nextBtn").disabled = currentPage === totalPages;
-// }
 
 function showPage(page) {
     let start = (page - 1) * itemsPerPage;
@@ -276,11 +283,6 @@ document.addEventListener("click", function(event){
 })
 
 
-
-
-
-
-
 const findDark = document.querySelector("#dark-button");
 const findDkCt = document.querySelector("#dark-content")
 
@@ -295,40 +297,3 @@ document.addEventListener("click", function(event){
     }
 })
 
-
-
-
-
-
-document.addEventListener("DOMContentLoaded", () => {
-    const slides = document.querySelectorAll(".slideshow .sliding");
-    const prevBtn = document.querySelector(".slideshow .prev");
-    const nextBtn = document.querySelector(".slideshow .next");
-    let currentIndex = 0;
-
-    // Helper function to update classes
-    function showSlide(index) {
-        // Remove active class from the current slide
-        slides[currentIndex].classList.remove("active");
-        
-        // Update index to the new slide
-        currentIndex = index;
-        
-        // Add active class to the new slide
-        slides[currentIndex].classList.add("active");
-    }
-
-    // Next Button Click
-    nextBtn.addEventListener("click", () => {
-        // If we're at the end, loop back to 0. Otherwise, go to next.
-        let nextIndex = (currentIndex + 1) % slides.length;
-        showSlide(nextIndex);
-    });
-
-    // Prev Button Click
-    prevBtn.addEventListener("click", () => {
-        // If we're at the beginning, loop to the last slide. Otherwise, go back one.
-        let prevIndex = (currentIndex - 1 + slides.length) % slides.length;
-        showSlide(prevIndex);
-    });
-});
