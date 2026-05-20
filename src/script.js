@@ -264,55 +264,56 @@ document.addEventListener("click", function(event){
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
-  const slides = document.querySelectorAll('.sliding');
-  const prev = document.querySelector('.prev');
-  const next = document.querySelector('.next');
-  let current = 0;
-  let animating = false;
+// document.addEventListener('DOMContentLoaded', () => {
+//   const slides = document.querySelectorAll('.sliding');
+//   const prev = document.querySelector('.prev');
+//   const next = document.querySelector('.next');
+//   let current = 0;
+//   let animating = false;
 
-  // Fix: make sure only first slide is active
-  slides.forEach((slide, i) => {
-    slide.classList.remove('active');
-    slide.style.display = 'none';
-    if (i === 0) {
-      slide.classList.add('active');
-      slide.style.display = 'block';
-    }
-  });
+//   // Fix: make sure only first slide is active
+//   slides.forEach((slide, i) => {
+//     slide.classList.remove('active');
+//     slide.style.display = 'none';
+//     if (i === 0) {
+//       slide.classList.add('active');
+//       slide.style.display = 'block';
+//     }
+//   });
 
-  function showSlide(newIndex) {
-    if (animating) return;
-    animating = true;
+//   function showSlide(newIndex) {
+//     if (animating) return;
+//     animating = true;
 
-    const currentSlide = slides[current];
-    current = (newIndex + slides.length) % slides.length;
-    const nextSlide = slides[current];
+//     const currentSlide = slides[current];
+//     current = (newIndex + slides.length) % slides.length;
+//     const nextSlide = slides[current];
 
-    currentSlide.classList.remove('active');
-    currentSlide.classList.add('flip-out');
+//     currentSlide.classList.remove('active');
+//     currentSlide.classList.add('flip-out');
 
-    setTimeout(() => {
-      currentSlide.classList.remove('flip-out');
-      currentSlide.style.display = 'none';
+//     setTimeout(() => {
+//       currentSlide.classList.remove('flip-out');
+//       currentSlide.style.display = 'none';
 
-      nextSlide.style.display = 'block';
-      nextSlide.classList.add('flip-in');
+//       nextSlide.style.display = 'block';
+//       nextSlide.classList.add('flip-in');
 
-      if (nextSlide.tagName === 'VIDEO') {
-        nextSlide.currentTime = 0;
-        nextSlide.play();
-      }
+//       if (nextSlide.tagName === 'VIDEO') {
+//         nextSlide.currentTime = 0;
+//         nextSlide.play();
+//       }
 
-      nextSlide.addEventListener('animationend', () => {
-        nextSlide.classList.remove('flip-in');
-        nextSlide.classList.add('active');
-        animating = false;
-      }, { once: true });
+//       nextSlide.addEventListener('animationend', () => {
+//         nextSlide.classList.remove('flip-in');
+//         nextSlide.classList.add('active');
+//         animating = false;
+//       }, { once: true });
 
-    }, 300);
-  }
+//     }, 300);
+//   }
 
-  prev.addEventListener('click', () => showSlide(current - 1));
-  next.addEventListener('click', () => showSlide(current + 1));
-});
+//   prev.addEventListener('click', () => showSlide(current - 1));
+//   next.addEventListener('click', () => showSlide(current + 1));
+// });
+
