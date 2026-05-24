@@ -321,6 +321,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderFavourites() {
     const cars = getCarData();
+    console.log('Cars found:', cars);        // ← add this
+    console.log('Favourites list:', favourites); 
     favouritesGrid.innerHTML = '';
 
     if (favourites.length === 0) {
