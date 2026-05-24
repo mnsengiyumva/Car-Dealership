@@ -298,3 +298,100 @@ document.addEventListener("click", function(event){
 })
 
 
+document.addEventListener('DOMContentLoaded', () => {
+  const heartBtns = document.querySelectorAll('.heart-btn');
+  const favouritesGrid = document.getElementById('favourites-grid');
+  const favouritesEmpty = document.getElementById('favourites-empty');
+
+  let favourites = JSON.parse(localStorage.getItem('favouriteCars')) || [];
+
+  // Build car data from existing cards
+  function getCarData() {
+    const cars = {};
+    document.querySelectorAll('.shopCar').forEach(card => {
+      const id = card.querySelector('.heart-btn').dataset.id;
+      const img = card.querySelector('img').src;
+      const prices = card.querySelectorAll('.shopDetails p');
+      const price = prices[1] ? prices[1].textContent : '';
+      const memberPrice = prices[2] ? prices[2].textContent : '';
+      cars[id] = { img, price, memberPrice };
+    });
+    return cars;
+  }
+
+  function renderFavourites() {
+    const cars = getCarData();
+    favouritesGrid.innerHTML = '';
+
+    if (favourites.length === 0) {
+      favouritesEmpty.style.display = 'block';
+      return;
+    }
+
+    favouritesEmpty.style.display = 'none';
+
+    favourites.forEach(id => {
+      const car = cars[id];
+      if (!car) return;
+
+      const card = document.createElement('div');
+      card.classList.add('fav-card');
+      card.dataset.id = id;
+
+      card.innerHTML = `
+        <img src="${car.img}" alt="Favourite Car">
+        <button class="fav-remove-btn" data-id="${id}" title="Remove">✕</button>
+        <div class="fav-card-details">
+          <p class="fav-price">${car.price}</p>
+          <p>${car.memberPrice}</p>
+        </div>
+      `;
+
+      // Remove button inside favourites card
+      card.querySelector('.fav-remove-btn').addEventListener('click', () => {
+        removeFavourite(id);
+      });
+
+      favouritesGrid.appendChild(card);
+    });
+  }
+
+  function removeFavourite(id) {
+    favourites = favourites.filter(f => f !== id);
+    localStorage.setItem('favouriteCars', JSON.stringify(favourites));
+
+    // Unlight the heart button on the car card
+    const btn = document.querySelector(`.heart-btn[data-id="${id}"]`);
+    if (btn) {
+      btn.textContent = '♡';
+      btn.classList.remove('liked');
+    }
+
+    renderFavourites();
+  }
+
+  // Set initial heart button states
+  heartBtns.forEach(btn => {
+    const id = btn.dataset.id;
+
+    if (favourites.includes(id)) {
+      btn.textContent = '♥';
+      btn.classList.add('liked');
+    }
+
+    btn.addEventListener('click', () => {
+      if (favourites.includes(id)) {
+        removeFavourite(id);
+      } else {
+        favourites.push(id);
+        btn.textContent = '♥';
+        btn.classList.add('liked');
+        localStorage.setItem('favouriteCars', JSON.stringify(favourites));
+        renderFavourites();
+      }
+    });
+  });
+
+  // Initial render
+  renderFavourites();
+});
