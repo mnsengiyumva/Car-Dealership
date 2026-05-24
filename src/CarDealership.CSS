@@ -1180,6 +1180,61 @@ body{
 
 
 
+#evCont{
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    position: absolute;
+    background: rgb(241, 242, 243);
+    z-index: 10;
+    
+    
+    
+}
+
+#hybridContent{
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 30px;
+    background: rgb(241, 242, 243);
+    border-radius: 20px;
+    z-index: 10;
+}
+
+
+.hideEv{
+    display: none;
+}
+
+.hideHybrid{
+    display: none;
+}
+
+.hideSuv{
+    display: none;
+    
+}
+
+.suv{
+    justify-content: center;
+    margin-right: 300px;
+}
+#suvContent{
+    position: absolute;
+    
+    padding-left: 20px;
+    padding-right: 30px;
+    background: rgb(241, 242, 243);
+    border-radius: 20px;
+    z-index: 10;
+    
+
+}
+
+
+
+
+
 .slide-container{
     margin-left: 13px;
 }
@@ -1189,10 +1244,10 @@ body{
 
 
 .slide img{
-    height: 150px;
+    height: 210px;
     margin-top: 30px;
-    width: 150px;
-    border-radius:30px;
+    width: 210px;
+    border-radius:0px;
     
     
 
@@ -1206,6 +1261,8 @@ body{
     padding-bottom: 30px;
     user-select: none;
     gap: 10px;
+    background: white;
+    z-index: 10;
 
 
     
@@ -1236,7 +1293,7 @@ body{
   align-items:center;
   justify-content:center;
   margin-right:20px;
-  padding-left: 30px;
+  padding-left: 10px;
   
 
 }
@@ -1299,58 +1356,6 @@ body{
 
 }
 
-
-
-#evCont{
-    border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 30px;
-    position: absolute;
-    background: rgb(241, 242, 243);
-    z-index: 10;
-    
-    
-    
-}
-
-#hybridContent{
-    position: absolute;
-    padding-left: 20px;
-    padding-right: 30px;
-    background: rgb(241, 242, 243);
-    border-radius: 20px;
-    z-index: 10;
-}
-
-
-.hideEv{
-    display: none;
-}
-
-.hideHybrid{
-    display: none;
-}
-
-.hideSuv{
-    display: none;
-    
-}
-
-.suv{
-    justify-content: center;
-    margin-right: 300px;
-}
-#suvContent{
-    position: absolute;
-    
-    padding-left: 20px;
-    padding-right: 30px;
-    background: rgb(241, 242, 243);
-    border-radius: 20px;
-    z-index: 10;
-    
-
-}
 .slideShop{
     
     margin-top: 30px;
@@ -1446,7 +1451,7 @@ body{
     text-decoration: none;
     font-weight: bold;
     color: #0587ea;
-    padding: 3px;
+    padding-right: 3px;
     border-radius: 6px;
 }
 
