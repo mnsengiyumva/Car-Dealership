@@ -694,6 +694,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    background: radial-gradient(circle at center, #a9c3da, #0c79e7);
 }
 
 @media(max-width: 726px){
@@ -723,6 +724,7 @@ body{
 
 .introductoryImage img{
     color: #0587ea;
+    background:#007bff ;
     height: 320px;
     border-radius: 170px;
    
