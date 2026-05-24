@@ -1608,8 +1608,8 @@ body{
 }
 
 .fav-card {
-  background: #111;
-  border: 1px solid #333;
+  background: white;
+  border: 1px solid #007bff;
   border-radius: 8px;
   width: 260px;
   overflow: hidden;
