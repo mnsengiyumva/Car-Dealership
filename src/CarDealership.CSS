@@ -1205,7 +1205,7 @@ body{
     margin-left: 20px;
     padding-bottom: 30px;
     user-select: none;
-    gap: 30px;
+    gap: 10px;
 
 
     
@@ -1236,7 +1236,9 @@ body{
   align-items:center;
   justify-content:center;
   margin-right:20px;
-   
+  padding-left: 30px;
+  
+
 }
 
 
@@ -1250,7 +1252,7 @@ body{
     border: #007bff solid 1px;
     margin-left: 400px;
     margin-right: 400px;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 30px;
 
 }
