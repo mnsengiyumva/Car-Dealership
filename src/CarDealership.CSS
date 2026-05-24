@@ -1257,7 +1257,7 @@ body{
 .slider{
     margin-top: 20px;
     display: flex;
-    margin-left: 20px;
+    margin-left: 10px;
     padding-bottom: 30px;
     user-select: none;
     gap: 10px;
@@ -1430,7 +1430,7 @@ body{
 }
 
 .shopCar:hover{
-    background: #ebeaea;
+    background: #f0eded;
     transition: transform 0.4s ease 0.4 ease;
     border-radius: 30px;
     
