@@ -1401,7 +1401,7 @@ body{
 }
 .shopCar{
     
-    padding-left: 20px; 
+    padding-left: 10px; 
     position: relative;
 
     
@@ -1431,7 +1431,7 @@ body{
 
 .shopCar:hover{
     background: #ebeaea;
-    transition: transform 0.4s ease;
+    transition: transform 0.4s ease 0.4 ease;
     border-radius: 30px;
     
 }
