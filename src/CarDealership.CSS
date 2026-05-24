@@ -11,6 +11,7 @@ body{
     transition: background 0.3s ease, color 0.3 ease;
     
     background-size: cover;
+   
 }
 
 
@@ -694,7 +695,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    background: radial-gradient(circle at center, #a9c3da, #0c79e7);
+    
 }
 
 @media(max-width: 726px){
@@ -958,8 +959,11 @@ body{
     justify-content: center;
     border-bottom: #a3a0a0 solid 0.1px;
     clip-rule: evenodd;  
-    background: radial-gradient(circle at center, #ffffff, #0593e5);
+    background: radial-gradient(circle at center, #ffffff, #dae1e6), url("/Assets/wh.jpg");
+    background-size: cover;
+    background-position: center;
 }
+
 
 @media(max-width: 726px){
     .ev-dark{
