@@ -1580,12 +1580,12 @@ body{
 #favourites-section {
   margin-top: 60px;
   padding: 40px 20px;
-  border-top: 1px solid #333;
+  border-top: 1px solid #007bff;
 }
 
 .fav-title {
-  color: #c9a84c;
-  font-size: 1.8rem;
+  color: #007bff;
+  font-size: 2.0rem;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -1618,7 +1618,7 @@ body{
 }
 
 .fav-card:hover {
-  border-color: #c9a84c;
+  border-color: #007bff;
 }
 
 .fav-card img {
@@ -1639,7 +1639,7 @@ body{
 }
 
 .fav-card-details .fav-price {
-  color: #c9a84c;
+  color: #007bff;
   font-size: 1rem;
   font-weight: bold;
 }
@@ -1648,9 +1648,9 @@ body{
   position: absolute;
   top: 8px;
   right: 8px;
-  background: rgba(0,0,0,0.7);
-  border: 1px solid #e74c3c;
-  color: #e74c3c;
+  background: white;
+  border: 1px solid #007bff;
+  color:#007bff;
   border-radius: 50%;
   width: 28px;
   height: 28px;
@@ -1663,7 +1663,7 @@ body{
 }
 
 .fav-remove-btn:hover {
-  background: #e74c3c;
+  background: #007bff;
   color: white;
 }
 
