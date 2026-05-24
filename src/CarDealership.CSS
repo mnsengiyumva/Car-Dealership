@@ -1562,11 +1562,11 @@ body{
 
 .heart-btn:hover {
   transform: scale(1.2);
-  color: #e74c3c;
+  color: red;
 }
 
 .heart-btn.liked {
-  color: #e74c3c;
+  color: red;
   animation: pop 0.3s ease;
 }
 
