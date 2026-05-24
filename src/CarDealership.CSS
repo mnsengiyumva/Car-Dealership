@@ -831,7 +831,6 @@ body{
 }
 
 
-
 .overlay{
     position: relative;
 
@@ -850,10 +849,11 @@ body{
 
 .slideshow {
   position: relative;
-  width: 600px;
+  width: 500px;
   height: 400px;
   perspective: 1500px;
   overflow: hidden;
+  border-radius: 20px;
 }
 
 .sliding {
