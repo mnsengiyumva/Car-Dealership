@@ -1239,8 +1239,6 @@ body{
 
 
 
-
-
 .slide-container{
     margin-left: 13px;
 }
@@ -1263,13 +1261,11 @@ body{
 .slider{
     margin-top: 20px;
     display: flex;
-    margin-left: 10px;
     padding-bottom: 30px;
     user-select: none;
     gap: 10px;
     background: white;
     z-index: 10;
-
 
     
     
@@ -1299,7 +1295,7 @@ body{
   align-items:center;
   justify-content:center;
   margin-right:20px;
-  padding-left: 10px;
+  
   
 
 }
@@ -1365,7 +1361,6 @@ body{
 .slideShop{
     
     margin-top: 30px;
-    margin-left: 10px;
     justify-content: center;
     
 
@@ -1407,7 +1402,7 @@ body{
 }
 .shopCar{
     
-    padding-left: 10px; 
+    padding-left: 27px; 
     position: relative;
 
     
@@ -1532,27 +1527,28 @@ body{
 
 
 
-
-
 .pagination button{
     padding: 10px 15px;
-  margin: 0 10px;
-  border: none;
-  background-color: #007bff;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
+    margin: 0 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 
 
 }
 .pagination button:hover{
     padding: 10px 15px;
-  margin: 0 10px;
-  border: #0587ea solid 1px;
-  background-color: white;
-  color: #0587ea;
-  border-radius: 5px;
-  cursor: pointer;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.4);
+    box-shadow: 0 8px 20px #007bff;
 
 }
 
