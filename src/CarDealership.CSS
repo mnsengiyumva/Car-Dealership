@@ -768,6 +768,41 @@ body{
 }
 
 
+#aboutInfinty{
+    top: 0;
+    margin-left: 170px;
+    padding: 13px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: none;
+    background: #ffffff;
+    font-weight: bolder;
+    color:#0587ea;
+    border: #0587ea solid 0.1px;
+
+}
+
+#aboutInfinty:hover{
+    background:#0587ea;
+    color:#ffffff;
+    font-weight: bolder;
+    transition:  transiform 1s ease;
+    text-decoration: underline;
+    
+}
+
+
+
+.hide-infinity{
+    display:none;
+}
+
+
+#aboutInfinity{
+    position: absolute;
+}
+
 
 .carShow{
     position: relative;
@@ -919,40 +954,6 @@ body{
 
 
 
-#aboutInfinty{
-    top: 0;
-    margin-left: 170px;
-    padding: 13px;
-    padding-right: 30px;
-    padding-left: 30px;
-    border-radius: 20px;
-    border: none;
-    background: #ffffff;
-    font-weight: bolder;
-    color:#0587ea;
-    border: #0587ea solid 0.1px;
-
-}
-
-#aboutInfinty:hover{
-    background:#0587ea;
-    color:#ffffff;
-    font-weight: bolder;
-    transition:  transiform 1s ease;
-    text-decoration: underline;
-    
-}
-
-
-
-.hide-infinity{
-    display:none;
-}
-
-
-#aboutInfinity{
-    position: absolute;
-}
 
 .ev-dark{
     display: flex;
