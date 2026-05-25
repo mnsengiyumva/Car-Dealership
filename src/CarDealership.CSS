@@ -1861,13 +1861,15 @@ body{
 
 
 
-.copyright{
-    font-size: small;
-    color: #e7e3e3;
-    padding: 1px;
-    padding-left: 10px;
+#footer{
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+    color: #444;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+
 }
-
-
 
 
