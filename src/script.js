@@ -397,3 +397,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initial render
   renderFavourites();
 });
+
+
+document.getElementById('year').textContent = new Date().getFullYear();
