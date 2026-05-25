@@ -1515,8 +1515,8 @@ body{
     border:rgb(20, 94, 232) solid 1px;
     border-radius: 10px;
     transform: scale(1.2);
-    box-shadow: 0 8px 20px, #007bff;
-    background: #007bff;
+    box-shadow: 0 8px 20px, rgb(20, 94, 232);
+    background: rgb(20, 94, 232);
     color: white;
 }
 
@@ -1526,7 +1526,7 @@ body{
     padding: 10px 15px;
     margin: 0 10px;
     border: none;
-    background-color: #007bff;
+    background-color: rgb(20, 94, 232);
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -1538,12 +1538,12 @@ body{
 .pagination button:hover{
     padding: 10px 15px;
     margin: 0 10px;
-    background-color: #007bff;
+    background-color: rgb(20, 94, 232);
     color: white;
     border-radius: 5px;
     cursor: pointer;
     transform: scale(1.4);
-    box-shadow: 0 8px 20px #007bff;
+    box-shadow: 0 8px 20px rgb(20, 94, 232);
 
 }
 
@@ -1584,11 +1584,11 @@ body{
 #favourites-section {
   margin-top: 60px;
   padding: 40px 20px;
-  border-top: 1px solid #007bff;
+  border-top: 1px solid rgb(20, 94, 232);
 }
 
 .fav-title {
-  color: #007bff;
+  color: rgb(20, 94, 232);
   font-size: 2.0rem;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -1613,7 +1613,7 @@ body{
 
 .fav-card {
   background: white;
-  border: 1px solid #007bff;
+  border: 1px solid rgb(20, 94, 232);
   border-radius: 8px;
   width: 260px;
   overflow: hidden;
@@ -1622,7 +1622,7 @@ body{
 }
 
 .fav-card:hover {
-  border-color: #007bff;
+  border-color: rgb(20, 94, 232);
 }
 
 .fav-card img {
@@ -1643,7 +1643,7 @@ body{
 }
 
 .fav-card-details .fav-price {
-  color: #007bff;
+  color: rgb(20, 94, 232);
   font-size: 1rem;
   font-weight: bold;
 }
@@ -1653,8 +1653,8 @@ body{
   top: 8px;
   right: 8px;
   background: white;
-  border: 1px solid #007bff;
-  color:#007bff;
+  border: 1px solid rgb(20, 94, 232);
+  color:rgb(20, 94, 232);
   border-radius: 50%;
   width: 28px;
   height: 28px;
@@ -1667,16 +1667,9 @@ body{
 }
 
 .fav-remove-btn:hover {
-  background: #007bff;
+  background: rgb(20, 94, 232);
   color: white;
 }
-
-
-
-
-
-
-
 
 
 .lastSection{
@@ -1689,7 +1682,7 @@ body{
 
 .lastSectionDiv1 a{
     text-decoration:white;
-    color: #0587ea;
+    color: rgb(20, 94, 232);
     
     text-decoration: underline 2px;
     
