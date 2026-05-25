@@ -710,7 +710,7 @@ body{
         width: 100%;
     }
     .introductoryImage{
-        margin-right: 60px;
+        margin-right: 0px;
         margin-left: 40px;
         
     }
@@ -726,8 +726,9 @@ body{
 .introductoryImage img{
     color: #0587ea;
     background:#007bff ;
-    height: 320px;
-    border-radius: 170px;
+    height: 230px;
+    border: #046ce3 solid 30px;
+    border-radius: 200px;
    
     
 }
@@ -761,9 +762,7 @@ body{
     padding-right: 40px;
     padding-left: 30px;
     font-family: system-ui;
-    color: #1d1c1c;
-
-    
+    color: #1d1c1c;  
 }
 
 
