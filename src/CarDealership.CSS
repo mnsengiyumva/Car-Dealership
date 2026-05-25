@@ -1831,12 +1831,20 @@ body{
     padding: 7px;
     padding-right: 10px;
     padding-left: 10px;
+    font-weight: bolder;
     border: none;
-    transition: transform 0.5s ease box-shadow 0.5 ease;
-    
-    
+    transition: transform 0.5s ease box-shadow 0.5 ease; 
+}
 
-    
+.lastSub button:hover{
+    padding: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #0587ea; 
+    color: white;
+    font-weight: bolder;
+    transform: scale(1.6);
+    box-shadow: 0 8px 20px #046ce3;
 }
 
 .lastSub input{
@@ -1848,16 +1856,7 @@ body{
 }
 
 
-.lastSub button:hover{
-    background: #0587ea;
-    
-    color: white;
-    font-weight: bolder;
-    transform: scale(1.4);
-    box-shadow: 0 8px 20px #007bff;
-    
 
-}
 
 .copyright{
     font-size: small;
