@@ -1048,17 +1048,23 @@ body{
     font-weight: bold;
     background: none;
     color: rgb(20, 94, 232);
+    transition: transform 0.5s ease box-shadow 0.5s ease;
 
 }
 
 
 #ev-button:hover{
+    margin-left: 27px;
     padding: 10px;
     border: rgb(20, 94, 232) solid 1px;
     font-weight: bold;
     background: rgb(20, 94, 232);
     color: white;
     cursor: pointer;
+    
+    transform: scale(1.5);
+    box-shadow: 0 8px 20px;
+    border-radius: 20px;
 
 }
 
