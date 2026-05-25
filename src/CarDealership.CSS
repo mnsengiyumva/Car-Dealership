@@ -1835,7 +1835,6 @@ body{
     border: none;
     transition: transform 0.5s ease box-shadow 0.5 ease; 
 }
-
 .lastSub button:hover{
     padding: 7px;
     padding-right: 10px;
@@ -1846,6 +1845,7 @@ body{
     transform: scale(1.6);
     box-shadow: 0 8px 20px #046ce3;
 }
+
 
 .lastSub input{
     padding: 7px;
