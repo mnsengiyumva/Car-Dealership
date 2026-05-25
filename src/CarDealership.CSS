@@ -710,7 +710,6 @@ body{
         width: 100%;
     }
     .introductoryImage{
-        margin-right: 0px;
         margin-left: 40px;
         
     }
@@ -727,7 +726,7 @@ body{
     color: #0587ea;
     background:#007bff ;
     height: 230px;
-    border: #046ce3 solid 30px;
+    border: rgb(20, 94, 232) solid 30px;
     border-radius: 200px;
    
     
@@ -752,6 +751,7 @@ body{
     border-top: rgb(20, 94, 232) solid 50px;
     padding-left: 10px;
     border-radius: 170px;
+    border-bottom: rgb(20, 94, 232) solid 50px;
       
 }
 
