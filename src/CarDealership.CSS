@@ -823,6 +823,7 @@ body{
     color: white;
     z-index: 1;
     position: relative;
+    font-size: larger;
 
 }
 
@@ -835,6 +836,7 @@ body{
     background: rgb(20, 94, 232);
     padding: 10px;
     border-radius: 5px;
+    transition: transform 0.5s ease box-shadow 0.5s ease;
 
 }
 
@@ -842,6 +844,8 @@ body{
     background: white;
     color: rgb(20, 94, 232);
     font-weight: bolder;
+    transform: scale(1.9);
+    box-shadow: 0 8px 20px white;
 }
 
 .big-video{
