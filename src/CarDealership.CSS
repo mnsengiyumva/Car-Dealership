@@ -1437,11 +1437,7 @@ body{
     
 }
 
-@media(width:726px){
-    .shopCar:hover{
-        
-    }
-}
+
 .price{
   
     color: #7f7c7c;
@@ -1690,13 +1686,7 @@ body{
     right: 0;
     margin-right: 0%;
 }
-@media(max-width: 726px){
-    .lastSection{
-       
-       
-        
-    }
-}
+
 
 .lastSectionDiv1 a{
     text-decoration:white;
@@ -1745,13 +1735,6 @@ body{
 }
 
 
-@media(max-width: 726px){
-    .lastSectionDiv2{
-       
-       
-        
-    }
-}
 
 .lastSectionDiv2-1{
     margin-right: 50px;
