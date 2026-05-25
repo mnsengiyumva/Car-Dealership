@@ -751,8 +751,8 @@ body{
 }
 .infinityDescription{
     border-top: rgb(20, 94, 232) solid 50px;
-    padding-left: 10px;
-    border-radius: 170px;
+    padding-left: 1px;
+    border-radius: 17px;
     border-bottom: rgb(20, 94, 232) solid 50px;
       
 }
@@ -929,7 +929,7 @@ body{
     border: none;
     background: #ffffff;
     font-weight: bolder;
-    color: #0587ea;
+    color:#0587ea;
     border: #0587ea solid 0.1px;
 
 }
