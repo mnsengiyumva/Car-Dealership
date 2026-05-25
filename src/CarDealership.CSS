@@ -1861,12 +1861,12 @@ body{
 
 
 
-#footer{
+#copyright{
     text-align: center;
     padding: 30px 20px;
     margin-top: 60px;
     color: #444;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 
 
