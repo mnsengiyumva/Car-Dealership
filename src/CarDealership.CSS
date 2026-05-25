@@ -1059,11 +1059,12 @@ body{
     border: rgb(20, 94, 232) solid 1px;
     font-weight: bold;
     background: rgb(20, 94, 232);
+
     color: white;
     cursor: pointer;
     
     transform: scale(1.5);
-    box-shadow: 0 8px 20px;
+    box-shadow: 0 8px 20px rgb(20, 94, 232);
     border-radius: 20px;
 
 }
@@ -1071,6 +1072,7 @@ body{
 #ev-content img{
     background: none;
     width: 400px;
+
 
 }
 #ev-content{
@@ -1121,6 +1123,7 @@ body{
     font-weight: bold;
     background: none;
     color: rgb(20, 94, 232);
+    transition: transform 0.5s ease box-shadow 0.5s ease;
 
 }
 #dark-button:hover{
@@ -1130,6 +1133,10 @@ body{
     background: rgb(20, 94, 232);
     color: white;
     cursor: pointer;
+    margin-left: 37px;
+    transform: scale(1.5);
+    box-shadow: 0 8px 20px rgb(20, 94, 232);
+    border-radius: 20px;
 
 }
 
