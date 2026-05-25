@@ -1359,7 +1359,7 @@ body{
     background:rgb(20, 94, 232);
     cursor: pointer;
     transform: scale(1.4);
-    box-shadow: 0 8px 20px #007bff;
+    box-shadow: 0 8px 20px rgb(20, 94, 232);
    
 
 
@@ -1374,12 +1374,12 @@ body{
 }
 
 .slideShop h4{
-    color: #007bff;
+    color: rgb(20, 94, 232);
     font-size: xx-large;
-    border-left: #007bff solid 10px;
+    border-left:rgb(20, 94, 232) solid 10px;
     margin-left: 570px;
     margin-right: 600px;
-    border-bottom: #007bff solid 10px;
+    border-bottom: rgb(20, 94, 232) solid 10px;
 }
 @media(max-width:726px){
 
@@ -1424,14 +1424,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
 .shopCar p{
     font-size: small;
     
@@ -1454,7 +1446,7 @@ body{
 .priceDetails{
     text-decoration: none;
     font-weight: bold;
-    color: #0587ea;
+    color: rgb(20, 94, 232);
     padding-right: 3px;
     border-radius: 6px;
 }
@@ -1465,7 +1457,7 @@ body{
 .discover{
     
     margin-right: 100px;
-    background:#007bff;
+    background:rgb(20, 94, 232);
     color:white;
     font-weight: bold;
     padding: 10px;
@@ -1476,11 +1468,11 @@ body{
 
 .discover:hover{
     color:white;
-    background: #007bff;
+    background: rgb(20, 94, 232);
     text-decoration: underline;
     border-radius: 10px;
     transform: scale(1.2);
-    box-shadow: 0 8px 20px, #007bff;
+    box-shadow: 0 8px 20px, rgb(20, 94, 232);
 
 }
 
@@ -1493,7 +1485,7 @@ body{
     margin-right: 100px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     color:white;
-    background: #007bff;
+    background: rgb(20, 94, 232);
     border-radius: 10px;
     font-weight: bold;
     padding: 10px;
@@ -1504,23 +1496,23 @@ body{
 
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     color:white;
-    background: #007bff;
+    background: rgb(20, 94, 232);
     border-radius: 10px;
     font-weight: bold;
     padding: 10px;
 }
 
 .rent:hover{
-    border: #007bff solid 1px;
+    border: rgb(20, 94, 232) solid 1px;
     border-radius: 10px;
     transform: scale(1.2);
-    box-shadow: 0 8px 20px, #007bff;
-    background: #007bff;
+    box-shadow: 0 8px 20px, rgb(20, 94, 232);
+    background: rgb(20, 94, 232);
     color: white;
 }
 .buy:hover{
     
-    border: #007bff solid 1px;
+    border:rgb(20, 94, 232) solid 1px;
     border-radius: 10px;
     transform: scale(1.2);
     box-shadow: 0 8px 20px, #007bff;
