@@ -1726,8 +1726,6 @@ body{
     
 }
 
-
-
 .lastSectionDiv2-1{
     margin-right: 50px;
     text-decoration: none;
@@ -1756,7 +1754,7 @@ body{
 }
 
 .lastSectionDiv2 a:hover{
-    color:#0587ea;
+    color:rgb(20, 94, 232);
     text-decoration: underline;
     
 }
@@ -1770,9 +1768,7 @@ body{
     border-bottom: rgb(29, 28, 28) solid 0.1px;
     padding-bottom: 20px;
     
-    
-  
-    
+       
 }
 
 .last{
@@ -1802,7 +1798,7 @@ body{
 }
 
 .last a:hover {
-   color: #0587ea;
+   color: rgb(20, 94, 232);
    text-decoration: underline;
    transform: scale(1.6);
    box-shadow: 0 8px 20px #000000;
@@ -1813,8 +1809,6 @@ body{
    
 }
 
-
-
 .last a:hover::after{
     width: 10%;
 }
@@ -1824,7 +1818,7 @@ body{
 }
 
 .lastSub p{
-    color: #007bff;
+    color: rgb(20, 94, 232);
 }
 .lastSub button{
     padding: 7px;
@@ -1838,11 +1832,11 @@ body{
     padding: 7px;
     padding-right: 10px;
     padding-left: 10px;
-    background: #0587ea; 
+    background: rgb(20, 94, 232); 
     color: white;
     font-weight: bolder;
     transform: scale(1.6);
-    box-shadow: 0 8px 20px #046ce3;
+    box-shadow: 0 8px 20px rgb(20, 94, 232);
 }
 
 
@@ -1853,9 +1847,6 @@ body{
 
     
 }
-
-
-
 
 #copyright{
     text-align: center;
