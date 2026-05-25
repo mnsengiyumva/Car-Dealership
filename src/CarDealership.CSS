@@ -736,7 +736,7 @@ body{
 
 
 .infinityDescription h1{
-    color: #1788de;
+    color: rgb(20, 94, 232);
     padding-left: 160px;
 
     
@@ -758,7 +758,7 @@ body{
 }
 
 .infinityDescription a{
-    color: #0587ea;
+    color: rgb(20, 94, 232);
 }
 .infinityDescription p{
     padding-right: 40px;
@@ -775,20 +775,25 @@ body{
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 20px;
+    margin-bottom: 10px;
     border: none;
     background: #ffffff;
     font-weight: bolder;
-    color:#0587ea;
-    border: #0587ea solid 0.1px;
+    color:rgb(20, 94, 232);
+    border: rgb(20, 94, 232) solid 0.1px;
+    transition: transform 0.9s ease box-shadow 0.9 ease;
+    
 
 }
 
 #aboutInfinty:hover{
-    background:#0587ea;
+    background:rgb(20, 94, 232);
     color:#ffffff;
     font-weight: bolder;
-    transition:  transiform 1s ease;
+    
     text-decoration: underline;
+    transform: scale(1.2);
+    box-shadow: 0, 8px, 20px white;
     
 }
 
@@ -827,7 +832,7 @@ body{
     padding-top: 30px;
     text-decoration: none;
     color: white;
-    background: #007bff;
+    background: rgb(20, 94, 232);
     padding: 10px;
     border-radius: 5px;
 
@@ -835,7 +840,7 @@ body{
 
 .videoContent a:hover{
     background: white;
-    color: #007bff;
+    color: rgb(20, 94, 232);
     font-weight: bolder;
 }
 
@@ -1039,19 +1044,19 @@ body{
 
 #ev-button{
     padding: 10px;
-    border: #007bff solid 1px;
+    border: rgb(20, 94, 232) solid 1px;
     font-weight: bold;
     background: none;
-    color: #007bff;
+    color: rgb(20, 94, 232);
 
 }
 
 
 #ev-button:hover{
     padding: 10px;
-    border: #007bff solid 1px;
+    border: rgb(20, 94, 232) solid 1px;
     font-weight: bold;
-    background: #007bff;
+    background: rgb(20, 94, 232);
     color: white;
     cursor: pointer;
 
@@ -1075,16 +1080,16 @@ body{
 
 #ev-content a{
     text-decoration: none;
-    background: #007bff;
+    background: rgb(20, 94, 232);
     color: white;
     padding: 10px;
     font-weight: bold;
-    border: #007bff;
+    border: rgb(20, 94, 232);
 }
 
 #ev-content a:hover{
     background: white;
-    color: #007bff;
+    color: rgb(20, 94, 232);
 
 }
 
@@ -1106,17 +1111,17 @@ body{
 #dark-button{
     margin-top: 19px;
     padding: 10px;
-    border: #007bff solid 1px;
+    border:rgb(20, 94, 232) solid 1px;
     font-weight: bold;
     background: none;
-    color: #007bff;
+    color: rgb(20, 94, 232);
 
 }
 #dark-button:hover{
     padding: 10px;
-    border: #007bff solid 1px;
+    border: rgb(20, 94, 232) solid 1px;
     font-weight: bold;
-    background: #007bff;
+    background: rgb(20, 94, 232);
     color: white;
     cursor: pointer;
 
