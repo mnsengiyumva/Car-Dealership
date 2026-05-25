@@ -1800,10 +1800,12 @@ body{
 .last a{
     padding: 3px;
     margin-top: 18px;
-    transition: color 0.2s ease, transform 0.2s ease;
+    
     text-decoration: none;
     margin-left: 10px;
     color: #f1f1f1;
+    transition: transform 0.5s ease box-shadow 0.5 ease;
+
 
 }
 
@@ -1811,7 +1813,7 @@ body{
    color: #0587ea;
    text-decoration: underline;
    transform: scale(1.4);
-box-shadow: 0 8px 20px #007bff;
+   box-shadow: 0 8px 20px #007bff;
 
    
 }
@@ -1830,6 +1832,9 @@ box-shadow: 0 8px 20px #007bff;
     padding-right: 10px;
     padding-left: 10px;
     border: none;
+    transition: transform 0.5s ease box-shadow 0.5 ease;
+    
+    
 
     
 }
@@ -1845,9 +1850,11 @@ box-shadow: 0 8px 20px #007bff;
 
 .lastSub button:hover{
     background: #0587ea;
-    transition: transform 0.3s ease;
+    
     color: white;
     font-weight: bolder;
+    transform: scale(1.4);
+    box-shadow: 0 8px 20px #007bff;
     
 
 }
