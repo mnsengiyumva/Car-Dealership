@@ -1800,7 +1800,7 @@ body{
 .last a{
     padding: 3px;
     margin-top: 18px;
-    transition: color 0.1s ease, transform 0.2s ease;
+    transition: color 0.2s ease, transform 0.2s ease;
     text-decoration: none;
     margin-left: 10px;
     color: #f1f1f1;
@@ -1810,6 +1810,8 @@ body{
 .last a:hover {
    color: #0587ea;
    text-decoration: underline;
+   transform: scale(1.4);
+box-shadow: 0 8px 20px #007bff;
 
    
 }
