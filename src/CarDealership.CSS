@@ -1129,9 +1129,9 @@ body{
 
 #ev-button:hover{
     padding: 10px;
-    border: #007bff solid 1px;
+    border: rgb(20, 94, 232) solid 1px;
     font-weight: bold;
-    background: #007bff;
+    background: rgb(20, 94, 232);
     color: white;
     cursor: pointer;
 
@@ -1155,11 +1155,11 @@ body{
 
 #dark-content a{
     text-decoration: none;
-    background: #007bff;
+    background: rgb(20, 94, 232);
     color: white;
     padding: 10px;
     font-weight: bold;
-    border: #007bff;
+    border: rgb(20, 94, 232);
 }
 
 #dark-content a:hover{
