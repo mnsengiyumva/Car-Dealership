@@ -1164,7 +1164,7 @@ body{
 
 #dark-content a:hover{
     background: white;
-    color: #007bff;
+    color: rgb(20, 94, 232);
 
 }
 
@@ -1315,7 +1315,7 @@ body{
     justify-content: center;
  
     color: #767676;
-    border: #007bff solid 1px;
+    border: rgb(20, 94, 232) solid 1px;
     margin-left: 400px;
     margin-right: 400px;
     border-radius: 20px;
@@ -1341,22 +1341,22 @@ body{
 }
 
 .shopOptions button{
-    border: #0587ea solid 1px;
+    border: rgb(20, 94, 232) solid 1px;
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 15px;
-    color: #0587ea;
+    color: rgb(20, 94, 232);
     background: none;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 
 }
 .shopOptions button:hover{
-    border: #0587ea solid 1px;
+    border: rgb(20, 94, 232) solid 1px;
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 15px;
     color: #ffffff;
-    background: #0587ea;
+    background:rgb(20, 94, 232);
     cursor: pointer;
     transform: scale(1.4);
     box-shadow: 0 8px 20px #007bff;
