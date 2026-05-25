@@ -400,3 +400,110 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 document.getElementById('year').textContent = new Date().getFullYear();
+
+
+// ── CART ──────────────────────────────────────────
+const cartIcon    = document.getElementById('cart-icon');
+const cartPanel   = document.getElementById('cart-panel');
+const cartOverlay = document.getElementById('cart-overlay');
+const closeCart   = document.getElementById('close-cart');
+const cartItems   = document.getElementById('cart-items');
+const cartCount   = document.getElementById('cart-count');
+const cartTotal   = document.getElementById('cart-total');
+const checkoutBtn = document.getElementById('checkout-btn');
+const clearBtn    = document.getElementById('clear-cart-btn');
+
+let cart = JSON.parse(localStorage.getItem('infinityCart')) || [];
+
+function openCart() {
+    cartPanel.classList.add('open');
+    cartOverlay.classList.add('active');
+}
+
+function closeCartPanel() {
+    cartPanel.classList.remove('open');
+    cartOverlay.classList.remove('active');
+}
+
+function saveCart() {
+    localStorage.setItem('infinityCart', JSON.stringify(cart));
+}
+
+function renderCart() {
+    cartItems.innerHTML = '';
+    cartCount.textContent = cart.length;
+
+    if (cart.length === 0) {
+        cartItems.innerHTML = '<p style="color:#555; text-align:center; margin-top:40px; letter-spacing:1px;">Your cart is empty.</p>';
+        cartTotal.textContent = '$0';
+        return;
+    }
+
+    let total = 0;
+
+    cart.forEach((item, index) => {
+        const price = parseFloat(item.price.replace(/[$,]/g, ''));
+        total += price;
+
+        const div = document.createElement('div');
+        div.classList.add('cart-item');
+        div.innerHTML = `
+            <img src="${item.img}" alt="${item.name}">
+            <div class="cart-item-info">
+                <span class="cart-item-type ${item.type}">${item.type}</span>
+                <p>${item.name}</p>
+                <span>${item.price}</span>
+            </div>
+            <button class="cart-remove-btn" data-index="${index}">✕</button>
+        `;
+
+        div.querySelector('.cart-remove-btn').addEventListener('click', () => {
+            cart.splice(index, 1);
+            saveCart();
+            renderCart();
+        });
+
+        cartItems.appendChild(div);
+    });
+
+    cartTotal.textContent = '$' + total.toLocaleString();
+}
+
+// Add to cart
+document.querySelectorAll('.action-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const item = {
+            id:    btn.dataset.id,
+            name:  btn.dataset.name,
+            price: btn.dataset.price,
+            img:   btn.dataset.img,
+            type:  btn.dataset.type
+        };
+
+        cart.push(item);
+        saveCart();
+        renderCart();
+
+        // Flash the card
+        btn.closest('.shopCar').classList.add('added-flash');
+        setTimeout(() => btn.closest('.shopCar').classList.remove('added-flash'), 400);
+
+        // Open cart
+        openCart();
+    });
+});
+
+cartIcon.addEventListener('click', openCart);
+closeCart.addEventListener('click', closeCartPanel);
+cartOverlay.addEventListener('click', closeCartPanel);
+clearBtn.addEventListener('click', () => {
+    cart = [];
+    saveCart();
+    renderCart();
+});
+checkoutBtn.addEventListener('click', () => {
+    alert('Proceeding to checkout!');
+});
+
+// Init
+renderCart();
