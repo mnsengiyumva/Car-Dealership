@@ -777,7 +777,7 @@ body{
 /* Action buttons */
 .action-btn {
     display: inline-block;
-    padding: 8px 16px;
+    padding: 2px 1px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -786,7 +786,7 @@ body{
     text-transform: uppercase;
     transition: transform 0.2s, opacity 0.2s;
     margin-top: 6px;
-    width: 100%;
+    width: 70%;
 }
 
 .action-btn:hover { opacity: 0.85; transform: scale(1.02); }
