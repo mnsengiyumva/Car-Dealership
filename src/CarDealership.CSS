@@ -1688,12 +1688,11 @@ body{
 }
 .discover{
     
-    margin-right: 100px;
+    margin-right: 10px;
     background:rgb(20, 94, 232);
     color:white;
     font-weight: bold;
     text-align: center;
-    border-radius: 10px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     
 }
@@ -1701,8 +1700,6 @@ body{
 .discover:hover{
     color:white;
     background: rgb(20, 94, 232);
-    
-    border-radius: 10px;
     transform: scale(1.2);
     box-shadow: 0 8px 20px, rgb(20, 94, 232);
 
@@ -1728,27 +1725,14 @@ body{
 
 .action-btn:hover { opacity: 0.85; transform: scale(1.02); }
 
-.rent-btn {
-    background: rgba(52, 152, 219, 0.15);
-    color: #3498db;
-    border: 1px solid #3498db;
-}
 
-.buy-btn {
-    background: rgba(201, 168, 76, 0.15);
-    color: #c9a84c;
-    border: 1px solid #c9a84c;
-}
 
 /* Added to cart flash */
 .added-flash {
     animation: flashGreen 0.4s ease;
 }
 
-@keyframes flashGreen {
-    0%   { background: rgba(46, 204, 113, 0.4); }
-    100% { background: transparent; }
-}
+
 
 .rent{
     
