@@ -619,7 +619,7 @@ body{
     top: 0;
     right: -420px;
     width: 400px;
-    height: 100vh;
+    height: 92vh;
     background: #111;
     border-left: 1px solid #333;
     z-index: 1002;
@@ -680,7 +680,7 @@ body{
 
 .cart-item img {
     width: 80px;
-    height: 55px;
+    height: 75px;
     object-fit: cover;
     border-radius: 4px;
 }
