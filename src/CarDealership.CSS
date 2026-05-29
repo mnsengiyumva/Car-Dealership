@@ -1649,8 +1649,9 @@ body{
 }
 .shopCar{
     
-    margin-right: 10px;
+    margin-right: 20px;
     position: relative;
+    padding-bottom: 20px;
 
 }
 
@@ -1674,6 +1675,7 @@ body{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding-bottom: 20px;
+    margin-right: 20px;
     
 }
 
