@@ -1657,12 +1657,9 @@ body{
 }
 .shopCar{
     
-    gap: 10px;
+    
     position: relative;
-    
 
-
-    
 }
 
 @media(max-width: 726px){
@@ -1680,7 +1677,7 @@ body{
 }
 
 .shopCar:hover{
-    
+
     border: rgb(20, 94, 232) solid 1px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -1758,7 +1755,6 @@ body{
 .buy{
     
     margin-right: 40px;
-
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     color:white;
     background: rgb(20, 94, 232);
