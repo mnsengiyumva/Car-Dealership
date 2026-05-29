@@ -1726,11 +1726,11 @@ body{
     border-radius: 4px;
     cursor: pointer;
     font-size: 0.85rem;
-    letter-spacing: 1px;
+    letter-spacing:m 1px;
     text-transform: uppercase;
     transition: transform 0.2s, opacity 0.2s;
     margin-top: 6px;
-    width: 70%;
+    width: 80%;
 }
 
 .action-btn:hover { opacity: 0.85; transform: scale(1.02); }
