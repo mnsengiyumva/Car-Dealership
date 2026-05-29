@@ -1791,6 +1791,7 @@ body{
   color: #aaa;
   transition: transform 0.2s, color 0.2s;
   position: absolute;
+  top: 10px;
 }
 
 .heart-btn:hover {
