@@ -1678,9 +1678,6 @@ body{
 }
 
 .shopCar:hover{
-
-    
-    
     padding-bottom: 20px;
     margin-right: 20px;
     
@@ -1689,7 +1686,7 @@ body{
 
 .price{
   
-    color: #7f7c7c;
+    
     font-weight: bold;
 }
 
