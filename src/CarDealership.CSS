@@ -1495,58 +1495,6 @@ body{
 
 }
 
-.slide-container{
-    margin-left: 13px;
-}
-
-
-.slide img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    
-}
-
-
-.slider{
-    margin-top: 20px;
-    display: flex;
-    padding-bottom: 30px;
-    user-select: none;
-    align-items: center; 
-    background: white;
-    z-index: 10;
-    gap: 5px;
-
-    
-    
-}
-
-@media(max-width: 726px){
-    .slider{
-        flex-direction: column;
-        font-size: small;
-        
-    }
-
-
-   
-
-    .slide-container{
-        margin-left: 1px;
-    }
-}
-
-
-
-
-.slide{
-  width: 100%;
-  height: 240px;
-  object-fit: cover;
-  display: block;
-}
-
 
 .shopOptions{
 
@@ -1647,6 +1595,60 @@ body{
     }
 
 }
+
+
+.slide-container{
+    margin-left: 13px;
+}
+
+
+.slide img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+
+.slider{
+    margin-top: 20px;
+    display: flex;
+    padding-bottom: 30px;
+    user-select: none;
+    align-items: center; 
+    background: white;
+    z-index: 10;
+    gap: 5px;
+
+    
+    
+}
+
+@media(max-width: 726px){
+    .slider{
+        flex-direction: column;
+        font-size: small;
+        
+    }
+
+
+   
+
+    .slide-container{
+        margin-left: 1px;
+    }
+}
+
+
+
+
+.slide{
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
 .shopCar{
     
     margin-right: 20px;
@@ -1670,10 +1672,7 @@ body{
 }
 
 .shopCar:hover{
-
-    border: rgb(20, 94, 232) solid 1px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    
     padding-bottom: 20px;
     margin-right: 20px;
     
