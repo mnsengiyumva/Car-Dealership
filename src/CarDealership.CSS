@@ -1495,20 +1495,16 @@ body{
 
 }
 
-
-
 .slide-container{
     margin-left: 13px;
 }
 
 
 .slide img{
-    width: 90%;
+    width: 100%;
     height: 200px;
     object-fit: cover;
     
-    
-
 }
 
 
@@ -1517,10 +1513,10 @@ body{
     display: flex;
     padding-bottom: 30px;
     user-select: none;
-    align-items: center;
-    gap: 0px;
+    align-items: center; 
     background: white;
     z-index: 10;
+    gap: 5px;
 
     
     
@@ -1549,10 +1545,6 @@ body{
   height: 240px;
   object-fit: cover;
   display: block;
-  
-  
-  
-
 }
 
 
@@ -1657,7 +1649,7 @@ body{
 }
 .shopCar{
     
-    
+    margin-right: 10px;
     position: relative;
 
 }
