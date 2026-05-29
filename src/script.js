@@ -443,7 +443,7 @@ function renderCart() {
 
     cart.forEach((item, index) => {
         const price = parseFloat(item.price.replace(/[$,]/g, ''));
-        total += price;
+        total += price+15*price/100;
 
         const div = document.createElement('div');
         div.classList.add('cart-item');
