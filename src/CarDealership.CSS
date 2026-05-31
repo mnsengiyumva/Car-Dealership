@@ -1770,7 +1770,7 @@ body{
 }
 
 .rent:hover{
-    margin-right: 40px;
+    
     border-radius: 10px;
     transform: scale(1.2);
     box-shadow: 0 8px 20px, rgb(20, 94, 232);
@@ -1787,6 +1787,8 @@ body{
     background: rgb(20, 94, 232);
     color: white;
     padding: 10px;
+    margin-right: 40px;
+    font-weight: bold;
 }
 
 .heart-btn {
