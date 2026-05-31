@@ -1660,6 +1660,8 @@ body{
     padding-bottom: 10px;
     border: rgb(20, 94, 232) solid 1px;
     border-radius: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
 
 }
 
@@ -1674,6 +1676,7 @@ body{
 
 .shopCar p{
     font-size: small;
+   
     
 }
 
