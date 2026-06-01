@@ -617,7 +617,7 @@ body{
 #cart-panel {
     position: fixed;
     top: 0;
-    right: -420px;
+    right: -430px;
     width: 400px;
     height: 92vh;
     background: #ffffff;
