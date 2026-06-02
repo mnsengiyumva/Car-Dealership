@@ -40,8 +40,12 @@ body{
         margin-right: 00px;
         margin-left: 0px;
         padding-left: 10px;
+
         
-        
+    }
+
+    .section1 button{
+        font-size: xx-small;
     }
 
     .home{
