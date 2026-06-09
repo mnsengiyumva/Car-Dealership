@@ -567,9 +567,11 @@ body{
 .user.open .profile-dropdown{
     display: block;
     animation: fadeDown 0.2s ease;
+}@keyframes fadeDown{
+
+    from{opacity: 0; transform: translateY(-8px);}
+    to {opacity: 1; transform: translateY(0);}
 }
-
-
 #userContent{
     padding: 10px;
     width: 100px;
