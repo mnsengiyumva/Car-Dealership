@@ -505,6 +505,10 @@ body{
     display: none;
 }
 
+.user{
+    position: relative;
+}
+
 #userBtn{
     border: none;
     margin-top: 15px;
@@ -540,11 +544,19 @@ body{
 
 }
 
-.hideUser{
-    display: none;
-
-
+.profile-arrow{
+    font-size: 0.7rem;
+    transition: transform 0.2s;
 }
+
+.user.open .profile-arrow{
+    transform: rotate(180deg);
+}
+
+.profile-dropdown{
+    display: none;
+}
+
 
 #userContent{
     padding: 10px;
