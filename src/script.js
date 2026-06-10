@@ -512,7 +512,7 @@ renderCart();
 
 
 const profileMenu = document.querySelector('.user');
-const profileBtn  = document.querySelector('.profileBtn');
+const profileBtn  = document.querySelector('#userBtn');
 
 // Toggle dropdown
 profileBtn.addEventListener('click', (e) => {

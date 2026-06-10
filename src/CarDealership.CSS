@@ -591,8 +591,8 @@ body{
 }
 
 .dropdown-item:hover{
-    background: rgba(201, 168, 76, 0.08);
-    color: #c9a84c;
+    background: white;
+    color: rgb(20, 90, 230);
 
 
 }
