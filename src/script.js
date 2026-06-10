@@ -96,6 +96,20 @@ document.addEventListener("click", function(event){
     }
 })
 
+const userbtn = document.querySelector("#userBtn")
+const userCt = document.querySelector("#userContent")
+
+userbtn.addEventListener("click", function(){
+    userCt.classList.toggle("hideUser")
+})
+
+document.addEventListener("click", function(event){
+
+    if(!userbtn.contains(event.target) && !userCt.contains(event.target)){
+        userCt.classList.add("hideUser")
+    }
+
+})
 
 const dotsbtn = document.querySelector("#dotsBtn")
 const dotsCt = document.querySelector("#dotsContent")
@@ -497,18 +511,18 @@ renderCart();
 
 
 
-const user = document.querySelector('.user');
-const profileBtn  = document.querySelector('.userBtn');
+const profileMenu = document.querySelector('.user');
+const profileBtn  = document.querySelector('.profileBtn');
 
 // Toggle dropdown
 profileBtn.addEventListener('click', (e) => {
     e.stopPropagation();
-    user.classList.toggle('open');
+    profileMenu.classList.toggle('open');
 });
 
 // Close when clicking outside
 document.addEventListener('click', () => {
-    user.classList.remove('open');
+    profileMenu.classList.remove('open');
 });
 
 // Dropdown actions
