@@ -292,6 +292,8 @@ body{
     background: rgb(255, 255, 255);
     padding: 10px;
     padding-right: 30px;
+    font-size: 0.9rem;
+
     width: 160px;
     border: rgb(243, 243, 243) ;
     position: absolute;
@@ -375,6 +377,7 @@ body{
     border-radius: 20px;
     border: #b9baba solid 1px;
     transition: transform 0.5s ease box-shadow 0.5 ease;
+    font-size: 0.9rem;
 
     
 }
@@ -404,6 +407,7 @@ body{
     border-radius: 20px;
     border: #b9baba solid 1px;
     transition: transform 0.5s ease box-shadow 0.5 ease;
+    font-size: 0.9rem;
     
     
 }
@@ -580,6 +584,7 @@ body{
     gap: 10px;
     padding: 12px 16px;
     text-decoration: none;
+    font-weight: bolder;
 
     font-size: 0.9rem;
     letter-spacing: 1px;
@@ -594,6 +599,7 @@ body{
 .dropdown-item:hover{
     color: white;
     background: rgb(20, 90, 230);
+    font-weight: bolder;
 
 
 }
@@ -601,11 +607,13 @@ body{
 #signout-btn:hover {
     color: white;
     background: rgb(20, 90, 230);
+    font-weight: bolder;
 }
 
 #subscription-btn:hover {
-    background: white;
-    color: rgb(20, 90, 230);
+    color: white;
+    background: rgb(20, 90, 230);
+    font-weight: bolder;
 }
 
 /* Cart icon */
