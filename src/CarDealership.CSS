@@ -586,6 +586,27 @@ body{
     border-bottom: 1px solid #1a1a1a1a;
 }
 
+.dropdown-item:last-child{
+    border-bottom: none;
+}
+
+.dropdown-item:hover{
+    background: rgba(201, 168, 76, 0.08);
+    color: #c9a84c;
+
+
+}
+
+#signout-btn:hover {
+    color: #e74c3c;
+    background: rgba(231, 76, 60, 0.08);
+}
+
+#subscription-btn:hover {
+    color: #f1c40f;
+    background: rgba(241, 196, 15, 0.08);
+}
+
 /* Cart icon */
 #cart-icon {
     position: fixed;
