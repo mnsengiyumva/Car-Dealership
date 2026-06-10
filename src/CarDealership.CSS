@@ -572,32 +572,18 @@ body{
     from{opacity: 0; transform: translateY(-8px);}
     to {opacity: 1; transform: translateY(0);}
 }
-#userContent{
-    padding: 10px;
-    width: 100px;
-    margin-top: 25px;
-    border-radius: 10px;
-    position: absolute;
-    background:white ;
-    color: #a7a2a2;
-    border: #7f7c7c solid 1px;
-    transition: transform 0.5s ease box-shadow 0.5 ease;
-    
 
+.dropdown-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    text-decoration: none;
 
-
-}
-
-#userContent a:hover{
-    color: white;
-    background: rgb(20, 94, 232);
-    padding: 10px;
-    transition: 0.1s ease;
-    transform: scale(1.7);
-    box-shadow: 0, 8px, 20px white;
-    
-
-   
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: background 0.2s, color 0.2s;
+    border-bottom: 1px solid #1a1a1a1a;
 }
 
 /* Cart icon */
