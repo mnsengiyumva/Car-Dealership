@@ -125,6 +125,37 @@ document.addEventListener("click", function(event){
 })
 
 
+const profileMenu = document.querySelector('.user');
+const profileBtn  = document.querySelector('#userBtn');
+
+// Toggle dropdown
+profileBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    profileMenu.classList.toggle('open');
+});
+
+// Close when clicking outside
+document.addEventListener('click', () => {
+    profileMenu.classList.remove('open');
+});
+
+// Dropdown actions
+document.getElementById('signup-btn').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Sign Up clicked — connect your auth system here.');
+});
+
+document.getElementById('signout-btn').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Signed out!');
+});
+
+document.getElementById('subscription-btn').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Subscription plans coming soon!');
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const slides = document.querySelectorAll(".slideshow .sliding");
     const prevBtn = document.querySelector(".slideshow .prev");
@@ -511,32 +542,3 @@ renderCart();
 
 
 
-const profileMenu = document.querySelector('.user');
-const profileBtn  = document.querySelector('#userBtn');
-
-// Toggle dropdown
-profileBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    profileMenu.classList.toggle('open');
-});
-
-// Close when clicking outside
-document.addEventListener('click', () => {
-    profileMenu.classList.remove('open');
-});
-
-// Dropdown actions
-document.getElementById('signup-btn').addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('Sign Up clicked — connect your auth system here.');
-});
-
-document.getElementById('signout-btn').addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('Signed out!');
-});
-
-document.getElementById('subscription-btn').addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('Subscription plans coming soon!');
-});
