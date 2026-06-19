@@ -690,12 +690,12 @@ body{
 #close-cart {
     background: none;
     border: none;
-    color: #aaa;
+    color: rgb(20, 90, 230);
     font-size: 1.2rem;
     cursor: pointer;
 }
 
-#close-cart:hover { color: white; }
+#close-cart:hover { color: rgb(225, 13, 13); }
 
 /* Cart items */
 #cart-items {
@@ -770,7 +770,7 @@ body{
 }
 
 .cart-remove-btn:hover { 
-    color: white;
+    color: rgb(255, 255, 255);
     background: rgb(20, 90, 230); 
 }
 
