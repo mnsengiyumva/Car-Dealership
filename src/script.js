@@ -258,13 +258,13 @@ function showPage(page) {
 
     let totalPages = Math.ceil(cars.length / itemsPerPage);
 
-    // FIX 1: Safety check for pageNum element
+
     const pageNumElem = document.getElementById("pageNum");
     if (pageNumElem) {
         pageNumElem.innerText = "Page " + page;
     }
 
-    // FIX 2: Fixed the typo 'querySelectorById' to 'getElementById' + added safety checks
+    
     const prevBtn = document.getElementById("prevBtn");
     const nextBtn = document.getElementById("nextBtn");
 
