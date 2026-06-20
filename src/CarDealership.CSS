@@ -36,8 +36,10 @@ body{
     .section1{
         flex-direction: column;
         gap: 0;
-       
-        padding-left: 10px;
+        position: fixed;
+
+        z-index: 999;
+        padding-left: 60px;
 
         
     }
@@ -74,7 +76,7 @@ body{
 
 
 .menu{
-    margin-right:50px ;
+    margin-right:30px ;
     margin-top: 10px; 
     position: relative;
     display: inline-block;
