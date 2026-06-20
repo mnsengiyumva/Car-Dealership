@@ -34,11 +34,9 @@ body{
 
 @media(max-width:726px){
     .section1{
-        
-        
+        flex-direction: column;
         gap: 0;
-        margin-right: 00px;
-        margin-left: 0px;
+       
         padding-left: 10px;
 
         
