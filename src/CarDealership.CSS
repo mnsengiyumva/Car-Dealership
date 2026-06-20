@@ -104,6 +104,7 @@ body{
     color: white;
     padding: 7px;
     transition: 0.2s ease;
+    z-index: 999;
     transform: scale(1.7);
     box-shadow: 0, 8px, 20px white;
     
@@ -117,7 +118,7 @@ body{
     border: none;
     background: none;
     padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 3px;
     transition: 0.1s ease;
     cursor: pointer;
     color: white;
