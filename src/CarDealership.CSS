@@ -299,6 +299,7 @@ body{
     width: 160px;
     border: rgb(243, 243, 243) ;
     position: absolute;
+    z-index: 999;
     border-radius: 10px;
     border: #b9baba solid 1px;
     transition: transform 0.5s ease box-shadow 0.5 ease;
@@ -373,7 +374,7 @@ body{
     border: #b9baba solid 1px;
     transition: transform 0.5s ease box-shadow 0.5 ease;
     font-size: 0.9rem;
-
+    z-index: 999;
     
 }
 
@@ -403,6 +404,7 @@ body{
     border: #b9baba solid 1px;
     transition: transform 0.5s ease box-shadow 0.5 ease;
     font-size: 0.9rem;
+    z-index: 999;
     
     
 }
@@ -1176,6 +1178,7 @@ body{
     .ev-dark{
         flex-direction: column;
         margin-left: 10px;
+        padding-left: 50px;
         font-size: x-large;
         border-bottom: #a3a0a0 solid 10px;
         font-size: larger;
