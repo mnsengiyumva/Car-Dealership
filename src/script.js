@@ -111,18 +111,7 @@ document.addEventListener("click", function(event){
 
 })
 
-const dotsbtn = document.querySelector("#dotsBtn")
-const dotsCt = document.querySelector("#dotsContent")
 
-dotsbtn.addEventListener("click", function(){
-    dotsCt.classList.toggle("hideDots")
-})
-
-document.addEventListener("click", function(event){
-   if(!dotsbtn.contains(event.target) && !dotsCt.contains(event.target)){
-        dotsCt.classList.add("hideDots")
-    }
-})
 
 
 const profileMenu = document.querySelector('.user');
