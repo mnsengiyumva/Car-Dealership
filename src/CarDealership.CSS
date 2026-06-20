@@ -1546,6 +1546,10 @@ body{
         justify-items: center;
         
     }
+
+    .slideShop h4{
+        margin-left: 80px;
+    }
 }
 
 .slideShop h1{
