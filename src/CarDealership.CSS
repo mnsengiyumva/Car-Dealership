@@ -375,16 +375,23 @@ body{
     transition: transform 0.5s ease box-shadow 0.5 ease;
     font-size: 0.9rem;
     z-index: 999;
+
     
 }
 
 #dealersContent a:hover{
-    background: rgb(20, 94, 232);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 12px 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 0.9rem;
     color: white;
-    padding: 7px;
-    transform: scale(2);
-    box-shadow: 0, 8px, 20px white;
-    transition: 0.2s ease;
+    letter-spacing: 1px;
+    transition: background 0.2s, color 0.2s;
+    border-bottom: 1px solid #1a1a1a1a;
+    background: rgb(20, 94, 232);
   
 }
 
@@ -582,7 +589,6 @@ body{
     padding: 12px 16px;
     text-decoration: none;
     font-weight: bolder;
-
     font-size: 0.9rem;
     letter-spacing: 1px;
     transition: background 0.2s, color 0.2s;
