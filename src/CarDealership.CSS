@@ -214,26 +214,31 @@ body{
 
 #vihecleContent{
 
-    background: white;
-    padding: 10px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
     width: 160px;
-    border: rgb(243, 243, 243) ;
     position: absolute;
-    margin-top: 10px;
-    border-radius: 10px;
-    border: #b9baba solid 1px;
+    transition: transform 0.5s ease box-shadow 0.5 ease;
+    font-size: 0.9rem;
+    z-index: 999;
+    letter-spacing: 1px;
     
     
 }
 
 #vihecleContent a:hover{
-    background: rgb(20, 94, 232);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 12px 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 0.9rem;
     color: white;
-    padding: 7px;
-    transition: 0.3s ease;
-    transform: scale(1);
-    box-shadow: 0, 8px, 20px white;
-    transition: 0.2s ease;
+    letter-spacing: 1px;
+    transition: background 0.2s, color 0.2s;
+    border-bottom: 1px solid #1a1a1a1a;
+    background: rgb(20, 94, 232);
     
 }
 
