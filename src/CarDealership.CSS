@@ -364,9 +364,11 @@ body{
 
 }
 
+
+
 #dealersContent{
     background: rgb(255, 255, 255);
-    align-items: center;
+    justify-content: center;
     
     width: 150px;
     
@@ -374,7 +376,7 @@ body{
     transition: transform 0.5s ease box-shadow 0.5 ease;
     font-size: 0.9rem;
     z-index: 999;
-
+    letter-spacing: 1px;
     
 }
 
