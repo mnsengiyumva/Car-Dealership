@@ -1750,10 +1750,14 @@ body{
     margin-right: 100px;
 }
 .buy:hover{
-    
-    
+    margin-right: 40px;
     transform: scale(1.2);
     box-shadow: 0 8px 20px, rgb(20, 94, 232);
+    color:white;
+    background: rgb(20, 94, 232);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
     
 }
 
