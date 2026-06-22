@@ -1751,15 +1751,10 @@ body{
 }
 .buy:hover{
     
-    border:rgb(20, 94, 232) solid 1px;
-    border-radius: 10px;
+    
     transform: scale(1.2);
     box-shadow: 0 8px 20px, rgb(20, 94, 232);
-    background: rgb(20, 94, 232);
-    color: white;
-    padding: 10px;
-    margin-right: 40px;
-    font-weight: bold;
+    
 }
 
 .heart-btn {
