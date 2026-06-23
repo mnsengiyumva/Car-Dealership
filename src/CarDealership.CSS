@@ -1184,7 +1184,7 @@ body{
     justify-content: center;
     border-bottom: #a3a0a0 solid 0.1px;
     clip-rule: evenodd;  
-    background: radial-gradient(circle at center, #ffffff, #dae1e6), url("/Assets/wh.jpg");
+    
     background-size: cover;
     background-position: center;
 }
