@@ -1186,7 +1186,7 @@ body{
     justify-content: center;
     border-bottom: #a3a0a0 solid 0.1px;
     clip-rule: evenodd;
-    border: 1px solid black;
+    border: 1px solid rgb(20, 94, 232) ;
     border-radius: 100px;
     position: relative;
 }
