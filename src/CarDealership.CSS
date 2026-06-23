@@ -1291,18 +1291,14 @@ body{
 
 }
 
-#ev-content img{
-    background: none;
-    width: 400px;
 
-
-}
 #ev-content{
     margin-top: 10px;
-    height: 500px;
-    background-image: url("/Assets/im8.jpg");
+    height: 350px;
+    background-image: url("/Assets/im9.jpg");
     background-size: cover;
     color:white;
+    width: 350px;
 
     padding-left: 20px;
     padding-top: 1px;
@@ -1325,7 +1321,7 @@ body{
 
 #ev-content p{
     font-size: smaller;
-    padding-top: 300px;
+    padding-top: 130px;
     font-weight: bold;
     color: #ffffff;
 }
@@ -1372,18 +1368,13 @@ body{
 
 }
 
-#ev-content img{
-    background: none;
-    width: 400px;
-
-}
 #dark-content{
     margin-top: 10px;
-    height: 500px;
+    height: 350px;
     background-image: url("/Assets/black.jpg");
     background-size: cover;
     color:white;
-
+    width: 350px;
     padding-left: 20px;
     padding-top: 1px;
 }
