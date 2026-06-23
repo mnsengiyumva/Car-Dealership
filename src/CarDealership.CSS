@@ -1183,10 +1183,7 @@ body{
     padding-bottom: 30px;
     justify-content: center;
     border-bottom: #a3a0a0 solid 0.1px;
-    clip-rule: evenodd;  
-    
-    background-size: cover;
-    background-position: center;
+    clip-rule: evenodd;
 }
 
 
