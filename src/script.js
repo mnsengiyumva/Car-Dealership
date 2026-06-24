@@ -460,7 +460,7 @@ function renderCart() {
     cartCount.textContent = cart.length;
 
     if (cart.length === 0) {
-        cartItems.innerHTML = '<p style="color:#555; text-align:center; margin-top:40px; letter-spacing:1px;">Your cart is empty.</p>';
+        cartItems.innerHTML = '<p style="color:rgb(20, 94, 232); text-align:center; margin-top:40px; letter-spacing:1px;">Your cart is empty.</p>';
         cartTotal.textContent = '$0';
         return;
     }
