@@ -440,6 +440,12 @@ function openCart() {
     cartOverlay.classList.add('active');
 }
 
+const rentRate = 0.005; // 0.5% of buy price, per day
+
+function calculateRentPrice(buyPrice, days) {
+    return buyPrice * rentRate * days;
+}
+
 function closeCartPanel() {
     cartPanel.classList.remove('open');
     cartOverlay.classList.remove('active');
@@ -462,8 +468,19 @@ function renderCart() {
     let total = 0;
 
     cart.forEach((item, index) => {
-        const price = parseFloat(item.price.replace(/[$,]/g, ''));
-        total += price+15*price/100;
+        const buyPrice = parseFloat(item.price.replace(/[$,]/g, ''));
+
+        // default to 1 day if this rent item doesn't have a stored day count yet
+        if (item.type === 'rent' && !item.days) {
+            item.days = 1;
+        }
+
+        const basePrice = item.type === 'rent'
+            ? calculateRentPrice(buyPrice, item.days)
+            : buyPrice;
+
+        const itemTotal = basePrice + (15 * basePrice / 100);
+        total += itemTotal;
 
         const div = document.createElement('div');
         div.classList.add('cart-item');
@@ -472,7 +489,13 @@ function renderCart() {
             <div class="cart-item-info">
                 <span class="cart-item-type ${item.type}">${item.type}</span>
                 <p>${item.name}</p>
-                <span>${item.price}</span>
+                <span>$${itemTotal.toLocaleString(undefined, {maximumFractionDigits: 2})}</span>
+                ${item.type === 'rent' ? `
+                    <div class="rent-days">
+                        <label for="days-${index}">Days:</label>
+                        <input type="number" id="days-${index}" class="days-input" data-index="${index}" value="${item.days}" min="1">
+                    </div>
+                ` : ''}
             </div>
             <button class="cart-remove-btn" data-index="${index}">✕</button>
         `;
@@ -483,10 +506,19 @@ function renderCart() {
             renderCart();
         });
 
+        if (item.type === 'rent') {
+            div.querySelector('.days-input').addEventListener('input', (e) => {
+                const newDays = parseInt(e.target.value) || 1;
+                cart[index].days = newDays;
+                saveCart();
+                renderCart();
+            });
+        }
+
         cartItems.appendChild(div);
     });
 
-    cartTotal.textContent = '$' + total.toLocaleString();
+    cartTotal.textContent = '$' + total.toLocaleString(undefined, {maximumFractionDigits: 2});
 }
 
 // Add to cart
