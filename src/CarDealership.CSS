@@ -1174,11 +1174,13 @@ body{
     display: flex;
     padding-bottom: 20px;
     margin-left: 110px;
+    border-top: 1px solid rgb(20, 94, 232);
     margin-right: 110px;
     justify-content: center;
     border-bottom: #a3a0a0 solid 0.1px;
     clip-rule: evenodd;
     position: relative;
+    margin-top: 30px;
     
 
 }
@@ -1205,8 +1207,6 @@ body{
     margin-bottom: 5px;
     border-right: 10px solid rgb(20, 94, 232);
     border-bottom: 10px solid rgb(20, 94, 232);
-    
-   
     letter-spacing: 1px;
 }
 
@@ -1242,6 +1242,7 @@ body{
 
 .ev-dark p{
     margin-bottom: 30px;
+
 }
 
 
@@ -1381,6 +1382,7 @@ body{
     width: 350px;
     padding-left: 20px;
     padding-top: 1px;
+    padding-bottom: 23px;
 }
 
 #dark-content a{
