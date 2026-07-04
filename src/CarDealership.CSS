@@ -1099,6 +1099,13 @@ body{
   justify-content: center;
   align-items: center;
   padding: 40px 0;
+  margin-top: 30px;
+}
+
+#our-cars h1{
+    color: rgb(20, 94, 232);
+    padding-right: 20px;
+    border-bottom: ;
 }
 
 .slideshow {
