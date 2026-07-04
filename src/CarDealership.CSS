@@ -88,7 +88,8 @@ body{
     background: white;
     z-index: 999;
     background: rgb(255, 255, 255);
-    justify-content: center;
+    align-items: center;
+   
     width: 170px;
     position: absolute;
     transition: transform 0.5s ease box-shadow 0.5 ease;
@@ -101,13 +102,19 @@ body{
 }
 
 #menuContent a:hover{
-    background: rgb(20, 94, 232);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 150px;
+    padding: 12px 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 0.9rem;
     color: white;
-    padding: 7px;
-    transition: 0.2s ease;
-    z-index: 999;
-    transform: scale(1.7);
-    box-shadow: 0, 8px, 20px white;
+    letter-spacing: 1px;
+    transition: background 0.2s, color 0.2s;
+    border-bottom: 1px solid #1a1a1a1a;
+    background: rgb(20, 94, 232);
     
 }
 
