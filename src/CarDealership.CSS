@@ -152,16 +152,16 @@ body{
 
 }
 
-.home{
-    margin-right: 40px;
-    margin-top: 12px;
-    font-size: xx-large;
-    
-    
+.home a{
+    position: inherit;
+    padding-top: 40px;
+    font-size:3rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #homeBtn{
     color: white;
+    
     
 
 }
