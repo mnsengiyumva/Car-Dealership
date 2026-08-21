@@ -498,7 +498,7 @@ body{
 
 #darkToggle:hover{
     color: white;
-    background: rgb(20, 94, 232);;
+    background: rgb(20, 94, 232);
     padding: 7px;
     
 }
@@ -518,13 +518,14 @@ body{
 }
 
 #chat-toggle{
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
+    position: relative;
+    
     width: 56px;
-     height: 56px;
+    height: 56px;
+    right: 30px;
+    color: rgb(20, 94, 232);;
     border-radius: 50%;
-    background: #c9a84c;
+    background: none;
     border: none;
     font-size: 1.4rem;
     cursor: pointer;
