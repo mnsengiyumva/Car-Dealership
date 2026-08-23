@@ -120,7 +120,16 @@ chatClose.addEventListener('click', () =>{
 
 function addMessage(role, text){
 
+    const div= document.createElement('div')
+    div.classList.add('chat-msg', role)
+    div.textContent = text
+    chatMessages.appendChild(div)
+    chatMessages.scrollTop = chatMessages.scrollHeight
+    return div
+
 }
+
+async 
 
 // const chatToggle   = document.getElementById('chat-toggle');
 // const chatWindow   = document.getElementById('chat-window');
