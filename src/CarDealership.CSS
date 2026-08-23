@@ -523,7 +523,7 @@ body{
     width: 56px;
     height: 56px;
     right: 30px;
-    color: rgb(20, 94, 232);;
+    color: rgb(20, 94, 232);
     border-radius: 50%;
     background: none;
     border: none;
@@ -545,7 +545,7 @@ chat-toggle:hover {
     right: 30px;
     width: 340px;
     height: 480px;
-    background: #111;
+    background:white;
     border: 1px solid #2a2a2a;
     border-radius: 12px;
     z-index: 2000;
@@ -559,13 +559,13 @@ chat-toggle:hover {
 }
 
 #chat-header {
-    background: #1a1a1a;
+    background: White;
     border-bottom: 1px solid #2a2a2a;
     padding: 14px 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #c9a84c;
+    color: rgb(20, 94, 232);
     font-size: 0.95rem;
     letter-spacing: 2px;
     text-transform: uppercase;
