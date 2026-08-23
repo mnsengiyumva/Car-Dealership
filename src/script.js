@@ -96,88 +96,114 @@ document.addEventListener("click", function(event){
     }
 })
 
-const chatToggle   = document.getElementById('chat-toggle');
-const chatWindow   = document.getElementById('chat-window');
-const chatClose    = document.getElementById('chat-close');
-const chatMessages = document.getElementById('chat-messages');
-const chatInput    = document.getElementById('chat-input');
-const chatSend     = document.getElementById('chat-send');
+const chatToggle = document.getElementById("chat-toggle");
+const chatWindow = document.getElementById("chat-window")
+const chatClose = document.getElementById('chat-close')
+const chatMessages = document.getElementById('chat-messages')
+const chatSend =  document.getElementById("chat-send")
 
-// Conversation history — keeps context across messages
-let conversationHistory = [];
+
+let conversationHistory = []
 
 chatToggle.addEventListener('click', () => {
     chatWindow.classList.toggle('open');
-    if (chatWindow.classList.contains('open') && conversationHistory.length === 0) {
-        addMessage('bot', 'Welcome to Infinity Luxuries! 🚗 Ask me anything about our cars, pricing, or rentals.');
-    }
-});
 
-chatClose.addEventListener('click', () => {
+    if(chatWindow.classList.contains('open') && conversationHistory.length == 0){
+
+        addMessage("bot", 'Welcome to Infinity luxuries. You can ask me anything about our cars')
+    }
+})
+
+chatClose.addEventListener('click', () =>{
     chatWindow.classList.remove('open');
-});
+})
 
-function addMessage(role, text) {
-    const div = document.createElement('div');
-    div.classList.add('chat-msg', role);
-    div.textContent = text;
-    chatMessages.appendChild(div);
-    chatMessages.scrollTop = chatMessages.scrollHeight;
-    return div;
+function addMessage(role, text){
+
 }
 
-async function sendMessage() {
-    const text = chatInput.value.trim();
-    if (!text) return;
+// const chatToggle   = document.getElementById('chat-toggle');
+// const chatWindow   = document.getElementById('chat-window');
+// const chatClose    = document.getElementById('chat-close');
+// const chatMessages = document.getElementById('chat-messages');
+// const chatInput    = document.getElementById('chat-input');
+// const chatSend     = document.getElementById('chat-send');
 
-    chatInput.value = '';
-    addMessage('user', text);
+// // Conversation history — keeps context across messages
+// let conversationHistory = [];
 
-    // Add to history
-    conversationHistory.push({ role: 'user', content: text });
+// chatToggle.addEventListener('click', () => {
+//     chatWindow.classList.toggle('open');
+//     if (chatWindow.classList.contains('open') && conversationHistory.length === 0) {
+//         addMessage('bot', 'Welcome to Infinity Luxuries! 🚗 Ask me anything about our cars, pricing, or rentals.');
+//     }
+// });
 
-    // Typing indicator
-    const typing = addMessage('bot', 'Typing...');
-    typing.classList.add('typing');
+// chatClose.addEventListener('click', () => {
+//     chatWindow.classList.remove('open');
+// });
 
-    try {
-        const response = await fetch('https://api.anthropic.com/v1/messages', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                model: 'claude-sonnet-4-6',
-                max_tokens: 1000,
-                system: `You are a helpful luxury car assistant for Infinity Luxuries, 
-                         a premium car dealership. Help customers with questions about 
-                         cars, pricing, rentals, and purchases. Be concise, friendly, 
-                         and professional. Cars available: Infinity Model 1 ($40,899), 
-                         Infinity Model 2 ($42,899), Infinity Model 3 ($62,899). 
-                         Members get discounted prices.`,
-                messages: conversationHistory
-            })
-        });
+// function addMessage(role, text) {
+//     const div = document.createElement('div');
+//     div.classList.add('chat-msg', role);
+//     div.textContent = text;
+//     chatMessages.appendChild(div);
+//     chatMessages.scrollTop = chatMessages.scrollHeight;
+//     return div;
+// }
 
-        const data = await response.json();
-        const reply = data.content[0].text;
+// async function sendMessage() {
+//     const text = chatInput.value.trim();
+//     if (!text) return;
 
-        // Remove typing indicator and show real reply
-        typing.remove();
-        addMessage('bot', reply);
+//     chatInput.value = '';
+//     addMessage('user', text);
 
-        // Add assistant reply to history
-        conversationHistory.push({ role: 'assistant', content: reply });
+//     // Add to history
+//     conversationHistory.push({ role: 'user', content: text });
 
-    } catch (err) {
-        typing.remove();
-        addMessage('bot', 'Sorry, I am having trouble connecting. Please try again.');
-        console.error(err);
-    }
-}
+//     // Typing indicator
+//     const typing = addMessage('bot', 'Typing...');
+//     typing.classList.add('typing');
 
-chatSend.addEventListener('click', sendMessage);
-chatInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') sendMessage();
-});
+//     try {
+//         const response = await fetch('https://api.anthropic.com/v1/messages', {
+//             method: 'POST',
+//             headers: { 'Content-Type': 'application/json' },
+//             body: JSON.stringify({
+//                 model: 'claude-sonnet-4-6',
+//                 max_tokens: 1000,
+//                 system: `You are a helpful luxury car assistant for Infinity Luxuries, 
+//                          a premium car dealership. Help customers with questions about 
+//                          cars, pricing, rentals, and purchases. Be concise, friendly, 
+//                          and professional. Cars available: Infinity Model 1 ($40,899), 
+//                          Infinity Model 2 ($42,899), Infinity Model 3 ($62,899). 
+//                          Members get discounted prices.`,
+//                 messages: conversationHistory
+//             })
+//         });
+
+//         const data = await response.json();
+//         const reply = data.content[0].text;
+
+//         // Remove typing indicator and show real reply
+//         typing.remove();
+//         addMessage('bot', reply);
+
+//         // Add assistant reply to history
+//         conversationHistory.push({ role: 'assistant', content: reply });
+
+//     } catch (err) {
+//         typing.remove();
+//         addMessage('bot', 'Sorry, I am having trouble connecting. Please try again.');
+//         console.error(err);
+//     }
+// }
+
+// chatSend.addEventListener('click', sendMessage);
+// chatInput.addEventListener('keydown', (e) => {
+//     if (e.key === 'Enter') sendMessage();
+// });
 
 
 
