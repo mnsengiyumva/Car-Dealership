@@ -56,6 +56,7 @@ body{
     #searchButton{
         margin-left: 0px
     }
+
  
 }
 .section1 a{
@@ -540,6 +541,7 @@ body{
 }
 
 #chat-window {
+    top: 80px;
     display: none;
     position: fixed;
     bottom: 100px;
@@ -571,6 +573,8 @@ body{
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+
 
 #chat-close {
     background: none;
@@ -660,11 +664,13 @@ body{
 
 
 
+@media(max-width: 726px){
 
+    #chat-window{
+        top: 20px;
+    }
 
-
-
-
+}
 
 
 
