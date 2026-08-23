@@ -127,7 +127,7 @@ body{
     border: none;
     background: none;
     padding-right: 15px;
-    padding-left: 3px;
+    padding-left:  15px;
     transition: 0.1s ease;
     cursor: pointer;
     color: rgb(20, 94, 232);
@@ -142,7 +142,7 @@ body{
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 5px;
-    background: white;
+    background: #edf0f3;
     transition: 0.1s ease;
     color: rgb(20, 94, 232);
     border: none;
@@ -205,7 +205,7 @@ body{
     padding-left: 15px;
     border-radius: 5px;
     color: rgb(20, 94, 232);
-    background: white;
+    background: #edf0f3;
     font-weight: bolder;
     transition: 0.2s ease;
     transform: scale(1.7);
@@ -521,20 +521,22 @@ body{
     position: relative;
     top: 10px;
     right: 30px;
-    
+    scale: 1.5;
     color: rgb(20, 94, 232);
     border-radius: 50%;
     background: none;
     border: none;
     font-size: 1.4rem;
     cursor: pointer;
+    transition: transform 0.5s ease box-shadow 0.5 ease;
     
    
-    transition: transform 0.2s;
+    
 }
 
-chat-toggle:hover {
-    transform: scale(1.1);
+#chat-toggle:hover {
+    transform: scale(2.7);
+    box-shadow: 0, 8px, 20px white;
 }
 
 #chat-window {
