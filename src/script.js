@@ -143,7 +143,7 @@ async function sendMessage() {
 
     const typing = addMessage('bot', 'typing...')
     typing.classList.add('typing');
-}
+
 
     try {
         const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -177,6 +177,7 @@ async function sendMessage() {
         addMessage('bot', 'Sorry, I am having trouble connecting. Please try again.');
         console.error(err);
     }
+
 }
 
 chatSend.addEventListener('click', sendMessage);
