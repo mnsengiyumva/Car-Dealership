@@ -113,6 +113,12 @@ chatToggle.addEventListener('click', () => {
     }
 });
 
+document.addEventListener('click', function(event){
+    if(!chatToggle.contains(event.target) && !chatWindow(event.target)){
+        chatWindow.classList.add('open')
+    }
+})
+
 chatClose.addEventListener('click', () => {
     chatWindow.classList.remove('open');
 });
