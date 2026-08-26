@@ -312,6 +312,10 @@ body{
  
 }
 
+#buildContent a{
+    padding: 12px 10px;
+}
+
 #buildContent a:hover{
     display: flex;
     align-items: center;
