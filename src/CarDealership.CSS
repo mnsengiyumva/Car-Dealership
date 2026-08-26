@@ -230,8 +230,10 @@ body{
     
 }
 
-#vehicleContent p{
-    padding-right: 20px;
+#vihecleContent a{
+   
+    
+    padding: 12px 10px;
 }
 
 #vihecleContent a:hover{
