@@ -648,7 +648,8 @@ body{
     background: rgb(20, 94, 232);
     color: white;
     align-self: flex-start;
-    border: 1px solid #2a2a2a;
+    border:none;
+
     border-bottom-left-radius: 4px;
 }
 
