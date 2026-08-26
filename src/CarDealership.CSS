@@ -103,10 +103,20 @@ body{
 
 }
 
+
+#menuContent a{
+
+    padding: 12px 10px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    border-bottom: 1px;
+   
+  
+}
 #menuContent a:hover{
     display: flex;
     align-items: center;
-    gap: 5px;
+    
     width: 150px;
     padding: 12px 10px;
     text-decoration: none;
@@ -695,19 +705,6 @@ body{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .user{
     position: relative;
