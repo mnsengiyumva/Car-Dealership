@@ -230,6 +230,10 @@ body{
     
 }
 
+#vehicleContent p{
+    padding-right: 20px;
+}
+
 #vihecleContent a:hover{
     display: flex;
     align-items: center;
