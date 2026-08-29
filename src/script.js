@@ -109,7 +109,7 @@ let conversationHistory = [];
 chatToggle.addEventListener('click', () => {
     chatWindow.classList.toggle('open');
     if (chatWindow.classList.contains('open') && conversationHistory.length === 0) {
-        addMessage('bot', 'Welcome to Infinity Luxuries! 🚗 Ask me anything about our cars, pricing, or rentals.');
+        addMessage('bot', 'Welcome to Infinity Luxuries! Ask me anything about our cars, pricing, or rentals.');
     }
 });
 
