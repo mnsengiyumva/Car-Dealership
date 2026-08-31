@@ -211,6 +211,8 @@ body{
     transition: transform 0.5s ease box-shadow 0.5 ease;
     
 }
+
+
 #vihecleBtn:hover{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -227,22 +229,20 @@ body{
     cursor: pointer;
 }
 
-#vihecleContent{
+#vihecleContent a{
     background: rgb(219, 219, 219);
     justify-content: center;
-    display: flex;
-   
-    position: absolute;
     transition: transform 0.5s ease box-shadow 0.5 ease;
     font-size: 0.9rem;
     z-index: 999;
+    width: 200px;
     letter-spacing: 1px;
     
     
 }
 
 
-.vihecle-options{
+/* .vihecle-options{
     background: rgb(219, 219, 219);
     justify-content: center;
     transition: transform 0.5s ease box-shadow 0.5 ease;
@@ -252,7 +252,7 @@ body{
     letter-spacing: 1px;
    
     
-}
+} */
 
 #electric-vihecles img{
     height: 350px;
