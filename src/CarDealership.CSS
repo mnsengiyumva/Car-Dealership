@@ -230,7 +230,7 @@ body{
 #vihecleContent{
     background: rgb(255, 255, 255);
     justify-content: center;
-    width: 200px;
+    margin-left: 30px;
     display: flex;
     position: absolute;
     transition: transform 0.5s ease box-shadow 0.5 ease;
@@ -241,9 +241,14 @@ body{
     
 }
 
-#electric-vihecles{
-    height: 20px;
-    margin-left: 30px;
+.vihecle-options{
+    padding-right: 30px;
+}
+
+#electric-vihecles img{
+    height: 300px;
+    width: 200px;
+
 }
 
 #vihecleContent a{
