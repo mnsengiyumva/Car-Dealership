@@ -870,6 +870,7 @@ body{
 
 #cart-icon:hover {
     transform: scale(1.05);
+    background-color: rgb(20, 94, 232);
 }
 
 #cart-count {
@@ -880,6 +881,7 @@ body{
     font-size: 0.75rem;
     margin-left: 4px;
 }
+
 
 /* Cart overlay */
 #cart-overlay {
@@ -920,7 +922,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid rgb(20, 94, 232);
     padding-bottom: 16px;
 }
 
@@ -1073,8 +1075,6 @@ body{
 #clear-cart-btn:hover {
     background: rgba(231, 76, 60, 0.1);
 }
-
-/* Action buttons */
 
 
 
