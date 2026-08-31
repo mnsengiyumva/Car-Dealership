@@ -871,6 +871,7 @@ body{
 #cart-icon:hover {
     transform: scale(1.05);
     background-color: rgb(20, 94, 232);
+    color: white;
 }
 
 #cart-count {
