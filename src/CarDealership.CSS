@@ -229,17 +229,7 @@ body{
     cursor: pointer;
 }
 
-#vihecleContent a{
 
-    justify-content: center;
-    transition: transform 0.5s ease box-shadow 0.5 ease;
-    font-size: 0.9rem;
-    z-index: 999;
-    width: 200px;
-    letter-spacing: 1px;
-    
-    
-}
 
 #vihecleContent{
     background: rgb(233, 233, 233);
@@ -254,17 +244,6 @@ body{
 }
 
 
-/* .vihecle-options{
-    background: rgb(219, 219, 219);
-    justify-content: center;
-    transition: transform 0.5s ease box-shadow 0.5 ease;
-    font-size: 0.9rem;
-    z-index: 999;
-    width: 200px;
-    letter-spacing: 1px;
-   
-    
-} */
 
 #electric-vihecles img{
     height: 350px;
