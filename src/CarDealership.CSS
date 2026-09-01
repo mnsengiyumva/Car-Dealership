@@ -245,15 +245,9 @@ body{
 
 
 
-#electric-vihecles img{
-    height: 350px;
-    width: 280px;
-    
 
-}
 
 #vihecleContent a{
-   
     
     padding: 12px 10px;
 }
@@ -1067,8 +1061,9 @@ body{
 
 #search{
 
-    margin-top: 60px;
-    justify-content: center;
+    margin-top: 100px;
+    margin-left: 600px;
+   
 }
 
 .introduction{
