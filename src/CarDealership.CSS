@@ -1060,10 +1060,14 @@ body{
 
 
 #search{
-
     margin-top: 100px;
     margin-left: 600px;
    
+}
+
+#search-button{
+
+    padding: 30px;
 }
 
 .introduction{
