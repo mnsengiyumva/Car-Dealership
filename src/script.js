@@ -188,17 +188,6 @@ chatInput.addEventListener('keydown', (e) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 const userbtn = document.querySelector("#userBtn")
 const userCt = document.querySelector("#userContent")
 
@@ -213,8 +202,6 @@ document.addEventListener("click", function(event){
     }
 
 })
-
-
 
 
 const profileMenu = document.querySelector('.user');
