@@ -1061,14 +1061,27 @@ body{
 
 #search{
     margin-top: 100px;
-    margin-left: 600px;
+    
+
    
 }
-
-#search-button{
-
-    padding: 30px;
+.search-area{
+    padding: 20px 50px;
+    border-radius: 20px;
+    border: 1px solid rgb(20, 94, 232);
+    margin-left: 500px;
 }
+#search-button{
+    border-radius: 20px;
+    background: white;
+
+
+    padding: 20px 50px;
+    right: 0;
+    border: 1px solid rgb(20, 94, 232);
+}
+
+#search-button
 
 .introduction{
     display: flex;
