@@ -16,23 +16,7 @@ document.addEventListener("click", function(event){
     }
 })
 
-const searchBtn = document.querySelector("#searchButton")
-const searchCt = document.querySelector("#searchContent")
-
-searchBtn.addEventListener("click", function(){
-
-    searchCt.classList.toggle("hideSearch")
-
-})
-
-document.addEventListener("click", function(event){
-
-    if(!searchBtn.contains(event.target) && !searchCt.contains(event.target)){
-        searchCt.classList.add("hideSearch")
-    }
-})
     
-
 
 const vihecleBtn = document.querySelector("#vihecleBtn");
 const vihecleButton = document.querySelector("#vihecleContent");
