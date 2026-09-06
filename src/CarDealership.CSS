@@ -24,6 +24,7 @@ body{
     gap: 10px;
     color: rgb(20, 94, 232);
     background: white;
+    border-bottom: 1px solid ;
     padding: 10px;
     position: fixed;
     z-index: 999;
