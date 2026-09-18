@@ -11,6 +11,10 @@ const userSchema = new mongoose.Schema({
     cart: [{
         carId: String,
         name: String,
-        price: String
+        price: String,
+        type: String,
+        img: String
     }]
-})
+}, {timestamps: true});
+
+module.exports = mongoose.model('User', userSchema)
