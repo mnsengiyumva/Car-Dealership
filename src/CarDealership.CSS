@@ -1162,8 +1162,9 @@ body{
 .infinityDescription{
     border-top: rgb(20, 94, 232) solid 50px;
     padding-left: 1px;
-    border-radius: 17px;
+    border-radius: 100px;
     border-bottom: rgb(20, 94, 232) solid 50px;
+    
       
 }
 
