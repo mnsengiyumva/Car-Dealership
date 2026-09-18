@@ -5,6 +5,8 @@ const jwt = require('jsonwebtoken')
 const User = require('../models/User')
 
 
+
+// this code handles Signup procedures
 router.post('/signup', async (req, res) => {
     try{
         const {name, email, password} = req.body;
@@ -24,3 +26,14 @@ router.post('/signup', async (req, res) => {
         res.status(500).json({message: 'Server error'})
     }
 });
+
+//This code segment handles sign in procedures
+
+router.post('/signin', async(req, res) => {
+    try{
+
+        const {email, password} = req.body;
+
+        const user = await User.findOne({email});
+    }
+})
