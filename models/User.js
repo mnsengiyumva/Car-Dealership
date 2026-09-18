@@ -5,5 +5,12 @@ const userSchema = new mongoose.Schema({
     name: {type: String, required: true},
     email: {type: String, required: true, unique: true},
     password: {type: String, required: true},
-    isMember: {type: Boolean, default: false}
+    isMember: {type: Boolean, default: false},
+
+    favourites: [{type: String}],
+    cart: [{
+        carId: String,
+        name: String,
+        price: String
+    }]
 })
