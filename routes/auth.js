@@ -22,7 +22,7 @@ router.post('/signup', async (req, res) => {
 
     }
 
-    catch{
+    catch(err){
         res.status(500).json({message: 'Server error'})
     }
 });
@@ -35,5 +35,19 @@ router.post('/signin', async(req, res) => {
         const {email, password} = req.body;
 
         const user = await User.findOne({email});
+        if(!user) return res.status(400).json({message: 'Invalid credentials'});
+
+        const match = await bcrypt.compare(password, user.password);
+
+        if(!match) return res.status(400).json({message: 'Invalid credentials'});
+    }
+
+    catch(err){
+
+        res.status(500).json({mesage: 'Server error'})
+
+
     }
 })
+
+module.exports = router
