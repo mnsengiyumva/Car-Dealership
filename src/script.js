@@ -11,7 +11,7 @@ menubtn.addEventListener("click", function(){
 document.addEventListener("click", function(event){
     if(!menuContent.contains(event.target) && !menubtn.contains(event.target)){
 
-        menuContent.classList.add("hidden")
+        menuContent.classList.add("hidden");
 
     }
 })
@@ -22,22 +22,22 @@ const vihecleBtn = document.querySelector("#vihecleBtn");
 const vihecleButton = document.querySelector("#vihecleContent");
 
 vihecleBtn.addEventListener("click", function(){
-    vihecleButton.classList.toggle("hide")
+    vihecleButton.classList.toggle("hide");
 });
 
 document.addEventListener("click", function(event){
     if(!vihecleButton.contains(event.target) && !vihecleBtn.contains(event.target)){
-        vihecleButton.classList.add("hide")
+        vihecleButton.classList.add("hide");
     }
 })
 
 
 
 const toggleBtn = document.querySelector("#darkToggle")
-const body = document.querySelector("body")
+const body = document.querySelector("body");
 
 toggleBtn.addEventListener("click", function(){
-    body.classList.toggle("dark")
+    body.classList.toggle("dark");
 })
 
 
@@ -45,33 +45,33 @@ const buildbtn = document.querySelector("#buildBtn")
 const buildCnt = document.querySelector("#buildContent")
 
 buildbtn.addEventListener("click", function(){
-    buildCnt.classList.toggle("hideBuild")
+    buildCnt.classList.toggle("hideBuild");
 })
 
 document.addEventListener("click", function(event){
     if(!buildbtn.contains(event.target) && !buildCnt.contains(event.target)){
-        buildCnt.classList.add("hideBuild")
+        buildCnt.classList.add("hideBuild");
     }
 })
 
-const dealersbtn = document.querySelector("#dealersBtn")
-const dealersCnt = document.querySelector("#dealersContent")
+const dealersbtn = document.querySelector("#dealersBtn");
+const dealersCnt = document.querySelector("#dealersContent");
 
 dealersbtn.addEventListener("click", function(){
-    dealersCnt.classList.toggle("hideDealers")
+    dealersCnt.classList.toggle("hideDealers");
 })
 
 document.addEventListener("click", function(event){
     if(!dealersbtn.contains(event.target) && !dealersCnt.contains(event.target)){
-        dealersCnt.classList.add("hideDealers")
+        dealersCnt.classList.add("hideDealers");
     }
 })
 
-const more = document.querySelector("#moreBtn")
-const moreCnt = document.querySelector("#moreContent")
+const more = document.querySelector("#moreBtn");
+const moreCnt = document.querySelector("#moreContent");
 
 more.addEventListener("click", function(){
-    moreCnt.classList.toggle("hideMore")
+    moreCnt.classList.toggle("hideMore");
 })
 
 document.addEventListener("click", function(event){
