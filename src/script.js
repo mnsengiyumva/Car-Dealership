@@ -131,24 +131,38 @@ async function sendMessage() {
     typing.classList.add('typing');
 
     try {
-        const response = await fetch('https://api.anthropic.com/v1/messages', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                model: 'claude-sonnet-4-6',
-                max_tokens: 1000,
-                system: `You are a helpful luxury car assistant for Infinity Luxuries, 
-                         a premium car dealership. Help customers with questions about 
-                         cars, pricing, rentals, and purchases. Be concise, friendly, 
-                         and professional. Cars available: Infinity Model 1 ($40,899), 
-                         Infinity Model 2 ($42,899), Infinity Model 3 ($62,899). 
-                         Members get discounted prices.`,
-                messages: conversationHistory
-            })
+        // const response = await fetch('https://api.anthropic.com/v1/messages', {
+        //     method: 'POST',
+        //     headers: { 'Content-Type': 'application/json' },
+        //     body: JSON.stringify({
+        //         model: 'claude-sonnet-4-6',
+        //         max_tokens: 1000,
+        //         system: `You are a helpful luxury car assistant for Infinity Luxuries, 
+        //                  a premium car dealership. Help customers with questions about 
+        //                  cars, pricing, rentals, and purchases. Be concise, friendly, 
+        //                  and professional. Cars available: Infinity Model 1 ($40,899), 
+        //                  Infinity Model 2 ($42,899), Infinity Model 3 ($62,899). 
+        //                  Members get discounted prices.`,
+        //         messages: conversationHistory
+        //     })
+        // });
+
+        // const data = await response.json();
+        // const reply = data.content[0].text;
+
+
+        const response = await fetch('/api/chat', {
+
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+
+        body: JSON.stringify({message: conversationHistory})
+
         });
 
-        const data = await response.json();
-        const reply = data.content[0].text;
+        const data = await response.json()
+        const reply = data.reply;
+
 
         // Remove typing indicator and show real reply
         typing.remove();
@@ -186,6 +200,18 @@ document.addEventListener("click", function(event){
     }
 
 })
+
+const response = await fetch('/api/chat', {
+
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+
+    body: JSON.stringify({message: conversationHistory})
+
+});
+
+const data = await response.json()
+const reply = data.reply;
 
 
 const profileMenu = document.querySelector('.user');
