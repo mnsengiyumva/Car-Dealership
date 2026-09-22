@@ -201,18 +201,6 @@ document.addEventListener("click", function(event){
 
 })
 
-const response = await fetch('/api/chat', {
-
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-
-    body: JSON.stringify({message: conversationHistory})
-
-});
-
-const data = await response.json()
-const reply = data.reply;
-
 
 const profileMenu = document.querySelector('.user');
 const profileBtn  = document.querySelector('#userBtn');
