@@ -1513,7 +1513,7 @@ body{
 #ev-content{
     margin-top: 10px;
     height: 350px;
-    background-image: url("/Assets/im9.jpg");
+    background-image: url("./Assets/im9.jpg");
     background-size: cover;
     color:white;
     width: 350px;
@@ -1589,7 +1589,7 @@ body{
 #dark-content{
     margin-top: 10px;
     height: 350px;
-    background-image: url("/Assets/black.jpg");
+    background-image: url("./Assets/black.jpg");
     background-size: cover;
     color:white;
     width: 350px;
