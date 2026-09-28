@@ -81,7 +81,7 @@ document.addEventListener("click", function(event){
 })
 
 const chatToggle   = document.getElementById('chat-toggle');
-const chatWindow   = document.getElementById('chat-window');
+const chatPanel   = document.getElementById('chat-window');
 const chatClose    = document.getElementById('chat-close');
 const chatMessages = document.getElementById('chat-messages');
 const chatInput    = document.getElementById('chat-input');
@@ -91,20 +91,20 @@ const chatSend     = document.getElementById('chat-send');
 let conversationHistory = [];
 
 chatToggle.addEventListener('click', () => {
-    chatWindow.classList.toggle('open');
-    if (chatWindow.classList.contains('open') && conversationHistory.length === 0) {
+    chatPanel.classList.toggle('open');
+    if (chatPanel.classList.contains('open') && conversationHistory.length === 0) {
         addMessage('bot', 'Welcome to Infinity Luxuries! Ask me anything about our cars, pricing, or rentals.');
     }
 });
 
-document.addEventListener('click', function(event){
-    if(!chatToggle.contains(event.target) && !chatWindow(event.target)){
-        chatWindow.classList.add('open')
-    }
-})
+// document.addEventListener('click', function(event){
+//     if(!chatToggle.contains(event.target) && !chatPanel.contains(event.target)){
+//         chatPanel.classList.add('open')
+//     }
+// })
 
 chatClose.addEventListener('click', () => {
-    chatWindow.classList.remove('open');
+    chatPanel.classList.remove('open');
 });
 
 function addMessage(role, text) {
@@ -172,53 +172,53 @@ chatInput.addEventListener('keydown', (e) => {
 
 
 
-const userbtn = document.querySelector("#userBtn")
-const userCt = document.querySelector("#userContent")
+// const userbtn = document.querySelector("#userBtn")
+// const userCt = document.querySelector("#userContent")
 
-userbtn.addEventListener("click", function(){
-    userCt.classList.toggle("hideUser")
-})
+// userbtn.addEventListener("click", function(){
+//     userCt.classList.toggle("hideUser")
+// })
 
-document.addEventListener("click", function(event){
+// document.addEventListener("click", function(event){
 
-    if(!userbtn.contains(event.target) && !userCt.contains(event.target)){
-        userCt.classList.add("hideUser")
-    }
+//     if(!userbtn.contains(event.target) && !userCt.contains(event.target)){
+//         userCt.classList.add("hideUser")
+//     }
 
-})
-
-
+// })
 
 
-const profileMenu = document.querySelector('.user');
-const profileBtn  = document.querySelector('#userBtn');
 
-// Toggle dropdown
-profileBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    profileMenu.classList.toggle('open');
-});
 
-// Close when clicking outside
-document.addEventListener('click', () => {
-    profileMenu.classList.remove('open');
-});
+// const profileMenu = document.querySelector('.user');
+// const profileBtn  = document.querySelector('#userBtn');
 
-// Dropdown actions
-document.getElementById('signup-btn').addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('Sign Up clicked — connect your auth system here.');
-});
+// // Toggle dropdown
+// profileBtn.addEventListener('click', (e) => {
+//     e.stopPropagation();
+//     profileMenu.classList.toggle('open');
+// });
 
-document.getElementById('signout-btn').addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('Signed out!');
-});
+// // Close when clicking outside
+// document.addEventListener('click', () => {
+//     profileMenu.classList.remove('open');
+// });
 
-document.getElementById('subscription-btn').addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('Subscription plans coming soon!');
-});
+// // Dropdown actions
+// document.getElementById('signup-btn').addEventListener('click', (e) => {
+//     e.preventDefault();
+//     alert('Sign Up clicked — connect your auth system here.');
+// });
+
+// document.getElementById('signout-btn').addEventListener('click', (e) => {
+//     e.preventDefault();
+//     alert('Signed out!');
+// });
+
+// document.getElementById('subscription-btn').addEventListener('click', (e) => {
+//     e.preventDefault();
+//     alert('Subscription plans coming soon!');
+// });
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -638,4 +638,125 @@ renderCart();
 
 
 
+
+// ── AUTH ─────────────────────────────────────────
+const authModal   = document.getElementById('auth-modal');
+const authOverlay = document.getElementById('auth-overlay');
+const authClose   = document.getElementById('auth-close');
+
+function openAuth(form) {
+  document.getElementById('signup-form').style.display = form === 'signup' ? 'block' : 'none';
+  document.getElementById('signin-form').style.display = form === 'signin' ? 'block' : 'none';
+  authModal.classList.add('active');
+  authOverlay.classList.add('active');
+}
+
+function closeAuth() {
+  authModal.classList.remove('active');
+  authOverlay.classList.remove('active');
+}
+
+authClose.addEventListener('click', closeAuth);
+authOverlay.addEventListener('click', closeAuth);
+
+// Switch between forms
+document.getElementById('go-signin').addEventListener('click', () => openAuth('signin'));
+document.getElementById('go-signup').addEventListener('click', () => openAuth('signup'));
+
+// Hook into your existing profile dropdown buttons
+document.getElementById('signup-btn').addEventListener('click', (e) => {
+  e.preventDefault();
+  openAuth('signup');
+});
+
+document.getElementById('signout-btn').addEventListener('click', (e) => {
+  e.preventDefault();
+  signOut();
+});
+
+// Sign Up
+document.getElementById('signup-submit').addEventListener('click', async () => {
+  const name     = document.getElementById('signup-name').value.trim();
+  const email    = document.getElementById('signup-email').value.trim();
+  const password = document.getElementById('signup-password').value.trim();
+  const error    = document.getElementById('signup-error');
+
+  if (!name || !email || !password) {
+    error.textContent = 'Please fill in all fields.';
+    return;
+  }
+
+  try {
+    const res = await fetch('/api/auth/signup', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, password })
+    });
+
+    const data = await res.json();
+    if (!res.ok) { error.textContent = data.message; return; }
+
+    localStorage.setItem('token', data.token);
+    localStorage.setItem('user', JSON.stringify(data.user));
+    closeAuth();
+    updateNavProfile(data.user);
+
+  } catch (err) {
+    error.textContent = 'Something went wrong. Try again.';
+  }
+});
+
+// Sign In
+document.getElementById('signin-submit').addEventListener('click', async () => {
+  const email    = document.getElementById('signin-email').value.trim();
+  const password = document.getElementById('signin-password').value.trim();
+  const error    = document.getElementById('signin-error');
+
+  if (!email || !password) {
+    error.textContent = 'Please fill in all fields.';
+    return;
+  }
+
+  try {
+    const res = await fetch('/api/auth/signin', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password })
+    });
+
+    const data = await res.json();
+    if (!res.ok) { error.textContent = data.message; return; }
+
+    localStorage.setItem('token', data.token);
+    localStorage.setItem('user', JSON.stringify(data.user));
+    closeAuth();
+    updateNavProfile(data.user);
+
+  } catch (err) {
+    error.textContent = 'Something went wrong. Try again.';
+  }
+});
+
+// Sign Out
+function signOut() {
+  localStorage.removeItem('token');
+  localStorage.removeItem('user');
+  updateNavProfile(null);
+}
+
+// Update navbar to show user name when logged in
+function updateNavProfile(user) {
+  const profileIcon = document.querySelector('.profile-icon');
+  if (user) {
+    profileIcon.textContent = user.name.charAt(0).toUpperCase();
+  } else {
+    profileIcon.textContent = '👤';
+  }
+}
+
+// On page load — restore session if token exists
+window.addEventListener('load', () => {
+  const user = JSON.parse(localStorage.getItem('user'));
+  if (user) updateNavProfile(user);
+});
 
