@@ -773,10 +773,13 @@ body{
 
 .profile-dropdown{
     display: none;
-    position: absolute;
+    position: fixed;
+    right: 100px;
     top: calc(100%+10px);
     background: white;
-    right: 0;
+    padding-left: 30px;
+   
+    width: 50%;
     overflow: hidden;
     z-index: 1000;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
@@ -817,17 +820,7 @@ body{
 
 }
 
-#signout-btn:hover {
-    color: white;
-    background: rgb(20, 90, 230);
-    font-weight: bolder;
-}
 
-#subscription-btn:hover {
-    color: white;
-    background: rgb(20, 90, 230);
-    font-weight: bolder;
-}
 
 
 /* Cart icon */
@@ -2369,7 +2362,7 @@ body{
   cursor: pointer;
 }
 
-#auth-close:hover { color: white; }
+#auth-close:hover { color: rgb(20, 94, 232); }
 
 .auth-form h2 {
   color:  rgb(20, 94, 232);
@@ -2387,12 +2380,12 @@ body{
 }
 
 .auth-form input {
-  width: 10%;
+  width: 20%;
   background: #fffefe;
   border: 1px solid  rgb(20, 94, 232);
   border-radius: 6px;
   padding: 12px 14px;
-  color: white;
+  color: black;
   font-size: 0.9rem;
   margin-bottom: 12px;
   outline: none;
@@ -2409,7 +2402,7 @@ body{
   background:  rgb(20, 94, 232);
   color: white;
   border: none;
-  width: 10%;
+  width: 20%;
   border-radius: 6px;
   font-size: 1rem;
   font-weight: bold;

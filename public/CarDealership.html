@@ -119,17 +119,45 @@
                 <span class="profile-arrow">▾</span>
             </button>
 
-            <div class="profile-dropdown">
-                <a href="#" class="dropdown-item" id="signup-btn">
-                    <span></span> Sign Up
-                </a>
-                <a href="#" class="dropdown-item" id="signout-btn">
-                    <span></span> Sign Out
-                </a>
-                <a href="#" class="dropdown-item" id="subscription-btn">
-                    <span></span> Subscribe
-                </a>
+            <div class="profile-dropdown" id="hide-profile">
 
+
+                <div id="auth-overlay"></div>
+                <div id="auth-model">
+                    <button id="auth-close">X</button>
+    
+
+                    <div id="signup-form" class="auth-form">
+
+                        <h2>Create Account</h2>
+                        <p class="auth-subtitle"> Join Infinity Luxuries</p>
+                        <input type="text" id="signup-name" placeholder="Full Name">
+                        <input type="email" id="signup-email" placeholder="email">
+                        <input type="password" id="signup-password" placeholder="Password">
+                        <button class="auth-submit" id="signup-submit">Sign Up</button>
+                        <p class="auth-switch">Already have account? <span id="go-signin">Sign In</span></p>
+                        <p class="auth-error" id="signup-error"></p>
+
+                    </div>
+
+
+
+                    <div id="signin-form" class="auth-form" style="display: none;">
+
+                        <h2>Welcome Back</h2>
+
+                        <p class="auth-subtitle">Sign in to Infinity Luxuries</p>
+                        <input type="email" id="signin-email" placeholder="Email">
+                        <input type="password" id="signin-password" placeholder="Password">
+
+                        <button class="auth-submit" id="signin-submit">Sign In</button>
+
+                        <p class="auth-switch">No Account? <span id="go-signup"> Sign Up</span></p>
+                        <p class="auth-error" id="signin-error"></p>
+
+                    </div>
+                </div>
+                
             </div>
             
         </div>

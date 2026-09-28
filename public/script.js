@@ -173,22 +173,7 @@ chatInput.addEventListener('keydown', (e) => {
 
 
 const userbtn = document.querySelector("#userBtn")
-const userCt = document.querySelector("#userContent")
-
-userbtn.addEventListener("click", function(){
-    userCt.classList.toggle("hideUser")
-})
-
-document.addEventListener("click", function(event){
-
-    if(!userbtn.contains(event.target) && !userCt.contains(event.target)){
-        userCt.classList.add("hideUser")
-    }
-
-})
-
-
-
+const profileDrop = document.querySelector('.profile-dropdown')
 
 const profileMenu = document.querySelector('.user');
 const profileBtn  = document.querySelector('#userBtn');
@@ -199,26 +184,43 @@ profileBtn.addEventListener('click', (e) => {
     profileMenu.classList.toggle('open');
 });
 
+userbtn.addEventListener("click", function(){
+    userCt.classList.toggle("hide-profile")
+})
+
+document.addEventListener("click", function(event){
+
+    if(!userbtn.contains(event.target) && !userCt.contains(event.target)){
+        profile-dropdown.classList.add("hide-profile")
+    }
+
+})
+
+
+
+
+
+
 // Close when clicking outside
-document.addEventListener('click', () => {
-    profileMenu.classList.remove('open');
-});
+// document.addEventListener('click', () => {
+//     profileMenu.classList.remove('open');
+// });
 
-// Dropdown actions
-document.getElementById('signup-btn').addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('Sign Up clicked — connect your auth system here.');
-});
+// // Dropdown actions
+// document.getElementById('signup-btn').addEventListener('click', (e) => {
+//     e.preventDefault();
+//     alert('Sign Up clicked — connect your auth system here.');
+// });
 
-document.getElementById('signout-btn').addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('Signed out!');
-});
+// document.getElementById('signout-btn').addEventListener('click', (e) => {
+//     e.preventDefault();
+//     alert('Signed out!');
+// });
 
-document.getElementById('subscription-btn').addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('Subscription plans coming soon!');
-});
+// document.getElementById('subscription-btn').addEventListener('click', (e) => {
+//     e.preventDefault();
+//     alert('Subscription plans coming soon!');
+// });
 
 
 document.addEventListener("DOMContentLoaded", () => {
