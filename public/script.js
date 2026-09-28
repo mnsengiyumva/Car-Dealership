@@ -172,53 +172,53 @@ chatInput.addEventListener('keydown', (e) => {
 
 
 
-// const userbtn = document.querySelector("#userBtn")
-// const userCt = document.querySelector("#userContent")
+const userbtn = document.querySelector("#userBtn")
+const userCt = document.querySelector("#userContent")
 
-// userbtn.addEventListener("click", function(){
-//     userCt.classList.toggle("hideUser")
-// })
+userbtn.addEventListener("click", function(){
+    userCt.classList.toggle("hideUser")
+})
 
-// document.addEventListener("click", function(event){
+document.addEventListener("click", function(event){
 
-//     if(!userbtn.contains(event.target) && !userCt.contains(event.target)){
-//         userCt.classList.add("hideUser")
-//     }
+    if(!userbtn.contains(event.target) && !userCt.contains(event.target)){
+        userCt.classList.add("hideUser")
+    }
 
-// })
-
-
+})
 
 
-// const profileMenu = document.querySelector('.user');
-// const profileBtn  = document.querySelector('#userBtn');
 
-// // Toggle dropdown
-// profileBtn.addEventListener('click', (e) => {
-//     e.stopPropagation();
-//     profileMenu.classList.toggle('open');
-// });
 
-// // Close when clicking outside
-// document.addEventListener('click', () => {
-//     profileMenu.classList.remove('open');
-// });
+const profileMenu = document.querySelector('.user');
+const profileBtn  = document.querySelector('#userBtn');
 
-// // Dropdown actions
-// document.getElementById('signup-btn').addEventListener('click', (e) => {
-//     e.preventDefault();
-//     alert('Sign Up clicked — connect your auth system here.');
-// });
+// Toggle dropdown
+profileBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    profileMenu.classList.toggle('open');
+});
 
-// document.getElementById('signout-btn').addEventListener('click', (e) => {
-//     e.preventDefault();
-//     alert('Signed out!');
-// });
+// Close when clicking outside
+document.addEventListener('click', () => {
+    profileMenu.classList.remove('open');
+});
 
-// document.getElementById('subscription-btn').addEventListener('click', (e) => {
-//     e.preventDefault();
-//     alert('Subscription plans coming soon!');
-// });
+// Dropdown actions
+document.getElementById('signup-btn').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Sign Up clicked — connect your auth system here.');
+});
+
+document.getElementById('signout-btn').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Signed out!');
+});
+
+document.getElementById('subscription-btn').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Subscription plans coming soon!');
+});
 
 
 document.addEventListener("DOMContentLoaded", () => {

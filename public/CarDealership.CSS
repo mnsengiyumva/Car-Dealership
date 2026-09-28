@@ -2372,7 +2372,7 @@ body{
 #auth-close:hover { color: white; }
 
 .auth-form h2 {
-  color: #c9a84c;
+  color:  rgb(20, 94, 232);
   font-size: 1.4rem;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -2387,9 +2387,9 @@ body{
 }
 
 .auth-form input {
-  width: 100%;
-  background: #1a1a1a;
-  border: 1px solid #2a2a2a;
+  width: 10%;
+  background: #fffefe;
+  border: 1px solid  rgb(20, 94, 232);
   border-radius: 6px;
   padding: 12px 14px;
   color: white;
@@ -2400,15 +2400,16 @@ body{
 }
 
 .auth-form input:focus {
-  border-color: #c9a84c;
+  border-color:  rgb(20, 94, 232);
 }
 
 .auth-submit {
-  width: 100%;
+ 
   padding: 12px;
-  background: #c9a84c;
-  color: #000;
+  background:  rgb(20, 94, 232);
+  color: white;
   border: none;
+  width: 10%;
   border-radius: 6px;
   font-size: 1rem;
   font-weight: bold;
@@ -2419,7 +2420,11 @@ body{
   transition: background 0.2s;
 }
 
-.auth-submit:hover { background: #e0be6a; }
+.auth-submit:hover { 
+    background:  white;
+    color:  rgb(20, 94, 232);
+    border: 1px solid  rgb(20, 94, 232);
+ }
 
 .auth-switch {
   color: #555;
@@ -2429,7 +2434,7 @@ body{
 }
 
 .auth-switch span {
-  color: #c9a84c;
+  color:  rgb(20, 94, 232);
   cursor: pointer;
   text-decoration: underline;
 }
